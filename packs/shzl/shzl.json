@@ -1,0 +1,1094 @@
+[
+  {
+    "name": "典韦",
+    "image": "packs/shzl/images/dianwei.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "强袭",
+        "skillDescription": "出牌阶段限一次，你可以失去1点体力或弃置一张武器牌，并选择你攻击范围内的一名其他角色，对其造成1点伤害。"
+      }
+    ]
+  },
+  {
+    "name": "荀彧",
+    "image": "packs/shzl/images/xunyu.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "驱虎",
+        "skillDescription": "出牌阶段限一次，你可以与一名体力值大于你的角色拼点。若你赢，该角色对其攻击范围内你指定的另一名角色造成1点伤害；若你没赢，其对你造成1点伤害。"
+      },
+      {
+        "skillName": "节命",
+        "skillDescription": "当你受到1点伤害后，你可令一名角色将手牌补至X张（X为其体力上限且最多为5）。"
+      }
+    ]
+  },
+  {
+    "name": "卧龙诸葛亮",
+    "image": "packs/shzl/images/wolong.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "八阵",
+        "skillDescription": "锁定技，若你没有装备防具，视为你装备着【八卦阵】。"
+      },
+      {
+        "skillName": "火计",
+        "skillDescription": "你可以将一张红色手牌当【火攻】使用。"
+      },
+      {
+        "skillName": "看破",
+        "skillDescription": "你可以将一张黑色手牌当【无懈可击】使用。"
+      }
+    ]
+  },
+  {
+    "name": "庞统",
+    "image": "packs/shzl/images/pangtong.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "连环",
+        "skillDescription": "你可以将一张♣手牌当【铁索连环】使用或重铸。"
+      },
+      {
+        "skillName": "涅槃",
+        "skillDescription": "限定技，当你处于濒死状态时，你可以弃置区域里的所有牌，复原你的武将牌，然后摸三张牌并将体力回复至3点。"
+      }
+    ]
+  },
+  {
+    "name": "太史慈",
+    "image": "packs/shzl/images/taishici.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "天义",
+        "skillDescription": "出牌阶段限一次，你可以与一名角色拼点：若你赢，在本回合结束之前，你可以多使用一张【杀】、使用【杀】无距离限制且可以多选择一个目标；若你没赢，本回合你不能使用【杀】。"
+      }
+    ]
+  },
+  {
+    "name": "庞德",
+    "image": "packs/shzl/images/pangde.jpg",
+    "faction": "群",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "马术",
+        "skillDescription": "锁定技，你计算与其他角色的距离时，始终-1。"
+      },
+      {
+        "skillName": "猛进",
+        "skillDescription": "每当你使用的【杀】被目标角色使用的【闪】抵消时，你可以弃置其一张牌。"
+      }
+    ]
+  },
+  {
+    "name": "颜良文丑",
+    "image": "packs/shzl/images/yanliangwenchou.jpg",
+    "faction": "群",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "双雄",
+        "skillDescription": "摸牌阶段，你可以选择放弃摸牌并进行一次判定：你获得此判定牌并且此回合可以将任意一张与该判定牌不同颜色的手牌当【决斗】使用。"
+      }
+    ]
+  },
+  {
+    "name": "袁绍",
+    "image": "packs/shzl/images/yuanshao.jpg",
+    "faction": "群",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "乱击",
+        "skillDescription": "出牌阶段，你可以将任意两张相同花色的手牌当【万箭齐发】使用。"
+      },
+      {
+        "skillName": "血裔",
+        "skillDescription": "主公技，锁定技，你的手牌上限+2X(X为场上其他群势力角色数)。"
+      }
+    ]
+  },
+  {
+    "name": "张郃",
+    "image": "packs/shzl/images/zhanghe.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "巧变",
+        "skillDescription": "你的阶段开始前（准备阶段和结束阶段除外），你可以弃置一张手牌跳过该阶段。若以此法跳过摸牌阶段，你可以获得至多两名其他角色的各一张手牌；若以此法跳过出牌阶段，你可以将场上的一张牌移动至另一名角色相应的区域内。"
+      }
+    ]
+  },
+  {
+    "name": "邓艾",
+    "image": "packs/shzl/images/dengai.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "屯田",
+        "skillDescription": "当你于回合外失去牌后，你可以进行判定：若结果不为♥，你将生效后的判定牌置于你的武将牌上，称为“田”；你计算与其他角色的距离-X（X为“田”的数量）。"
+      },
+      {
+        "skillName": "凿险",
+        "skillDescription": "觉醒技，准备阶段，若“田”的数量不少于3张，你减1点体力上限，然后获得〖急袭〗。"
+      },
+      {
+        "skillName": "急袭",
+        "skillDescription": "你可以将一张“田”当【顺手牵羊】使用。"
+      }
+    ]
+  },
+  {
+    "name": "姜维",
+    "image": "packs/shzl/images/jiangwei.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "挑衅",
+        "skillDescription": "出牌阶段限一次，你可以指定一名你在其攻击范围内的角色，其需包括你在内的角色使用一张【杀】，否则你弃置其一张牌。"
+      },
+      {
+        "skillName": "志继",
+        "skillDescription": "觉醒技，准备阶段，若你没有手牌，你回复1点体力或摸两张牌，减1点体力上限，然后获得〖观星〗。"
+      },
+      {
+        "skillName": "观星",
+        "skillDescription": "准备阶段，你可以观看牌堆顶的X张牌（X为全场角色数且至多为5），然后以任意顺序放回牌堆顶或牌堆底。"
+      }
+    ]
+  },
+  {
+    "name": "刘禅",
+    "image": "packs/shzl/images/liushan.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "享乐",
+        "skillDescription": "锁定技，当你成为【杀】的目标后，你令使用者选择：1. 弃置一张基本牌；2. 此【杀】对你无效。"
+      },
+      {
+        "skillName": "放权",
+        "skillDescription": "你可以跳过你的出牌阶段，然后此回合结束时，你可以弃置一张手牌并选择一名其他角色，然后其获得一个额外回合。"
+      },
+      {
+        "skillName": "若愚",
+        "skillDescription": "主公技，觉醒技，准备阶段开始时，若你是体力值最小的角色，你加1点体力上限，然后回复1点体力，获得〖激将〗。"
+      },
+      {
+        "skillName": "激将",
+        "skillDescription": "主公技，当你需要使用或打出【杀】时，你可以令其他蜀势力角色选择是否打出一张【杀】（视为由你使用或打出）。"
+      }
+    ]
+  },
+  {
+    "name": "孙策",
+    "image": "packs/shzl/images/sunce.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "激昂",
+        "skillDescription": "当你使用【决斗】或红色【杀】指定目标后，或成为【决斗】或红色【杀】的目标后，你可以摸一张牌。"
+      },
+      {
+        "skillName": "魂姿",
+        "skillDescription": "觉醒技，准备阶段，若你的体力值为1，你减1点体力上限，然后获得〖英姿〗和〖英魂〗。"
+      },
+      {
+        "skillName": "制霸",
+        "skillDescription": "主公技，其他吴势力角色的出牌阶段限一次，其可以与你拼点（若你发动过〖魂姿〗，你可以拒绝此拼点），若其没赢，你可以获得拼点的两张牌。"
+      },
+      {
+        "skillName": "英姿",
+        "skillDescription": "摸牌阶段，你可以多摸一张牌；你的手牌上限等于你的体力上限。"
+      },
+      {
+        "skillName": "英魂",
+        "skillDescription": "准备阶段，若你已受伤，你可以令一名其他角色执行一项：摸X张牌，然后弃置一张牌；或摸一张牌，然后弃置X张牌。（X为你已损失的体力值）"
+      }
+    ]
+  },
+  {
+    "name": "张昭张纮",
+    "image": "packs/shzl/images/zhangzhaozhanghong.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "直谏",
+        "skillDescription": "出牌阶段，你可以将手牌中的一张装备牌置于其他角色的装备区里，然后摸一张牌。"
+      },
+      {
+        "skillName": "固政",
+        "skillDescription": "其他角色的弃牌阶段结束时，你可以将此阶段中其弃置的一张手牌交给该角色，然后你可以获得其余此阶段内弃置的牌。"
+      }
+    ]
+  },
+  {
+    "name": "左慈",
+    "image": "packs/shzl/images/zuoci.jpg",
+    "faction": "群",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "化身",
+        "skillDescription": "游戏开始前，你获得两张未加入游戏的武将牌，称为“化身”，然后选择一张“化身”的一个技能（主公技、限定技、觉醒技除外）。回合开始时和回合结束后，你可以重新选择一张“化身”的一个技能。你获得你以此法选择的技能且性别与势力改为与此“化身”相同。"
+      },
+      {
+        "skillName": "新生",
+        "skillDescription": "当你受到1点伤害后，你可以获得一张“化身”。"
+      }
+    ]
+  },
+  {
+    "name": "蔡文姬",
+    "image": "packs/shzl/images/caiwenji.jpg",
+    "faction": "群",
+    "gender": "女",
+    "skills": [
+      {
+        "skillName": "悲歌",
+        "skillDescription": "当一名角色受到【杀】造成的伤害后，你可以弃置一张牌，然后令其进行判定，若结果为：♥，其回复1点体力；♦，其摸两张牌；♣，伤害来源弃置两张牌；♠，伤害来源翻面。"
+      },
+      {
+        "skillName": "断肠",
+        "skillDescription": "锁定技，当你死亡时，杀死你的角色失去所有武将技能。"
+      }
+    ]
+  },
+    {
+    "name": "徐晃",
+    "image": "packs/shzl/images/xuhuang.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "断粮",
+        "skillDescription": "你可以将一张黑色基本牌或黑色装备牌当【兵粮寸断】使用；你可以对距离为2的角色使用【兵粮寸断】。"
+      }
+    ]
+  },
+  {
+    "name": "曹丕",
+    "image": "packs/shzl/images/caopi.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "行殇",
+        "skillDescription": "当其他角色死亡时，你可以获得其所有牌。"
+      },
+      {
+        "skillName": "放逐",
+        "skillDescription": "当你受到伤害后，你可以令一名其他角色翻面，然后其摸X张牌（X为你已损失的体力值）。"
+      },
+      {
+        "skillName": "颂威",
+        "skillDescription": "主公技，当其他魏势力角色的判定结果确定后，若为黑色，其可令你摸一张牌。"
+      }
+    ]
+  },
+  {
+    "name": "孟获",
+    "image": "packs/shzl/images/menghuo.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "祸首",
+        "skillDescription": "锁定技，【南蛮入侵】对你无效；当其他角色使用【南蛮入侵】指定目标后，你代替其成为此牌造成的伤害的来源。"
+      },
+      {
+        "skillName": "再起",
+        "skillDescription": "摸牌阶段，若你已受伤，你可以放弃摸牌，改为亮出牌堆顶X张牌（X为你已损失体力值），你将其中的♥牌置入弃牌堆并回复等量体力，获得其余的牌。"
+      }
+    ]
+  },
+  {
+    "name": "祝融",
+    "image": "packs/shzl/images/zhurong.jpg",
+    "faction": "蜀",
+    "gender": "女",
+    "skills": [
+      {
+        "skillName": "巨象",
+        "skillDescription": "锁定技，【南蛮入侵】对你无效；其他角色使用的【南蛮入侵】结算结束后，你获得之。"
+      },
+      {
+        "skillName": "烈刃",
+        "skillDescription": "当你使用【杀】对一个目标造成伤害后，你可以与其拼点，若你赢，你获得其一张牌。"
+      }
+    ]
+  },
+  {
+    "name": "孙坚",
+    "image": "packs/shzl/images/sunjian.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "英魂",
+        "skillDescription": "准备阶段，若你已受伤，你可以选择一名其他角色并选择一项：1.令其摸X张牌，然后弃置一张牌；2.令其摸一张牌，然后弃置X张牌（X为你已损失的体力值）。"
+      }
+    ]
+  },
+  {
+    "name": "鲁肃",
+    "image": "packs/shzl/images/lusu.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "好施",
+        "skillDescription": "摸牌阶段，你可以多摸两张牌，然后若你的手牌数大于5，你将半数（向下取整）手牌交给手牌牌最少的一名其他角色。"
+      },
+      {
+        "skillName": "缔盟",
+        "skillDescription": "出牌阶段限一次，你可以选择两名其他角色并弃置X张牌（X为这些角色手牌数差），令这两名角色交换手牌。"
+      }
+    ]
+  },
+  {
+    "name": "董卓",
+    "image": "packs/shzl/images/dongzhuo.jpg",
+    "faction": "群",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "酒池",
+        "skillDescription": "你可以将一张♠手牌当【酒】使用。"
+      },
+      {
+        "skillName": "肉林",
+        "skillDescription": "锁定技，你对女性角色使用【杀】，或女性角色对你使用【杀】均需两张【闪】才能抵消。"
+      },
+      {
+        "skillName": "崩坏",
+        "skillDescription": "锁定技，结束阶段，若你不是体力值最小的角色，你选择：1.减1点体力上限；2.失去1点体力。"
+      },
+      {
+        "skillName": "暴虐",
+        "skillDescription": "主公技，其他群雄角色造成伤害后，其可以判定，若结果为♠，你回复1点体力。"
+      }
+    ]
+  },
+  {
+    "name": "贾诩",
+    "image": "packs/shzl/images/jiaxu.jpg",
+    "faction": "群",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "完杀",
+        "skillDescription": "锁定技，除进行濒死流程的角色以外的其他角色于你的回合内不能使用【桃】。"
+      },
+      {
+        "skillName": "乱武",
+        "skillDescription": "限定技，出牌阶段，你可选择所有其他角色，这些角色各需对包括距离最小的另一名角色在内的角色使用【杀】，否则失去1点体力。"
+      },
+      {
+        "skillName": "帷幕",
+        "skillDescription": "锁定技，你不是黑色锦囊牌的合法目标。"
+      }
+    ]
+  },
+    {
+    "name": "王基",
+    "image": "packs/shzl/images/wangji.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "奇制",
+        "skillDescription": "当你于回合内使用非装备牌指定目标后，你可以弃置一名不为目标的角色的一张牌，然后令其摸一张牌。"
+      },
+      {
+        "skillName": "进趋",
+        "skillDescription": "结束阶段，你可以摸两张牌，然后将手牌弃至X张（X为你本回合发动〖奇制〗的次数）。"
+      }
+    ]
+  },
+  {
+    "name": "蒯良蒯越",
+    "image": "packs/shzl/images/kuailiangkuaiyue.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "荐降",
+        "skillDescription": "当你成为其他角色使用牌的目标后，你可以令手牌数最少的一名角色摸一张牌。"
+      },
+      {
+        "skillName": "审时",
+        "skillDescription": "转换技，阳：出牌阶段限一次，你可以交给手牌数最多的其他角色一张牌，并对其造成1点伤害。然后若其死亡，你可以令一名角色将手牌摸至四张。阴：当有手牌的其他角色对你造成伤害后，你可以观看其手牌，并交给其一张牌；当前回合结束阶段，若此牌仍在其手牌或装备区，你将手牌摸至四张。"
+      }
+    ]
+  },
+  {
+    "name": "严颜",
+    "image": "packs/shzl/images/yanyan.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "拒战",
+        "skillDescription": "转换技，阳：当你成为其他角色使用【杀】的目标后，你可以与其各摸一张牌，然后其本回合不能再对你使用牌。阴：当你使用【杀】指定一名角色为目标后，你可以获得其一张牌，然后你本回合不能再对其使用牌。"
+      }
+    ]
+  },
+  {
+    "name": "王平",
+    "image": "packs/shzl/images/wangping.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "飞军",
+        "skillDescription": "出牌阶段限一次，你可以弃置一张牌，然后选择一项：1.令一名手牌数大于你的角色交给你一张牌；2.令一名装备区里牌数大于你的角色弃置一张装备区里的牌。"
+      },
+      {
+        "skillName": "兵略",
+        "skillDescription": "锁定技，当你首次对一名角色发动〖飞军〗结算后，你摸两张牌。"
+      }
+    ]
+  },
+  {
+    "name": "陆绩",
+    "image": "packs/shzl/images/luji.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "怀橘",
+        "skillDescription": "锁定技，游戏开始时，你获得3枚“橘”标记。当有“橘”的角色受到伤害时，防止此伤害并移除1枚“橘”。有“橘”的角色摸牌阶段多摸一张牌。"
+      },
+      {
+        "skillName": "遗礼",
+        "skillDescription": "出牌阶段开始时，你可以失去1点体力或移除1枚“橘”，然后令一名其他角色获得1枚“橘”。"
+      },
+      {
+        "skillName": "整论",
+        "skillDescription": "摸牌阶段开始前，若你没有“橘”，你可以跳过摸牌阶段并获得1枚“橘”。"
+      }
+    ]
+  },
+  {
+    "name": "孙亮",
+    "image": "packs/shzl/images/sunliang.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "溃诛",
+        "skillDescription": "弃牌阶段结束时，你可以选择一项：1. 令至多X名角色各摸一张牌；2. 对任意名体力值之和为X的角色造成1点伤害，若不少于2名角色，你失去1点体力（X为你此阶段弃置的牌数）。"
+      },
+      {
+        "skillName": "掣政",
+        "skillDescription": "锁定技，你的出牌阶段内，攻击范围内不包含你的其他角色不能成为你使用牌的目标。出牌阶段结束时，若你本阶段使用的牌数小于这些角色数，你弃置其中一名角色一张牌。"
+      },
+      {
+        "skillName": "立军",
+        "skillDescription": "主公技，其他吴势力角色于其出牌阶段使用【杀】结算结束后，其可以将此【杀】交给你，然后你可以令其摸一张牌。"
+      }
+    ]
+  },
+  {
+    "name": "许攸",
+    "image": "packs/shzl/images/xuyou.jpg",
+    "faction": "群",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "成略",
+        "skillDescription": "转换技，出牌阶段限一次，阳：你可以摸一张牌，然后弃置两张手牌；阴：你可以摸两张牌，然后弃置一张手牌。若如此做，你于此阶段内使用与你以此法弃置的牌花色相同的牌无距离和次数限制。"
+      },
+      {
+        "skillName": "恃才",
+        "skillDescription": "当你每回合首次使用一种类别的牌结算结束后，你可以将之置于牌堆顶，然后摸一张牌。"
+      },
+      {
+        "skillName": "寸目",
+        "skillDescription": "锁定技，当你摸牌时，改为从牌堆底摸牌。"
+      }
+    ]
+  },
+    {
+    "name": "夏侯渊",
+    "image": "packs/shzl/images/xiahouyuan.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "神速",
+        "skillDescription": "你可以做出如下选择：1.跳过判定阶段和摸牌阶段；2.跳过出牌阶段并弃置一张装备牌。你每选择一项，便视为你使用一张无距离限制的【杀】。"
+      }
+    ]
+  },
+  {
+    "name": "曹仁",
+    "image": "packs/shzl/images/caoren.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "据守",
+        "skillDescription": "结束阶段，你可以摸三张牌，然后翻面。"
+      }
+    ]
+  },
+  {
+    "name": "黄忠",
+    "image": "packs/shzl/images/huangzhong.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "烈弓",
+        "skillDescription": "当你于出牌阶段内使用【杀】指定一个目标后，若其手牌数不小于你的体力值或不大于你的攻击范围，则你可以令其不能使用【闪】响应此【杀】。"
+      }
+    ]
+  },
+  {
+    "name": "魏延",
+    "image": "packs/shzl/images/weiyan.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "狂骨",
+        "skillDescription": "锁定技，当你对距离1以内的一名角色造成1点伤害后，你回复1点体力。"
+      }
+    ]
+  },
+  {
+    "name": "小乔",
+    "image": "packs/shzl/images/xiaoqiao.jpg",
+    "faction": "吴",
+    "gender": "女",
+    "skills": [
+      {
+        "skillName": "天香",
+        "skillDescription": "当你受到伤害时，你可以弃置一张♥手牌并选择一名其他角色。若如此做，你将此伤害转移给该角色，然后其摸X张牌（X为其已损失体力值）。"
+      },
+      {
+        "skillName": "红颜",
+        "skillDescription": "锁定技，你的♠牌视为♥牌。"
+      }
+    ]
+  },
+  {
+    "name": "周泰",
+    "image": "packs/shzl/images/zhoutai.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "不屈",
+        "skillDescription": "当你扣减1点体力时，若你的体力值为0，你可以将牌堆顶的一张牌置于你的武将牌上：若此牌的点数与你武将牌上的其他牌均不同，你不会死亡；若你的武将牌上有点数相同的牌，你进入濒死状态。"
+      }
+    ]
+  },
+  {
+    "name": "张角",
+    "image": "packs/shzl/images/zhangjiao.jpg",
+    "faction": "群",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "雷击",
+        "skillDescription": "当你使用或打出【闪】时，你可以令一名角色进行判定，若结果为♠，你对其造成2点雷电伤害。"
+      },
+      {
+        "skillName": "鬼道",
+        "skillDescription": "当一名角色的判定牌生效前，你可以打出一张黑色牌替换之。"
+      },
+      {
+        "skillName": "黄天",
+        "skillDescription": "主公技，其他群势力角色的出牌阶段限一次，其可将一张【闪】或【闪电】（正面朝上移动）交给你。"
+      }
+    ]
+  },
+  {
+    "name": "于吉",
+    "image": "packs/shzl/images/yuji.jpg",
+    "faction": "群",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "蛊惑",
+        "skillDescription": "你可以扣置一张手牌当做一张基本牌或普通锦囊牌使用或打出，体力值大于0的其他角色选择是否质疑，然后你展示此牌：若无角色质疑，此牌按你所述继续结算；若有角色质疑：若此牌为真，质疑角色各失去1点体力，否则质疑角色各摸一张牌，且若此牌为♥且为真，则按你所述继续结算，否则将之置入弃牌堆。"
+      }
+    ]
+  },
+   {
+    "name": "郝昭",
+    "image": "packs/shzl/images/haozhao.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "镇骨",
+        "skillDescription": "结束阶段，你可以选择一名其他角色，本回合结束时和其下个回合结束时，其将手牌摸或弃至与你手牌数量相同（至多摸至五张）。"
+      }
+    ]
+  },
+  {
+    "name": "毌丘俭",
+    "image": "packs/shzl/images/guanqiujian.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "征荣",
+        "skillDescription": "当你对其他角色造成伤害后，若其手牌数大于你，你可以将其一张牌置于你的武将牌上，称为“荣”。"
+      },
+      {
+        "skillName": "鸿举",
+        "skillDescription": "觉醒技，准备阶段，若“荣”的数量不小于3且场上有角色死亡，你可以用任意张手牌替换等量的“荣”，减1点体力上限，获得〖清侧〗。"
+      },
+      {
+        "skillName": "清侧",
+        "skillDescription": "出牌阶段，你可以移去一张“荣”，然后弃置场上的一张牌。"
+      }
+    ]
+  },
+  {
+    "name": "陈到",
+    "image": "packs/shzl/images/chendao.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "往烈",
+        "skillDescription": "出牌阶段，你使用的第一张牌无距离限制。你于出牌阶段使用【杀】或普通锦囊牌时，你可以令此牌无法响应，然后本阶段你不能再使用牌。"
+      }
+    ]
+  },
+  {
+    "name": "诸葛瞻",
+    "image": "packs/shzl/images/zhugezhan.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "罪论",
+        "skillDescription": "结束阶段，你可以观看牌堆顶三张牌，你每满足以下一项便获得其中的一张，然后以任意顺序放回其余的牌：1.你于此回合内造成过伤害；2.你于此回合内未弃置过牌；3.手牌数为全场最少。若均不满足，你与一名其他角色失去1点体力。"
+      },
+      {
+        "skillName": "父荫",
+        "skillDescription": "锁定技，你每回合第一次成为【杀】或【决斗】的目标后，若你的手牌数不大于使用者，此牌对你无效。"
+      }
+    ]
+  },
+  {
+    "name": "周妃",
+    "image": "packs/shzl/images/zhoufei.jpg",
+    "faction": "吴",
+    "gender": "女",
+    "skills": [
+      {
+        "skillName": "良姻",
+        "skillDescription": "当有牌移出游戏时，你可以令手牌数大于你的一名角色摸一张牌；当有牌从游戏外加入任意角色手牌时，你可以令手牌数小于你的一名角色弃置一张牌。"
+      },
+      {
+        "skillName": "箜声",
+        "skillDescription": "准备阶段，你可以将任意张牌置于武将牌上。结束阶段，你使用武将牌上的装备牌，并获得武将牌上的其他牌。"
+      }
+    ]
+  },
+  {
+    "name": "陆抗",
+    "image": "packs/shzl/images/lukang.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "谦节",
+        "skillDescription": "锁定技，你被横置前防止之，且不能成为延时类锦囊牌或其他角色拼点的目标。"
+      },
+      {
+        "skillName": "决堰",
+        "skillDescription": "出牌阶段限一次，你可以废除你装备区里的一种装备栏，然后执行对应的一项：武器栏，你于此回合内可以多使用三张【杀】；防具栏，摸三张牌，本回合手牌上限+3；坐骑栏，本回合你使用牌无距离限制；宝物栏，本回合获得〖集智〗。"
+      },
+      {
+        "skillName": "破势",
+        "skillDescription": "觉醒技，准备阶段，若你所有装备栏均被废除或体力值为1，则你减1点体力上限，然后将手牌摸至体力上限，失去〖决堰〗，获得〖怀柔〗。"
+      },
+      {
+        "skillName": "怀柔",
+        "skillDescription": "出牌阶段，你可以重铸一张装备牌。"
+      },
+      {
+        "skillName": "集智",
+        "skillDescription": "当你使用普通锦囊牌时，你可以摸一张牌。"
+      }
+    ]
+  },
+  {
+    "name": "袁术",
+    "image": "packs/shzl/images/thunder__yuanshu.jpg",
+    "faction": "群",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "庸肆",
+        "skillDescription": "锁定技，摸牌阶段，你改为摸X张牌（X为场上现存势力数）。出牌阶段结束时，若你本回合没有造成过伤害，你将手牌补至当前体力值；若造成过伤害且大于1点，你本回合手牌上限改为已损失体力值。"
+      },
+      {
+        "skillName": "伪帝",
+        "skillDescription": "主公技，弃牌阶段开始时，若X大于0，你可将至多X张手牌交给等量的其他群雄角色（X=你的手牌数-你的手牌上限）。"
+      }
+    ]
+  },
+  {
+    "name": "张绣",
+    "image": "packs/shzl/images/zhangxiu.jpg",
+    "faction": "群",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "雄乱",
+        "skillDescription": "限定技，出牌阶段，你可以废除你的判定区和装备区，然后指定一名其他角色。直到回合结束，你对其使用牌无距离和次数限制，其不能使用和打出手牌。"
+      },
+      {
+        "skillName": "从谏",
+        "skillDescription": "当你成为锦囊牌的目标后，若此牌的目标数大于1，则你可以交给其中一名其他目标角色一张牌，然后摸一张牌，若你给出的是装备牌，改为摸两张牌。"
+      }
+    ]
+  },
+  {
+    "name": "神关羽",
+    "image": "packs/shzl/images/godguanyu.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "武神",
+        "skillDescription": "锁定技，你的♥手牌视为【杀】；你使用♥【杀】无距离限制。"
+      },
+      {
+        "skillName": "武魂",
+        "skillDescription": "锁定技，当你受到1点伤害后，伤害来源获得1枚“梦魇”；你死亡时，令“梦魇”最多的一名其他角色判定，若不为【桃】或【桃园结义】，其死亡。"
+      }
+    ]
+  },
+  {
+    "name": "神吕蒙",
+    "image": "packs/shzl/images/godlvmeng.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "涉猎",
+        "skillDescription": "摸牌阶段，你可以改为亮出牌堆顶五张牌，获得不同花色的牌各一张。"
+      },
+      {
+        "skillName": "攻心",
+        "skillDescription": "出牌阶段限一次，你可以观看一名其他角色的手牌并可以展示其中的一张♥牌，选择：1. 弃置此牌；2. 将此牌置于牌堆顶。"
+      }
+    ]
+  },
+  {
+    "name": "神周瑜",
+    "image": "packs/shzl/images/godzhouyu.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "琴音",
+        "skillDescription": "弃牌阶段结束时，若你此阶段弃置过至少两张手牌，你可以选择：1. 令所有角色各回复1点体力；2. 令所有角色各失去1点体力。"
+      },
+      {
+        "skillName": "业炎",
+        "skillDescription": "限定技，出牌阶段，你可以指定一至三名角色，你分别对这些角色造成至多共计3点火焰伤害；若你对一名角色分配2点或更多的火焰伤害，你须先弃置四张不同花色的手牌并失去3点体力。"
+      }
+    ]
+  },
+  {
+    "name": "神诸葛亮",
+    "image": "packs/shzl/images/godzhugeliang.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "七星",
+        "skillDescription": "游戏开始时，你将牌堆顶的七张牌扣置于武将牌上，称为“星”，然后你可以用任意张手牌替换等量的“星”；摸牌阶段结束时，你可以用任意张手牌替换等量的“星”。"
+      },
+      {
+        "skillName": "狂风",
+        "skillDescription": "结束阶段开始时，你可以将一张“星”置入弃牌堆并选择一名角色，当其于你的下回合开始之前受到火焰伤害时，你令伤害值+1。"
+      },
+      {
+        "skillName": "大雾",
+        "skillDescription": "结束阶段开始时，你可以将至少一张“星”置入弃牌堆并选择等量的角色，当其于你的下回合开始之前受到不为雷电伤害的伤害时，防止此伤害。"
+      }
+    ]
+  },
+  {
+    "name": "神吕布",
+    "image": "packs/shzl/images/godlvbu.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "狂暴",
+        "skillDescription": "锁定技，游戏开始时，你获得2枚“暴怒”；当你造成或受到1点伤害后，你获得1枚“暴怒”。"
+      },
+      {
+        "skillName": "无谋",
+        "skillDescription": "锁定技，当你使用普通锦囊牌时，你选择：1.弃1枚“暴怒”；2.失去1点体力。"
+      },
+      {
+        "skillName": "无前",
+        "skillDescription": "出牌阶段，你可以弃2枚“暴怒”并选择一名此回合内未以此法选择过的其他角色，你于此回合内拥有〖无双〗且其防具技能于此回合内无效。"
+      },
+      {
+        "skillName": "神愤",
+        "skillDescription": "出牌阶段限一次，你可以弃6枚“暴怒”并选择所有其他角色，对这些角色各造成1点伤害，然后这些角色各弃置其装备区里的所有牌，各弃置四张手牌，最后你翻面。"
+      },
+      {
+        "skillName": "无双",
+        "skillDescription": "锁定技，当你使用【杀】指定目标后，你令其需依次使用两张【闪】才能抵消；当你成为【决斗】的目标后，你令来源需依次打出两张【杀】。"
+      }
+    ]
+  },
+  {
+    "name": "神曹操",
+    "image": "packs/shzl/images/godcaocao.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "归心",
+        "skillDescription": "当你受到1点伤害后，你可获得所有其他角色区域中的一张牌，然后你翻面。"
+      },
+      {
+        "skillName": "飞影",
+        "skillDescription": "锁定技，其他角色至你距离+1。"
+      }
+    ]
+  },
+  {
+    "name": "神赵云",
+    "image": "packs/shzl/images/godzhaoyun.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "绝境",
+        "skillDescription": "锁定技，你的手牌上限+2；当你进入濒死状态时或你的濒死结算结束后，你摸一张牌。"
+      },
+      {
+        "skillName": "龙魂",
+        "skillDescription": "你可以将至多两张你的同花色的牌按以下规则使用或打出：♥当【桃】，♦当火【杀】，♣当【闪】，♠当【无懈可击】。若你以此法使用或打出了两张：♥牌，此牌回复基数+1；♦牌，此牌伤害基数+1；黑色牌，你弃置当前回合角色一张牌。"
+      }
+    ]
+  },
+  {
+    "name": "神司马懿",
+    "image": "packs/shzl/images/godsimayi.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "忍戒",
+        "skillDescription": "锁定技，当你受到伤害后/于弃牌阶段弃置手牌后，你获得X枚“忍”（X为伤害值/你弃置的手牌数）。"
+      },
+      {
+        "skillName": "拜印",
+        "skillDescription": "觉醒技，准备阶段开始时，若你的“忍”数大于3，你减1点体力上限，获得〖极略〗。"
+      },
+      {
+        "skillName": "连破",
+        "skillDescription": "当你杀死一名角色后，你可于此回合结束后获得一个额外回合。"
+      },
+      {
+        "skillName": "极略",
+        "skillDescription": "你可以弃置1枚“忍”，发动下列一项技能：〖鬼才〗、〖放逐〗、〖集智〗、〖制衡〗、〖完杀〗。"
+      },
+       {
+        "skillName": "鬼才",
+        "skillDescription": "当一名角色的判定牌生效前，你可以打出一张手牌代替之。"
+      },
+       {
+        "skillName": "放逐",
+        "skillDescription": "当你受到伤害后，你可以令一名其他角色翻面，然后其摸X张牌（X为你已损失的体力值）。"
+      },
+       {
+        "skillName": "集智",
+        "skillDescription": "当你使用普通锦囊牌时，你可以摸一张牌。"
+      },
+       {
+        "skillName": "制衡",
+        "skillDescription": "出牌阶段限一次，你可以弃置任意张牌，然后摸等量的牌。"
+      },
+       {
+        "skillName": "完杀",
+        "skillDescription": "锁定技，你的回合内，除你以外，只有处于濒死状态的角色才能使用【桃】。"
+      }
+    ]
+  },
+  {
+    "name": "神刘备",
+    "image": "packs/shzl/images/godliubei.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "龙怒",
+        "skillDescription": "转换技，锁定技，出牌阶段开始时，阳：你失去1点体力，摸一张牌，你的红色手牌于此阶段内均视为火【杀】，你于此阶段内使用火【杀】无距离限制；阴：你减1点体力上限，摸一张牌，你的锦囊牌于此阶段内均视为雷【杀】，你于此阶段内使用雷【杀】无次数限制。"
+      },
+      {
+        "skillName": "结营",
+        "skillDescription": "锁定技，你始终处于横置状态；处于连环状态的角色手牌上限+2；结束阶段开始时，你横置一名其他角色。"
+      }
+    ]
+  },
+  {
+    "name": "神陆逊",
+    "image": "packs/shzl/images/godluxun.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "军略",
+        "skillDescription": "锁定技，当你造成或受到1点伤害后，你获得一枚“军略”。"
+      },
+      {
+        "skillName": "摧克",
+        "skillDescription": "出牌阶段开始时，若你的“军略”数为：奇数，你可以对一名角色造成1点伤害；偶数，你可以弃置一名角色区域里的一张牌，令其横置。然后若“军略”数大于7，你可弃全部“军略”，对所有其他角色各造成1点伤害。"
+      },
+      {
+        "skillName": "绽火",
+        "skillDescription": "限定技，出牌阶段，你可以弃全部“军略”，令至多等量的处于连环状态的角色弃置所有装备区里的牌，然后对其中一名角色造成1点火焰伤害。"
+      }
+    ]
+  },
+  {
+    "name": "神张辽",
+    "image": "packs/shzl/images/godzhangliao.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "夺锐",
+        "skillDescription": "当你于出牌阶段内对一名其他角色造成伤害后，你可以废除你的一个装备栏，然后选择该角色的武将牌上的一个技能（限定技、觉醒技、使命技、主公技除外），令其于其下回合结束之前此技能无效，然后你于其下回合结束或其死亡之前拥有此技能且不能发动〖夺锐〗。"
+      },
+      {
+        "skillName": "止啼",
+        "skillDescription": "锁定技，你攻击范围内已受伤的角色手牌上限-1；当你和这些角色拼点或【决斗】你赢时，你恢复一个装备栏。当你受到伤害后，若来源在你的攻击范围内且已受伤，你恢复一个装备栏。"
+      }
+    ]
+  },
+  {
+    "name": "神甘宁",
+    "image": "packs/shzl/images/godganning.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "魄袭",
+        "skillDescription": "出牌阶段限一次，你可以观看一名其他角色的手牌，然后你可以弃置你与其手里共计四张不同花色的牌。若如此做，根据此次弃置你的牌数量执行以下效果：没有，体力上限减1；一张，结束出牌阶段且本回合手牌上限-1；三张，回复1点体力；四张，摸四张牌。"
+      },
+      {
+        "skillName": "劫营",
+        "skillDescription": "回合开始时，若没有角色有“营”标记，你获得一个“营”标记；结束阶段你可以将“营”标记交给一名其他角色；有“营”的角色摸牌阶段多摸一张牌、使用【杀】的次数上限+1、手牌上限+1。有“营”的其他角色的结束阶段，你获得其“营”标记及所有手牌。"
+      }
+    ]
+  },
+  {
+    "name": "神貂蝉",
+    "image": "packs/shzl/images/goddiaochan.jpg",
+    "faction": "神",
+    "gender": "女",
+    "skills": [
+      {
+        "skillName": "魅魂",
+        "skillDescription": "结束阶段或当你成为【杀】目标后，你可以令一名其他角色交给你一张你声明的花色的牌，若其没有则你观看其手牌然后弃置其中一张。"
+      },
+      {
+        "skillName": "惑心",
+        "skillDescription": "出牌阶段限一次，你可以展示两张花色相同的手牌并分别交给两名其他角色，然后令这两名角色拼点，没赢的角色获得1个“魅惑”标记；若双方拼点点数相差5或更多，改为获得2个“魅惑”标记。拥有2个或更多“魅惑”的角色回合即将开始时，该角色移去其所有“魅惑”，此回合改为由你操控。"
+      }
+    ]
+  },
+  {
+    "name": "高达一号",
+    "image": "packs/shzl/images/gundam.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "绝境",
+        "skillDescription": "锁定技，你跳过摸牌阶段；当你的手牌数大于4/小于4时，你将手牌弃置至4/摸至4张。"
+      },
+      {
+        "skillName": "龙魂",
+        "skillDescription": "你可以将你的牌按以下规则使用或打出：♥当【桃】，♦当火【杀】，♣当【闪】，♠当【无懈可击】。准备阶段开始时，如果场上有【青釭剑】，你可以获得之。"
+      }
+    ]
+  },
+    {
+    "name": "曹仁（2013）",
+    "image": "packs/shzl/images/y13__caoren.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "据守",
+        "skillDescription": "结束阶段，你可以摸一张牌并翻面。"
+      },
+      {
+        "skillName": "解围",
+        "skillDescription": "当你翻面后，你可以摸一张牌，然后你可以使用一张锦囊牌或者装备牌，若如此做，你可以弃置场上一张同类别的牌。"
+      }
+    ]
+  },
+  {
+    "name": "诸葛瞻（旧）",
+    "image": "packs/shzl/images/nos__zhugezhan.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "罪论",
+        "skillDescription": "出牌阶段，你可以获得一名其他角色的一张牌（手牌、装备区各限一次），然后该角色摸一张牌。"
+      },
+      {
+        "skillName": "父荫",
+        "skillDescription": "锁定技，若你的装备区里没有防具牌，手牌数不小于你的其他角色不能使用【杀】、【决斗】或【火攻】指定你为目标。"
+      }
+    ]
+  },
+  {
+    "name": "神赵云（旧）",
+    "image": "packs/shzl/images/nos__godzhaoyun.jpg",
+    "faction": "神",
+    "gender": "男",
+    "skills": [
+      {
+        "skillName": "绝境",
+        "skillDescription": "锁定技，摸牌阶段，你令额定摸牌数+X（X为你已损失的体力值）；你的手牌上限+2。"
+      },
+      {
+        "skillName": "龙魂",
+        "skillDescription": "你可以将X张你的同花色的牌按以下规则使用或打出：♥当【桃】，♦当火【杀】，♣当【闪】，♠当【无懈可击】（X为你的体力值且至少为1）。"
+      }
+    ]
+  }
+]

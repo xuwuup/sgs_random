@@ -1,0 +1,21 @@
+[
+    
+    {
+      "id": "standard",
+      "name": "标准包",
+      "description": "基础游戏包含的武将。",
+      "dataFile": "packs/standard/standard.json"
+    },
+    {
+      "id": "shzl ",
+      "name": "神话再临",
+      "description": "神话再临系列",
+      "dataFile": "packs/shzl/shzl.json"
+    },
+    {
+      "id": "mougong ",
+      "name": "谋攻篇",
+      "description": "谋攻篇扩充包",
+      "dataFile": "packs/mougong/mougong.json"
+    }
+ ]

@@ -1,0 +1,275 @@
+/* --- 基本和通用样式 --- */
+body {
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* 按钮通用样式 */
+.action-button, .secondary-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    margin: 5px; /* 添加一点边距 */
+}
+
+.action-button {
+    background-color: #1877f2; /* 主按钮蓝色 */
+}
+.action-button:hover {
+    background-color: #166fe5;
+}
+.action-button:disabled {
+    background-color: #a0c3f7;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.secondary-button {
+    background-color: #6c757d; /* 次要按钮灰色 */
+}
+.secondary-button:hover {
+    background-color: #5a6268;
+}
+.secondary-button:disabled {
+     background-color: #bdbfbe;
+     cursor: not-allowed;
+     opacity: 0.7;
+}
+
+/* 卡牌详情容器 (复用) */
+.card-details-container {
+    background-color: #fff;
+    border: 1px solid #dcdfe6;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    margin: 15px auto; /* 上下居中 */
+    max-width: 500px; /* 默认最大宽度 */
+    text-align: left;
+}
+.card-details-container.placeholder {
+    text-align: center;
+    color: #999;
+}
+
+.general-basic-info { display: flex; align-items: flex-start; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
+.general-basic-info img { max-width: 100px; max-height: 140px; height: auto; margin-right: 15px; border-radius: 4px; flex-shrink: 0; display: block; }
+.general-text-details { flex-grow: 1; }
+#confirm-general-name, #final-general-name { font-size: 1.6em; font-weight: bold; margin: 0 0 5px 0; color: #303133; }
+.general-meta { font-size: 0.9em; color: #606266; margin-bottom: 8px; }
+.general-meta span { margin-right: 5px; }
+.pack-label { font-size: 0.8em; color: #909399; margin-top: 5px; }
+.general-skills-section h3 { font-size: 1.1em; margin: 15px 0 8px 0; color: #444; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+#confirm-general-skills-list, #final-general-skills-list { list-style: none; padding-left: 0; margin: 0; }
+#confirm-general-skills-list li, #final-general-skills-list li { margin-bottom: 12px; padding-left: 10px; border-left: 3px solid #409eff; } /* 主题蓝 */
+#confirm-general-skills-list .skill-name, #final-general-skills-list .skill-name { font-weight: bold; color: #303133; display: block; margin-bottom: 3px; }
+#confirm-general-skills-list .skill-description, #final-general-skills-list .skill-description { font-size: 0.9em; color: #606266; line-height: 1.5; }
+
+
+/* --- 视图 1: 设置 --- */
+.controls-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 700px;
+    margin: 20px auto;
+}
+.pack-list-container {
+    max-height: 250px;
+    overflow-y: auto;
+    border: 1px solid #e4e7ed;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9fafc;
+}
+/* (沿用之前的 .pack-item 样式) */
+.pack-item { display: block; margin-bottom: 12px; padding: 8px; border-radius: 4px; background-color: #fff; border: 1px solid #ddd; }
+.pack-item label { display: flex; align-items: center; cursor: pointer; font-weight: bold; }
+.pack-item input[type="checkbox"] { margin-right: 8px; flex-shrink: 0; }
+.pack-item .pack-description { font-size: 0.85em; color: #555; margin-top: 4px; padding-left: 25px; }
+
+.draw-settings {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e4e7ed;
+}
+.draw-settings label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+#draw-count-input {
+    width: 70px;
+    padding: 8px 10px;
+    border: 1px solid #dcdfe6;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 15px; /* 与按钮的间距 */
+}
+#initial-draw-button {
+    /* 样式来自 .action-button */
+    display: inline-block; /* 改为 inline-block */
+    vertical-align: middle; /* 对齐输入框 */
+}
+#pool-info {
+    text-align: center;
+    margin-top: 15px;
+    color: #606266;
+    font-size: 0.9em;
+}
+
+
+/* --- 视图 2: 选择卡牌 --- */
+.selection-container {
+    margin: 20px auto;
+    max-width: 95%; /* 允许更宽 */
+}
+.card-carousel {
+    display: flex; /* 水平排列 */
+    overflow-x: auto; /* 允许水平滚动 */
+    white-space: nowrap; /* 防止卡片换行 */
+    padding: 15px 0; /* 上下留白 */
+    margin-bottom: 20px;
+    -webkit-overflow-scrolling: touch; /* iOS 滚动优化 */
+    scrollbar-width: thin; /* Firefox 滚动条 */
+    scrollbar-color: #ccc #f0f0f0; /* Firefox 滚动条颜色 */
+}
+/* Webkit 浏览器滚动条样式 */
+.card-carousel::-webkit-scrollbar { height: 8px; }
+.card-carousel::-webkit-scrollbar-track { background: #f0f0f0; border-radius: 4px;}
+.card-carousel::-webkit-scrollbar-thumb { background-color: #ccc; border-radius: 4px; }
+.card-carousel::-webkit-scrollbar-thumb:hover { background-color: #aaa; }
+
+.selection-card-item {
+    display: inline-block; /* 让卡片水平排列 */
+    vertical-align: top;
+    width: 180px; /* 固定卡片宽度 */
+    flex-shrink: 0; /* 防止卡片被压缩 */
+    margin-right: 15px; /* 卡片间距 */
+    border: 1px solid #dcdfe6;
+    border-radius: 8px;
+    padding: 15px 10px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    text-align: center;
+    white-space: normal; /* 允许内部文字换行 */
+}
+.selection-card-item:last-child {
+    margin-right: 0; /* 最后一个卡片无右边距 */
+}
+.selection-card-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.selection-card-item img {
+    max-width: 90%;
+    height: auto;
+    max-height: 100px; /* 增加预览图高度 */
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+.selection-card-item .item-name { font-weight: bold; display: block; margin-bottom: 4px; color: #303133; }
+.selection-card-item .item-faction { font-size: 0.85em; color: #606266; }
+
+#cancel-selection-button {
+    display: block; /* 让按钮单独一行 */
+    margin: 20px auto 0 auto; /* 居中 */
+}
+
+
+/* --- 视图 3: 确认选择 --- */
+#confirmation-view {
+    max-width: 600px; /* 确认视图不需要太宽 */
+    margin: 20px auto;
+    text-align: center;
+}
+#confirmation-view .card-display-area {
+    margin-bottom: 25px;
+}
+.confirmation-buttons {
+    display: flex;
+    justify-content: center; /* 按钮居中 */
+    gap: 15px; /* 按钮间距 */
+}
+
+
+/* --- 视图 4: 最终展示 --- */
+#final-view {
+    position: relative; /* 为内部绝对定位的按钮提供基准 */
+    padding-top: 60px; /* 留出顶部空间给按钮 */
+    max-width: 700px; /* 最终视图可以稍宽 */
+    margin: 20px auto;
+}
+.final-view-controls {
+    position: absolute;
+    top: 15px;
+    left: 15px; /* 左上角 */
+    right: 15px; /* 右上角 */
+    display: flex;
+    justify-content: space-between; /* 两端对齐 */
+    align-items: center;
+    z-index: 10;
+}
+#lock-button {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-size: 0.9em;
+    display: inline-flex; /* 改为 inline-flex */
+    align-items: center;
+    transition: background-color 0.3s ease;
+    gap: 5px; /* 图标和文字间距 */
+}
+#lock-button.locked {
+    background-color: #6c757d;
+    color: white;
+}
+/* (从 .secondary-button 继承禁用样式) */
+
+#redraw-button {
+    background-color: #6c757d; /* 样式来自 .secondary-button */
+}
+
+/* 最终展示的卡牌可以更大 */
+#final-view .card-display-area.large .card-details-container {
+    max-width: 650px; /* 允许卡牌详情更宽 */
+    /* 可以进一步调整字体大小等 */
+}
+#final-view .card-display-area.large .general-basic-info img {
+     max-width: 150px; /* 最终视图图片更大 */
+     max-height: 210px;
+}
+
+/* 根据势力给卡片添加不同边框颜色 (可选) */
+.card-details-container[data-faction="吴"] { border-left: 5px solid #67c23a; } /* 绿色 */
+.card-details-container[data-faction="魏"] { border-left: 5px solid #409eff; } /* 蓝色 */
+.card-details-container[data-faction="蜀"] { border-left: 5px solid #f56c6c; } /* 红色 */
+.card-details-container[data-faction="群"] { border-left: 5px solid #909399; } /* 灰色 */
+.card-details-container[data-faction="神"] { border-left: 5px solid #e6a23c; } /* 黄色 */
