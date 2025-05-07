@@ -1,0 +1,26 @@
+{
+    "displayName": "谋攻篇", 
+    "files": [
+      {
+        "file": "tong.json",   
+        "subPackName": "同"   
+      },
+      {
+        "file": "yu.json",
+        "subPackName": "虞"
+      },
+      {
+        "file": "zhi.json",
+        "subPackName": "知"
+      },
+      {
+        "file": "neng.json",
+        "subPackName": "能"
+      },
+      {
+        "file": "shi.json",
+        "subPackName": "识"
+      }
+      
+    ]
+  }

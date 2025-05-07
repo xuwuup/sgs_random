@@ -1,0 +1,207 @@
+[
+    {
+      "name": "曹真",
+      "image": "packs/yj/images/caozhen.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "司敌",
+          "skillDescription": "每当你使用或其他角色在你的回合内使用【闪】时，你可以将牌堆顶的一张牌正面向上置于你的武将牌上；一名其他角色的出牌阶段开始时，你可以将你武将牌上的一张牌置入弃牌堆，然后该角色本阶段可使用【杀】的次数上限-1。"
+        }
+      ]
+    },
+    {
+      "name": "陈群",
+      "image": "packs/yj/images/chenqun.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "品第",
+          "skillDescription": "出牌阶段，你可以弃置一张于此回合内未以此法弃置过的类别的牌并选择此回合内未以此法选择过的一名其他角色，你选择：1.令其摸X张牌；2.令其弃置X张牌。若其已受伤，你横置。（X为你于此回合内发动过此技能的次数）"
+        },
+        {
+          "skillName": "法恩",
+          "skillDescription": "当一名角色的武将牌翻至正面朝上或横置后，你可以令其摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "陈群 (旧)",
+      "image": "packs/yj/images/nos__chenqun.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "定品",
+          "skillDescription": "出牌阶段，你可以弃置一张与你本回合已使用或弃置的牌类别均不同的手牌，然后令一名已受伤的角色进行一次判定，若结果为黑色，该角色摸X张牌（X为该角色已损失的体力值），然后你本回合不能再对其发动〖定品〗；若结果为红色，将你的武将牌翻面。"
+        },
+        {
+          "skillName": "法恩",
+          "skillDescription": "每当一名角色的武将牌翻面或横置时，你可以令其摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "韩浩史涣",
+      "image": "packs/yj/images/hanhaoshihuan.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "慎断",
+          "skillDescription": "当你的黑色基本牌因弃置进入弃牌堆时，你可以将此牌当无距离限制的【兵粮寸断】使用。"
+        },
+        {
+          "skillName": "勇略",
+          "skillDescription": "你攻击范围内的一名其他角色的判定阶段开始时，你可以弃置其判定区里的一张牌，视为对该角色使用【杀】，若此【杀】未造成伤害，你摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "周仓",
+      "image": "packs/yj/images/zhoucang.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "忠勇",
+          "skillDescription": "当你于出牌阶段内使用的【杀】被目标角色使用的【闪】抵消时，你可以将此【闪】交给除该角色外的一名角色，若获得此【闪】的角色不是你，你可以对相同的目标再使用一张【杀】。"
+        }
+      ]
+    },
+    {
+      "name": "吴懿",
+      "image": "packs/yj/images/wuyi.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "奔袭",
+          "skillDescription": "锁定技，当你于回合内使用牌时，本回合你计算与其他角色的距离-1；你的回合内，若你与所有其他角色的距离均为1，则你无视其他角色的防具且你使用【杀】可以多指定一个目标。"
+        }
+      ]
+    },
+    {
+      "name": "张松",
+      "image": "packs/yj/images/zhangsong.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "强识",
+          "skillDescription": "出牌阶段开始时，你可以展示一名其他角色的一张手牌，然后当你于此阶段内使用与此牌类别相同的牌时，你可以摸一张牌。"
+        },
+        {
+          "skillName": "献图",
+          "skillDescription": "其他角色的出牌阶段开始时，你可以摸两张牌，然后交给其两张牌，然后此阶段结束时，若其于此回合内未杀死过角色，则你失去1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "顾雍",
+      "image": "packs/yj/images/guyong.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "慎行",
+          "skillDescription": "出牌阶段，你可以弃置两张牌，然后摸一张牌。"
+        },
+        {
+          "skillName": "秉壹",
+          "skillDescription": "结束阶段开始时，你可以展示所有手牌，若均为同一颜色，则你令至多X名角色各摸一张牌（X为你的手牌数）。"
+        }
+      ]
+    },
+    {
+      "name": "孙鲁班",
+      "image": "packs/yj/images/sunluban.jpg",
+      "faction": "吴",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "谮毁",
+          "skillDescription": "出牌阶段限一次，当你使用【杀】或黑色非延时类锦囊牌指定唯一目标时，你令可以成为此牌目标的另一名其他角色选择一项：交给你一张牌并成为此牌的使用者；或成为此牌的额外目标。"
+        },
+        {
+          "skillName": "骄矜",
+          "skillDescription": "每当你受到一名男性角色造成的伤害时，你可以弃置一张装备牌，令此伤害-1。"
+        }
+      ]
+    },
+    {
+      "name": "朱桓 (旧)",
+      "image": "packs/yj/images/nos__zhuhuan.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "诱敌",
+          "skillDescription": "结束阶段开始时，你可以令一名其他角色弃置你的一张牌，若此牌不为【杀】，你获得该角色的一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "朱桓",
+      "image": "packs/yj/images/zhuhuan.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "奋励",
+          "skillDescription": "若你的手牌数为全场最多，你可以跳过摸牌阶段；若你的体力值为全场最多，你可以跳过出牌阶段；若你的装备区里有牌且数量为全场最多，你可以跳过弃牌阶段。"
+        },
+        {
+          "skillName": "平寇",
+          "skillDescription": "回合结束时，你可以对至多X名其他角色各造成1点伤害（X为你本回合跳过的阶段数）。"
+        }
+      ]
+    },
+    {
+      "name": "蔡夫人",
+      "image": "packs/yj/images/caifuren.jpg",
+      "faction": "群",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "窃听",
+          "skillDescription": "一名其他角色的回合结束时，若其未于此回合内使用过指定另一名角色为目标的牌，你可以选择一项：将其装备区里的一张牌移动至你装备区里的相应位置；或摸一张牌。"
+        },
+        {
+          "skillName": "献州",
+          "skillDescription": "限定技，出牌阶段，你可以将装备区里的所有牌交给一名其他角色，然后该角色选择一项：1.令你回复X点体力；2.对其攻击范围内的至多X名角色各造成1点伤害（X为你以此法交给该角色的牌的数量）。"
+        }
+      ]
+    },
+    {
+      "name": "沮授",
+      "image": "packs/yj/images/jvshou.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "渐营",
+          "skillDescription": "每当你于出牌阶段内使用的牌与此阶段你使用的上一张牌点数或花色相同时，你可以摸一张牌。"
+        },
+        {
+          "skillName": "矢北",
+          "skillDescription": "锁定技，每当你受到伤害后，若此伤害是你本回合第一次受到的伤害，你回复1点体力；否则你失去1点体力。"
+        }
+      ]
+    }
+  ]

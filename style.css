@@ -1,0 +1,498 @@
+/* ==========================================================================
+   Variables and Base Styles
+   ========================================================================== */
+   :root {
+    --color-primary: #1877f2;
+    --color-primary-hover: #166fe5;
+    --color-primary-disabled: #a0c3f7;
+    --color-secondary: #6c757d;
+    --color-secondary-hover: #5a6268;
+    --color-secondary-disabled: #bdbfbe;
+    --color-lock: #ffc107;
+    --color-lock-locked: var(--color-secondary);
+    --color-lock-text: #333;
+    --color-lock-text-locked: white;
+    --color-text-primary: #303133;
+    --color-text-secondary: #606266;
+    --color-text-light: #909399;
+    --color-background: #f0f2f5;
+    --color-surface: #fff;
+    --color-border: #dcdfe6;
+    --color-border-light: #e4e7ed;
+    --color-placeholder: #999;
+    --color-error: #f56c6c; /* Faction Shu */
+    --color-success: #67c23a; /* Faction Wu */
+    --color-warning: #e6a23c; /* Faction Shen */
+    --color-info: #409eff;     /* Faction Wei */
+    --color-jin: #b50ff7; /* Faction Jin */
+
+    --faction-color-wu: var(--color-success);
+    --faction-color-wei: var(--color-info);
+    --faction-color-shu: var(--color-error);
+    --faction-color-qun: var(--color-secondary);
+    --faction-color-shen: var(--color-warning);
+    --faction-color-jin: var(--color-jin);
+
+    --font-family-base: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --border-radius: 8px;
+    --border-radius-small: 4px;
+    --box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    --box-shadow-light: 0 1px 3px rgba(0,0,0,0.1);
+    --box-shadow-hover: 0 4px 10px rgba(0,0,0,0.15);
+    --spacing-unit: 8px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family-base);
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    margin: 0;
+    padding: calc(var(--spacing-unit) * 2.5); /* 20px */
+    line-height: 1.6;
+}
+
+.app-header {
+    text-align: center;
+    margin-bottom: calc(var(--spacing-unit) * 2.5); /* 20px */
+}
+
+h1, h2, h3 {
+    color: var(--color-text-primary);
+    margin-bottom: calc(var(--spacing-unit) * 2); /* 16px */
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Utility class */
+.hidden {
+    display: none !important;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+.button {
+    display: inline-block; /* Changed from inline-flex for simplicity unless needed */
+    padding: calc(var(--spacing-unit) * 1.25) calc(var(--spacing-unit) * 2.5); /* 10px 20px */
+    font-size: 1em;
+    font-family: inherit;
+    color: var(--color-surface);
+    border: none;
+    border-radius: var(--border-radius-small);
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    margin: calc(var(--spacing-unit) * 0.625); /* 5px */
+}
+
+.button--primary { background-color: var(--color-primary); }
+.button--primary:hover { background-color: var(--color-primary-hover); }
+.button--primary:disabled { background-color: var(--color-primary-disabled); cursor: not-allowed; opacity: 0.7; }
+
+.button--secondary { background-color: var(--color-secondary); }
+.button--secondary:hover { background-color: var(--color-secondary-hover); }
+.button--secondary:disabled { background-color: var(--color-secondary-disabled); cursor: not-allowed; opacity: 0.7; }
+
+.button--lock {
+    background-color: var(--color-lock);
+    color: var(--color-lock-text);
+    padding: var(--spacing-unit) calc(var(--spacing-unit) * 1.25); /* 8px 10px */
+    font-size: 0.9em;
+    display: inline-flex; /* Keep flex for icon alignment */
+    align-items: center;
+    gap: calc(var(--spacing-unit) * 0.625); /* 5px */
+}
+.button--lock.locked {
+    background-color: var(--color-lock-locked);
+    color: var(--color-lock-text-locked);
+}
+.button--lock:disabled { background-color: var(--color-secondary-disabled); cursor: not-allowed; opacity: 0.7; }
+
+/* ==========================================================================
+   Views General
+   ========================================================================== */
+.view {
+    max-width: 700px;
+    margin: calc(var(--spacing-unit) * 2.5) auto; /* 20px auto */
+    background-color: var(--color-surface);
+    padding: calc(var(--spacing-unit) * 3); /* 24px */
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.view[aria-hidden="true"] {
+    display: none;
+}
+
+/* ==========================================================================
+   Settings View
+   ========================================================================== */
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--spacing-unit) * 2.5); /* 20px */
+}
+
+.pack-selector legend,
+.draw-options legend {
+    font-weight: bold;
+    padding: 0 calc(var(--spacing-unit) * 0.5); /* 4px */
+    margin-left: calc(var(--spacing-unit) * 1); /* 8px */
+    color: var(--color-text-secondary);
+}
+
+.pack-selector,
+.draw-options {
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--border-radius-small);
+    padding: calc(var(--spacing-unit) * 2); /* 16px */
+}
+
+.pack-selector__list {
+    max-height: 250px;
+    overflow-y: auto;
+    padding: var(--spacing-unit); /* 8px */
+    background-color: var(--color-background); /* Light background inside */
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-small);
+}
+
+.pack-selector__item {
+    display: block;
+    margin-bottom: var(--spacing-unit); /* 8px */
+    padding: var(--spacing-unit); /* 8px */
+    border-radius: var(--border-radius-small);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+}
+
+.pack-selector__item label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pack-selector__item input[type="checkbox"] {
+    margin-right: var(--spacing-unit); /* 8px */
+    flex-shrink: 0;
+    height: 1.1em; /* Align better with text */
+    width: 1.1em;
+}
+
+.pack-selector__description {
+    font-size: 0.85em;
+    color: var(--color-text-secondary);
+    margin-top: calc(var(--spacing-unit) * 0.5); /* 4px */
+    padding-left: calc(var(--spacing-unit) * 3); /* 24px - approx checkbox width + margin */
+}
+
+.draw-options {
+    text-align: center;
+}
+
+.draw-options label {
+    margin-right: var(--spacing-unit); /* 8px */
+    font-weight: bold;
+}
+
+#draw-count-input {
+    width: 70px;
+    padding: calc(var(--spacing-unit) * 0.75) var(--spacing-unit); /* 6px 8px */
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-small);
+    text-align: center;
+    margin-right: var(--spacing-unit); /* 8px */
+    font-size: 1em; /* Ensure consistent size */
+}
+
+.pool-status {
+    text-align: center;
+    margin-top: var(--spacing-unit); /* 8px */
+    color: var(--color-text-secondary);
+    font-size: 0.9em;
+}
+
+/* ==========================================================================
+   Selection View & Card Carousel
+   ========================================================================== */
+.selection-view .selection-container { /* Override default view padding/bg if needed */
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    max-width: 95%; /* Allow wider carousel */
+}
+
+.selection-view h2 {
+    margin-bottom: var(--spacing-unit); /* Smaller margin before carousel */
+}
+
+.card-carousel {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: calc(var(--spacing-unit) * 2) 0; /* 16px 0 */
+    margin-bottom: calc(var(--spacing-unit) * 2); /* 16px */
+    gap: calc(var(--spacing-unit) * 2); /* 16px - Use gap for spacing */
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc var(--color-background);
+    min-height: 180px; /* Prevent collapsing when empty */
+}
+.card-carousel::-webkit-scrollbar { height: 8px; }
+.card-carousel::-webkit-scrollbar-track { background: var(--color-background); border-radius: 4px;}
+.card-carousel::-webkit-scrollbar-thumb { background-color: #ccc; border-radius: 4px; }
+.card-carousel::-webkit-scrollbar-thumb:hover { background-color: #aaa; }
+
+.card-carousel__placeholder {
+    width: 100%;
+    text-align: center;
+    color: var(--color-placeholder);
+    align-self: center; /* Center placeholder vertically */
+}
+
+.card-carousel__item {
+    display: inline-block; /* Keep inline-block for flex fallback if needed */
+    vertical-align: top;
+    width: 180px;
+    flex-shrink: 0;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: calc(var(--spacing-unit) * 1.5); /* 12px */
+    background-color: var(--color-surface);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: var(--box-shadow-light);
+    text-align: center;
+    white-space: normal; /* Allow text wrap inside */
+}
+
+.card-carousel__item:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--box-shadow-hover);
+}
+
+.card-carousel__item img {
+    max-width: 90%;
+    height: auto;
+    max-height: 100px;
+    margin-bottom: var(--spacing-unit); /* 8px */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: var(--border-radius-small);
+}
+
+.card-carousel__item-name { font-weight: bold; display: block; margin-bottom: calc(var(--spacing-unit) * 0.5); color: var(--color-text-primary); }
+.card-carousel__item-faction { font-size: 0.85em; color: var(--color-text-secondary); }
+
+#btn-cancel-selection {
+    display: block;
+    margin: calc(var(--spacing-unit) * 2) auto 0 auto;
+}
+
+/* ==========================================================================
+   Confirmation & Final View (Shared Card Details)
+   ========================================================================== */
+.confirmation-view,
+.final-view {
+    position: relative; /* For absolute positioned controls in final view */
+    max-width: 650px; /* Adjusted max-width */
+}
+
+.confirmation-view h2 {
+    margin-bottom: var(--spacing-unit);
+}
+
+.confirmation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: calc(var(--spacing-unit) * 2); /* 16px */
+    margin-top: calc(var(--spacing-unit) * 3); /* 24px */
+}
+
+.final-view {
+    padding-top: calc(var(--spacing-unit) * 7.5); /* 60px - Space for controls */
+    max-width: 750px;
+}
+
+.final-view__controls {
+    position: absolute;
+    top: calc(var(--spacing-unit) * 2); /* 16px */
+    left: calc(var(--spacing-unit) * 2); /* 16px */
+    right: calc(var(--spacing-unit) * 2); /* 16px */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.card-display-area {
+    margin: calc(var(--spacing-unit) * 2) auto; /* 16px */
+}
+.card-display-area--large .card-details {
+    max-width: 700px; /* Allow wider card */
+}
+.card-display-area--large .card-details__image {
+    max-width: 150px;
+    max-height: 210px;
+}
+
+/* ==========================================================================
+   Card Details Component
+   ========================================================================== */
+.card-details {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: calc(var(--spacing-unit) * 2.5); /* 20px */
+    box-shadow: var(--box-shadow);
+    margin: 0 auto; /* Center within its area */
+    max-width: 550px; /* Default max width */
+    text-align: left;
+    border-left: 5px solid transparent; /* Base for faction color */
+    transition: border-left-color 0.3s ease;
+}
+
+.card-details.placeholder {
+    text-align: center;
+    color: var(--color-placeholder);
+    border-left-color: var(--color-border-light);
+}
+.card-details.placeholder .card-details__basic-info,
+.card-details.placeholder .card-details__skills {
+    opacity: 0.6;
+}
+
+/* Faction Colors */
+.card-details[data-faction="蜀"] { border-left-color: var(--faction-color-shu); }
+.card-details[data-faction="魏"] { border-left-color: var(--faction-color-wei); }
+.card-details[data-faction="吴"] { border-left-color: var(--faction-color-wu); }
+.card-details[data-faction="群"] { border-left-color: var(--faction-color-qun); }
+.card-details[data-faction="神"] { border-left-color: var(--faction-color-shen); }
+.card-details[data-faction="晋"] { border-left-color: var(--faction-color-jin); }
+
+.card-details__basic-info {
+    display: flex;
+    align-items: flex-start;
+    gap: calc(var(--spacing-unit) * 2); /* 16px */
+    margin-bottom: calc(var(--spacing-unit) * 2); /* 16px */
+    padding-bottom: calc(var(--spacing-unit) * 1.5); /* 12px */
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.card-details__image {
+    max-width: 100px;
+    max-height: 140px;
+    height: auto;
+    border-radius: var(--border-radius-small);
+    flex-shrink: 0;
+    display: block; /* Remove extra space below */
+}
+
+.card-details__text { flex-grow: 1; }
+
+.card-details__name {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 0 0 calc(var(--spacing-unit) * 0.625) 0; /* 5px */
+    color: var(--color-text-primary);
+}
+
+.card-details__meta {
+    font-size: 0.9em;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-unit); /* 8px */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 calc(var(--spacing-unit) * 0.625); /* 5px horizontal gap */
+}
+
+.card-details__meta span {
+    padding-right: calc(var(--spacing-unit) * 0.75); /* 6px - Space before separator */
+    margin-right: calc(var(--spacing-unit) * 0.75); /* 6px - Space after separator */
+    border-right: 1px solid var(--color-border);
+    line-height: 1.2;
+    white-space: nowrap; /* Prevent wrapping within a meta item */
+}
+/* Remove border from the last visible span */
+.card-details__meta span:not(.hidden):last-of-type {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.armor-display {
+    color: var(--color-info); /* Armor color */
+    font-weight: bold;
+}
+.armor-display i { margin-right: 3px; }
+
+.card-details__pack {
+    font-size: 0.8em;
+    color: var(--color-text-light);
+    margin-top: calc(var(--spacing-unit) * 0.5); /* 4px */
+}
+
+.card-details__skills h3 {
+    font-size: 1.1em;
+    margin: calc(var(--spacing-unit) * 2) 0 var(--spacing-unit) 0; /* 16px 0 8px 0 */
+    color: #444;
+    border-bottom: 1px solid var(--color-border-light);
+    padding-bottom: calc(var(--spacing-unit) * 0.5); /* 4px */
+}
+
+.card-details__skill-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.card-details__skill-list li {
+    margin-bottom: calc(var(--spacing-unit) * 1.5); /* 12px */
+    padding-left: var(--spacing-unit); /* 8px */
+    border-left: 3px solid var(--color-info); /* Default skill border */
+}
+/* Match skill border to faction color */
+.card-details[data-faction="蜀"] .card-details__skill-list li { border-left-color: var(--faction-color-shu); }
+.card-details[data-faction="魏"] .card-details__skill-list li { border-left-color: var(--faction-color-wei); }
+.card-details[data-faction="吴"] .card-details__skill-list li { border-left-color: var(--faction-color-wu); }
+.card-details[data-faction="群"] .card-details__skill-list li { border-left-color: var(--faction-color-qun); }
+.card-details[data-faction="神"] .card-details__skill-list li { border-left-color: var(--faction-color-shen); }
+.card-details[data-faction="晋"] .card-details__skill-list li { border-left-color: var(--faction-color-jin); }
+
+
+.card-details__skill-name {
+    font-weight: bold;
+    color: var(--color-text-primary);
+    display: block;
+    margin-bottom: 3px;
+}
+
+.card-details__skill-description {
+    font-size: 0.9em;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+}
+
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  50% { transform: translateX(4px); }
+  75% { transform: translateX(-4px); }
+}
+
+.shake-animation {
+    animation: shake 0.4s ease-in-out;
+}

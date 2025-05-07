@@ -1,0 +1,175 @@
+[
+    {
+      "name": "国际界张飞",
+      "image": "/packs/overseas/images/os_ex__zhangfei.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "咆哮",
+          "skillDescription": "锁定技，①你使用【杀】无次数限制。②若你于当前阶段使用过【杀】，则你于此阶段使用【杀】无距离限制。"
+        },
+        {
+          "skillName": "虚吓",
+          "skillDescription": "当你使用的【杀】被一名角色的【闪】抵消后，你可令其选择一项：1. 你对其造成1点伤害；2. 当本回合你使用的下一张牌对其造成伤害时，伤害+2。"
+        }
+      ]
+    },
+    {
+      "name": "国际界孙坚",
+      "image": "/packs/overseas/images/os_ex__sunjian.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 5,
+      "startingHealth": 4,
+      "skills": [
+        {
+          "skillName": "破虏",
+          "skillDescription": "主公技，当吴势力角色杀死一名角色或死亡后，你可令任意名角色各摸X张牌（X为你发动过此技能的次数+1）。"
+        }
+      ]
+    },
+    {
+      "name": "国际界孟获",
+      "image": "/packs/overseas/images/os_ex__menghuo.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "酋首",
+          "skillDescription": "主公技，锁定技，当【南蛮入侵】的使用结算结束后，若此牌造成的伤害大于3点或有角色因此死亡，所有蜀势力和群势力角色各摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "国际界祝融",
+      "image": "/packs/overseas/images/os_ex__zhurong.jpg",
+      "faction": "群",
+      "gender": "女",
+      "health": 4,
+      "startingHealth": 4,
+      "skills": [
+        {
+          "skillName": "烈刃",
+          "skillDescription": "当你使用【杀】指定目标后，你可以与其拼点，若你赢，你获得其一张牌；若你没赢，你获得其拼点的牌，其获得你拼点的牌。"
+        }
+      ]
+    },
+    {
+      "name": "国际界法正",
+      "image": "/packs/overseas/images/os_ex__fazheng.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "恩怨",
+          "skillDescription": "当你获得一名其他角色至少两张牌后，你可令其摸一张牌；若其手牌区或装备区没有牌，你可改为令其回复1点体力。当你受到1点伤害后，你令伤害来源交给你一张手牌，否则失去1点体力；若其交给你的牌不是♥，则你摸一张牌。"
+        },
+        {
+          "skillName": "眩惑",
+          "skillDescription": "摸牌阶段结束时，你可交给一名其他角色A两张牌并选择另一名角色B，然后A选择一项：1. 视为对B使用一张【杀】或【决斗】；2. 你获得其两张牌。"
+        }
+      ]
+    },
+    {
+      "name": "国际界郭淮",
+      "image": "/packs/overseas/images/os_ex__guohuai.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "精策",
+          "skillDescription": "当你出牌阶段使用的第X张牌结算结束后（X为你的体力值），你可摸两张牌，然后若这不是你此阶段第一次摸牌或此回合你已造成过伤害，你获得1枚“策”。"
+        },
+        {
+          "skillName": "御嶂",
+          "skillDescription": "①你可弃1枚“策”，跳过一个阶段。②当你受到伤害后，你可弃1枚“策”并选择一项，令伤害来源执行：1.本回合不能使用或打出手牌；2.弃置两张牌（不足则全弃）。"
+        }
+      ]
+    },
+    {
+      "name": "国际界马岱",
+      "image": "/packs/overseas/images/os_ex__madai.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "潜袭",
+          "skillDescription": "准备阶段开始时，你可摸一张牌，然后弃置一张牌，令距离为1的一名角色本回合不能使用或打出与你以此法弃置的牌颜色相同的手牌，然后结束阶段开始时，若你于本回合使用【杀】对其造成过伤害，你令其不能使用或打出另一种颜色的牌至其下回合结束。"
+        }
+      ]
+    },
+    {
+      "name": "国际界程普",
+      "image": "/packs/overseas/images/os_ex__chengpu.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "疠火",
+          "skillDescription": "①你使用普【杀】可改为火【杀】，当此【杀】结算结束后，若此【杀】令其他角色进入过濒死状态，你失去1点体力。②当你使用火【杀】选择目标后，可多选择一个目标。"
+        },
+        {
+          "skillName": "醇醪",
+          "skillDescription": "准备阶段开始时，若场上没有“醇”，你可选择一名角色，将其区域内的一张牌置于其武将牌上，称为“醇”。有“醇”的角色使用【杀】时，｛若其为其他角色，其可交给你一张牌；若其为你，你可选择你的一张牌，若为装备区内的牌则获得之｝，令此【杀】伤害值基数+1；其进入濒死状态时，你可将一张“醇”置入弃牌堆并摸一张牌，然后其回复1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "国际界韩当",
+      "image": "/packs/overseas/images/os_ex__handang.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "弓骑",
+          "skillDescription": "①你的攻击范围无限。②出牌阶段限一次，你可弃置一张牌，你于此阶段内使用与弃置的牌花色相同的【杀】无次数限制。若弃置的为装备牌，你可弃置一名其他角色的一张牌。"
+        },
+        {
+          "skillName": "解烦",
+          "skillDescription": "限定技，出牌阶段，你可选择一名角色，令攻击范围内有其的所有角色选择一项：1.弃置一张武器牌；2.令其摸一张牌。当你上一次发动〖解烦〗指定的角色进入濒死状态时，此技能视为未发动过。"
+        }
+      ]
+    },
+    {
+      "name": "国际界顾雍",
+      "image": "/packs/overseas/images/os_ex__guyong.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "慎行",
+          "skillDescription": "出牌阶段，你可弃置X张牌，摸一张牌（X为你发动过〖慎行〗的次数且至多为2）。"
+        },
+        {
+          "skillName": "秉壹",
+          "skillDescription": "结束阶段开始时，你可展示所有手牌，若颜色均相同或类型均相同，你令至多X名角色各摸一张牌（X为你的手牌数）。若你展示的牌数大于1且这些牌颜色和类型均相同，则〖慎行〗的X修改为0。"
+        }
+      ]
+    },
+    {
+      "name": "国际界曹休",
+      "image": "/packs/overseas/images/os_ex__caoxiu.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "千驹",
+          "skillDescription": "锁定技，你计算与其他角色的距离-X（X为你的装备区里的牌数）；每回合限一次，当你对你至其的距离小于2的角色造成伤害后，你将牌堆或弃牌堆中一张装备牌置入你的装备区。"
+        },
+        {
+          "skillName": "倾袭",
+          "skillDescription": "当你使用【杀】指定目标后，若此【杀】为此回合你使用的第一张【杀】，你可令目标角色选择一项：1.令你摸X张牌，此【杀】不可被响应（X为你装备牌的数量且至少为1）；2. 弃置装备区里的所有牌（至少一张）并弃置等量你装备区的牌（不足则全弃），此【杀】伤害+1。"
+        }
+      ]
+    }
+  ]

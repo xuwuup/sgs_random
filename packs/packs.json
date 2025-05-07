@@ -1,0 +1,77 @@
+
+[
+  {
+    "id": "standard",
+    "folder": "standard",
+    "nameForCheckbox": "标准包" 
+
+  },
+  {
+    "id": "standard_ex",
+    "folder": "standard_ex",
+    "nameForCheckbox": "界限突破"
+  },
+  {
+    "id": "shzl",
+    "folder": "shzl",
+    "nameForCheckbox": "神话再临"
+
+  },
+  {
+    "id": "mougong",
+    "folder": "mougong",
+    "nameForCheckbox": "谋攻篇"
+  },
+  {
+    "id": "jsrg",
+    "folder": "jsrg",
+    "nameForCheckbox": "江山如故"
+  },
+  {
+    "id": "yj",
+    "folder": "yj",
+    "nameForCheckbox": "一将成名"
+  },
+  {
+    "id": "yjtw",
+    "folder": "yjtw",
+    "nameForCheckbox": "台版一将成名"
+  },
+  {
+    "id": "sp",
+    "folder": "sp",
+    "nameForCheckbox": "SP"
+  },
+  {
+    "id": "mobile",
+    "folder": "mobile",
+    "nameForCheckbox": "手杀"
+  },
+  {
+    "id": "mini",
+    "folder": "mini",
+    "nameForCheckbox": "小程序"
+  },
+  {
+    "id": "ol",
+    "folder": "ol",
+    "nameForCheckbox": "OL"
+  },
+  {
+    "id": "tenyear",
+    "folder": "tenyear",
+    "nameForCheckbox": "十周年"
+  },
+  {
+    "id": "overseas",
+    "folder": "overseas",
+    "nameForCheckbox": "国际服"
+  },
+  {
+    "id": "offline",
+    "folder": "offline",
+    "nameForCheckbox": "线下"
+  }
+]
+    
+    

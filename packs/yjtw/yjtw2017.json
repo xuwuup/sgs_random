@@ -1,0 +1,53 @@
+[
+    {
+      "name": "台版曹洪",
+      "image": "packs/yjtw/images/tw__caohong.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "护主",
+          "skillDescription": "出牌阶段限一次，若你的装备区有牌，你可以令一名其他角色交给你一张手牌，然后其获得你装备区的一张牌。若其体力值不大于你，你可以令其回复1点体力。"
+        },
+        {
+          "skillName": "敛财",
+          "skillDescription": "结束阶段开始时，你可以翻面并获得一名角色装备区内的一张牌。每当你翻面后，你可以将手牌摸至体力值。"
+        }
+      ]
+    },
+    {
+      "name": "台版马良",
+      "image": "packs/yjtw/images/tw__maliang.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "攘夷",
+          "skillDescription": "出牌阶段限一次，你可以将所有手牌交给一名其他角色，其选择一项：1.使用其中一张牌，结算前交还给你其余的牌；2.你对其造成1点伤害。"
+        },
+        {
+          "skillName": "白眉",
+          "skillDescription": "锁定技，若你没有手牌，防止你受到的锦囊牌伤害和属性伤害。"
+        }
+      ]
+    },
+    {
+      "name": "台版丁奉",
+      "image": "packs/yjtw/images/tw__dingfeng.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "弃甲",
+          "skillDescription": "出牌阶段，你可以弃置装备区内一张牌（每种副类别每阶段限一次），视为对攻击范围内一名角色使用一张不计次数的【杀】。"
+        },
+        {
+          "skillName": "诛綝",
+          "skillDescription": "出牌阶段，你可以弃置一张【桃】或【酒】并指定一名其他角色，此阶段你至其距离视为1。"
+        }
+      ]
+    }
+  ]

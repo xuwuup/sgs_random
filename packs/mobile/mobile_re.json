@@ -1,0 +1,150 @@
+[
+    {
+      "name": "手杀袁术",
+      "image": "packs/mobile/images/mobile__yuanshu.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "妄尊",
+          "skillDescription": "锁定技，体力值大于你的角色的准备阶段，你摸一张牌（若其为主公或地主，你额外摸一张牌且其本回合的手牌上限-1）。"
+        },
+        {
+          "skillName": "同疾",
+          "skillDescription": "当其他角色成为【杀】的目标时，若你在其攻击范围内，且你不是此【杀】的使用者，其可弃置一张牌将此【杀】转移给你。"
+        }
+      ]
+    },
+    {
+      "name": "手杀界张飞",
+      "image": "packs/mobile/images/m_ex__zhangfei.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "咆哮",
+          "skillDescription": "锁定技，①你使用【杀】无次数限制。②若你于当前阶段使用过【杀】，则你于此阶段使用【杀】无距离限制。"
+        },
+        {
+          "skillName": "厉勇",
+          "skillDescription": "锁定技，当你于出牌阶段使用的【杀】被【闪】抵消后，你本阶段使用下一张【杀】指定目标后，目标非锁定技失效直到回合结束，此【杀】不可被响应且对目标角色造成伤害+1；此【杀】造成伤害后，若目标角色未死亡，你失去1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "手杀界夏侯惇",
+      "image": "packs/mobile/images/m_ex__xiahoudun.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "刚烈",
+          "skillDescription": "当你受到伤害后，你可以进行判定，若结果为：红色，你对伤害来源造成1点伤害；黑色，你弃置伤害来源一张牌。"
+        },
+        {
+          "skillName": "清俭",
+          "skillDescription": "每回合限一次，当你于你的摸牌阶段外获得牌后，你可以将任意张手牌扣置于你的武将牌上；一名角色的结束阶段，若你的武将牌上有“清俭”牌，你将这些牌分配给其他角色，若交出的牌大于一张，你摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "手杀界华佗",
+      "image": "packs/mobile/images/m_ex__huatuo.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "急救",
+          "skillDescription": "你回合外，你可以将一张红色牌当【桃】使用。"
+        },
+        {
+          "skillName": "青囊",
+          "skillDescription": "出牌阶段限一次，你可以弃置一张手牌并选择一名已受伤角色，令其回复1点体力。若弃置的牌为红色，你可以再对本阶段未选择过的角色发动〖青囊〗。"
+        }
+      ]
+    },
+    {
+      "name": "手杀界袁术",
+      "image": "packs/mobile/images/m_ex__yuanshu.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "庸肆",
+          "skillDescription": "锁定技，摸牌阶段，你改为摸X张牌（X为全场势力数）；弃牌阶段开始时，你需弃置一张牌，否则失去1点体力。"
+        },
+        {
+          "skillName": "觊玺",
+          "skillDescription": "觉醒技，回合结束后，若你连续三个自己的回合未失去过体力，你加1点体力上限，回复1点体力，然后选择一项：1.获得技能〖妄尊〗；2.摸两张牌，然后获得主公的主公技。"
+        },
+        {
+          "skillName": "妄尊",
+          "skillDescription": "锁定技，体力值大于你的角色的准备阶段，你摸一张牌（若其为主公或地主，你额外摸一张牌且其本回合的手牌上限-1）。（由觊玺授予）"
+        }
+      ]
+    },
+    {
+      "name": "手杀嵇康",
+      "image": "packs/mobile/images/mobile__jikang.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "清弦",
+          "skillDescription": "出牌阶段限一次，你可以选择至多X名其他角色并弃置等量的牌（X为你的体力值），若这些角色装备区内的牌数：小于你，其回复1点体力；大于你，其失去1点体力；等于你，其摸一张牌。若你选择的目标数等于X，你摸一张牌。"
+        },
+        {
+          "skillName": "绝响",
+          "skillDescription": "当你死亡时，杀死你的角色弃置装备区里的所有牌并失去1点体力，然后你可以令一名其他角色获得技能“残韵”，且该角色可以弃置场上一张♣牌，若其如此做，其获得技能“绝响”。"
+        },
+        {
+          "skillName": "残韵",
+          "skillDescription": "出牌阶段限一次，你可以选择至多X名其他角色并弃置等量的牌（X为你的体力值，且每名角色每局游戏限一次），若这些角色装备区内的牌数：小于你，其回复1点体力；大于你，其失去1点体力；等于你，其摸一张牌。若你选择的目标数等于X，你摸一张牌。(由绝响授予)"
+        }
+      ]
+    },
+    {
+      "name": "手杀孙鲁育",
+      "image": "packs/mobile/images/mobile__sunluyu.jpg",
+      "faction": "吴",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "穆穆",
+          "skillDescription": "出牌阶段开始时，你可以选择一项：弃置场上一张装备牌；获得场上一张防具牌，然后你本回合不能使用或打出【杀】。"
+        },
+        {
+          "skillName": "魅步",
+          "skillDescription": "其他角色的出牌阶段开始时，若你在其攻击范围内，你可以弃置一张牌，然后其本回合视为拥有技能〖止息〗。若你以此法弃置的牌不是【杀】或黑色锦囊牌，则本回合其与你距离为1。"
+        },
+        {
+          "skillName": "止息",
+          "skillDescription": "锁定技，出牌阶段，你至多使用X张牌（X为你的体力值）。你使用锦囊牌后，结束出牌阶段。（由魅步授予）"
+        }
+      ]
+    },
+    {
+      "name": "手杀张恭",
+      "image": "packs/mobile/images/mobile__zhanggong.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "遣信",
+          "skillDescription": "出牌阶段限一次，你可以将至多两张手牌随机分配给等量名其他角色各一张，称为“信”，然后该角色的下个准备阶段，若其有“信”，其选择一项：1.令你摸两张牌；2.本回合的手牌上限-2。"
+        },
+        {
+          "skillName": "镇行",
+          "skillDescription": "结束阶段开始时或当你受到伤害后，你可以观看牌堆顶三张牌，然后获得其中与其余牌花色均不同的一张牌。"
+        }
+      ]
+    }
+  ]

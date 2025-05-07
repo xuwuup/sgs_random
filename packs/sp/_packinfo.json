@@ -1,0 +1,21 @@
+{
+    "displayName": "SP", 
+    "files": [
+      {
+        "file": "sp.json",   
+        "subPackName": "SP"   
+      },
+      {
+        "file": "sp_star.json",
+        "subPackName": "☆SP"
+      },
+      {
+        "file": "sp_jsp.json",
+        "subPackName": "JSP"
+      },
+      {
+        "file": "sp_re.json",
+        "subPackName": "RE.SP"
+      }
+    ]
+  }

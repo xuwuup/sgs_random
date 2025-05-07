@@ -1,0 +1,50 @@
+{
+    "displayName": "OL", 
+    "files": [
+      {
+        "file": "ol_sp1.json",   
+        "subPackName": "专属1"   
+      },
+      {
+        "file": "ol_sp2.json",
+        "subPackName": "专属2"
+      },
+      {
+        "file": "ol_sp3.json",
+        "subPackName": "专属3"
+      }, 
+      {
+        "file": "ol_sp4.json",
+        "subPackName": "专属4"
+      },
+      {
+        "file": "ol_re.json",
+        "subPackName": "专属"
+      },
+      {
+        "file": "ol_wende.json",
+        "subPackName": "文德武备"
+      },
+      {
+        "file": "ol_menfa.json",
+        "subPackName": "门阀士族"
+      },
+      {
+        "file": "ol_mou.json",
+        "subPackName": "上兵伐谋"
+      },
+      {
+        "file": "ol_ex.json",
+        "subPackName": "界"
+      },
+      {
+        "file": "ol_exyj.json",
+        "subPackName": "界一将成名"
+      },
+      {
+        "file": "ol_other.json",
+        "subPackName": "其他"
+      }
+      
+    ]
+  }

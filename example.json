@@ -1,0 +1,19 @@
+[
+    {
+        "name": "谋大宝", 
+        "image": "packs/[folder]/images/[name].jpg",
+        "faction": "群/魏/蜀/吴/晋/神",
+        "faction2": "群/魏/蜀/吴/晋/神",
+        "gender": "男/女",
+        "health": 999,
+        "startingHealth": 999,
+        "initialArmor": 999,
+
+        "skills": [
+          {
+            "skillName": "破军",
+            "skillDescription": "游戏开始时你直接获得胜利"
+          }
+        ]
+    }     
+]

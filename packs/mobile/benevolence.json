@@ -1,0 +1,192 @@
+[
+    {
+      "name": "华歆 (旧)",
+      "image": "packs/mobile/images/nos__huaxin.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "仁仕",
+          "skillDescription": "出牌阶段每名角色限一次，你可以将一张手牌交给一名其他角色。"
+        },
+        {
+          "skillName": "德报",
+          "skillDescription": "锁定技，当其他角色获得你的牌后，若“仁”数小于你的体力上限，你将牌堆顶一张牌置为“仁”。准备阶段，你获得所有“仁”。"
+        },
+        {
+          "skillName": "不弃",
+          "skillDescription": "锁定技，一名角色进入濒死状态时，你移去两张“仁”，令其回复1点体力。当一名角色死亡后，你移去所有“仁”。"
+        }
+      ]
+    },
+    {
+      "name": "手杀华歆",
+      "image": "packs/mobile/images/mobile__huaxin.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "渊清",
+          "skillDescription": "锁定技，出牌阶段结束时，你随机将弃牌堆中你本回合因使用而置入弃牌堆的牌中的每种类别各一张牌置入“仁”区。"
+        },
+        {
+          "skillName": "疏陈",
+          "skillDescription": "锁定技，当一名角色进入濒死状态时，若“仁”牌数至少为4，你获得所有“仁”牌，然后令其回复1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "蔡贞姬",
+      "image": "packs/mobile/images/caizhenji.jpg",
+      "faction": "魏",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "舍裔",
+          "skillDescription": "每轮限一次，当一名其他角色受到伤害时，若其体力值小于你，你可以交给其至少X张牌，防止此伤害（X为你的体力值）。"
+        },
+        {
+          "skillName": "天音",
+          "skillDescription": "锁定技，结束阶段，你从牌堆中获得你本回合未使用过类型的牌各一张。"
+        }
+      ]
+    },
+    {
+      "name": "向宠",
+      "image": "packs/mobile/images/xiangchong.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "固营",
+          "skillDescription": "锁定技，每回合限一次，当你于回合外因使用、打出或弃置一次性仅失去一张牌后，当前回合角色须选择一项：1.你获得此牌（若为装备则使用之）；2.交给你一张牌。准备阶段，你须弃置X张牌（X为本技能发动次数），然后重置此技能发动次数。"
+        },
+        {
+          "skillName": "睦阵",
+          "skillDescription": "出牌阶段各限一次，你可以：将一张装备牌置于一名其他角色装备区内，然后获得其一张手牌；交给一名装备区内有牌的其他角色两张牌，然后获得其装备区内一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "手杀张温",
+      "image": "packs/mobile/images/mobile__zhangwen.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "戈帛",
+          "skillDescription": "锁定技，一名角色回复体力后，你从牌堆顶将一张牌置于“仁”区中。"
+        },
+        {
+          "skillName": "颂蜀",
+          "skillDescription": "一名体力值大于你的其他角色摸牌阶段开始时，若“仁”区有牌，你可以令其放弃摸牌，改为获得X张“仁”区牌（X为你的体力值，且最大为5）。若如此做，本回合其使用牌时不能指定其他角色为目标。"
+        }
+      ]
+    },
+    {
+      "name": "桥公",
+      "image": "packs/mobile/images/qiaogong.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "遗珠",
+          "skillDescription": "结束阶段，你摸两张牌，然后选择两张牌作为“遗珠”并记录之，随机洗入牌堆顶前2X张牌中（X为场上存活角色数）。其他角色使用“遗珠”牌指定唯一目标后，你可以取消之，然后你将此牌从记录中移除。"
+        },
+        {
+          "skillName": "鸾俦",
+          "skillDescription": "出牌阶段限一次，你可以移除场上所有“姻”标记并选择两名角色，令其获得“姻”。有“姻”的角色视为拥有技能〖共患〗。"
+        },
+        {
+          "skillName": "共患",
+          "skillDescription": "锁定技，每回合限一次，当另一名拥有“姻”的角色受到伤害时，若其体力值小于你，将此伤害转移给你；然后移除双方的“姻”标记。（由鸾俦授予）"
+        }
+      ]
+    },
+    {
+      "name": "张仲景",
+      "image": "packs/mobile/images/zhangzhongjing.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "济世",
+          "skillDescription": "锁定技，你使用牌结算结束后置入弃牌堆前，若此牌没有造成伤害，则将之置入“仁”区；当“仁”牌不因溢出而离开“仁”区后，你摸一张牌。"
+        },
+        {
+          "skillName": "疗疫",
+          "skillDescription": "其他角色回合开始时，若其手牌数小于体力值且场上“仁”数量不小于X，则你可以令其获得X张“仁”；若其手牌数大于体力值，则可以令其将X张牌置入“仁”区（X为其手牌数与体力值差值，且至多为4）。"
+        },
+        {
+          "skillName": "病论",
+          "skillDescription": "出牌阶段限一次，你可以选择一名角色并弃置一张“仁”牌，令其选择：1.摸一张牌；2.其回合结束时回复1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "刘璋",
+      "image": "packs/mobile/images/liuzhang.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "据土",
+          "skillDescription": "锁定技，准备阶段，你获得所有所有的“生”，摸X+1张牌，然后将X张牌置于你的武将牌上，称为“生”（X为你〖邀虎〗选择势力的角色数）。"
+        },
+        {
+          "skillName": "邀虎",
+          "skillDescription": "①每轮限一次，你的回合开始时，你须选择场上一个势力。②此势力的其他角色出牌阶段开始时，其获得你的一张“生”，然后其须选择一项：1.对你指定的一名其攻击范围内的其他角色使用一张不计入次数的【杀】；2.本阶段其使用伤害类牌指定你为目标时，须交给你两张牌，否则取消之。"
+        },
+        {
+          "skillName": "怀璧",
+          "skillDescription": "主公技，锁定技，你的手牌上限+X（X为你〖邀虎〗选择势力的角色数）。"
+        }
+      ]
+    },
+    {
+      "name": "神华佗",
+      "image": "packs/mobile/images/godhuatuo.jpg",
+      "faction": "神",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "五灵",
+          "skillDescription": "出牌阶段限两次，你可以选择一名没有“五灵”标记的角色，按照你选择的顺序向其传授“五禽戏”。拥有“五灵”标记的角色在其准备阶段按照传授的顺序依次切换为下一种效果：虎：当你使用指定唯一目标的牌对目标角色造成伤害时，此伤害+1。鹿：回复1点体力并弃置判定区里的所有牌，你不能成为延时锦囊牌的目标。熊：每回合限一次，当你受到伤害时，此伤害-1。猿：获得一名其他角色装备区里的一张牌。鹤：你摸三张牌。"
+        },
+        {
+          "skillName": "游医",
+          "skillDescription": "弃牌阶段结束时，你可以将此阶段弃置的牌置入“仁”区。出牌阶段限一次，你可以弃置所有“仁”区的牌，令所有角色回复1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "神鲁肃",
+      "image": "packs/mobile/images/godlusu.jpg",
+      "faction": "神",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "榻谟",
+          "skillDescription": "游戏开始时，你可以重新分配所有角色的座次（若为身份模式，则改为除主公外的所有角色；若为斗地主，则改为除三号位外的所有角色）。"
+        },
+        {
+          "skillName": "定州",
+          "skillDescription": "出牌阶段限一次，你可以选择一名其他角色并交给其X张牌（X为其场上的牌数），然后你获得其场上的所有牌。"
+        },
+        {
+          "skillName": "智盟",
+          "skillDescription": "回合结束时，你可以与一名其他角色随机平均分配手牌（若不为身份模式，则改为手牌数不大于你手牌数+1的其他角色），若总牌数为奇数，则你分配较多张数。"
+        }
+      ]
+    }
+  ]

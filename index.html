@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三国杀武将抽卡器 (重构版)</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <h1>三国杀武将抽卡模拟器</h1>
+    </header>
+
+    <main class="app-main">
+
+        <!-- ==== 视图 1: 设置 ==== -->
+        <section id="view-settings" class="view settings-view" aria-hidden="false">
+            <div class="settings-container">
+                <fieldset class="pack-selector">
+                    <legend>1. 选择扩展包 (默认全选)</legend>
+                    <div id="pack-list-container" class="pack-selector__list">
+                        <p>正在加载扩展包列表...</p>
+                    </div>
+                </fieldset>
+
+                <fieldset class="draw-options">
+                    <legend>2. 抽卡设置</legend>
+                    <label for="draw-count-input">一次抽取数量:</label>
+                    <input type="number" id="draw-count-input" value="5" min="1" max="20">
+                    <button id="btn-initial-draw" class="button button--primary" disabled>3. 开始抽取</button>
+                </fieldset>
+
+                <p id="pool-info" class="pool-status">请稍候...</p>
+            </div>
+        </section>
+
+        <!-- ==== 视图 2: 选择卡牌 ==== -->
+        <section id="view-selection" class="view selection-view" aria-hidden="true">
+            <div class="selection-container">
+                <h2>请选择一张卡牌查看详情 (左右滑动)</h2>
+                <!-- Event delegation target -->
+                <div id="card-carousel-container" class="card-carousel">
+                    <p class="card-carousel__placeholder">正在生成卡牌...</p>
+                    <!-- Card items will be injected here -->
+                </div>
+                <button id="btn-cancel-selection" class="button button--secondary">返回设置</button>
+            </div>
+        </section>
+
+        <!-- ==== 视图 3: 确认选择 ==== -->
+        <section id="view-confirmation" class="view confirmation-view" aria-hidden="true">
+             <h2>确认选择这张卡牌吗？</h2>
+             <!-- Card Details Component (Confirmation Instance) -->
+             <div class="card-display-area">
+                 <div id="confirm-card-details" class="card-details placeholder" data-faction="">
+                     <div class="card-details__basic-info">
+                        <img id="confirm-general-image" src="" alt="武将图片" class="card-details__image">
+                        <div class="card-details__text">
+                            <p id="confirm-general-name" class="card-details__name">?</p>
+                            <div class="card-details__meta">
+                                <span id="confirm-general-faction">势力: ?</span>
+                                <span id="confirm-general-gender">性别: ?</span>
+                                <span id="confirm-general-health">体力: ?</span>
+                                <span id="confirm-general-armor" class="armor-display hidden">
+                                    <i class="fas fa-shield-alt" aria-hidden="true"></i> <span class="armor-value">?</span>
+                                </span>
+                            </div>
+                            <p id="confirm-general-pack" class="card-details__pack"></p>
+                        </div>
+                     </div>
+                     <div class="card-details__skills">
+                        <h3>技能:</h3>
+                        <ul id="confirm-general-skills-list" class="card-details__skill-list"> <li>...</li> </ul>
+                     </div>
+                 </div>
+             </div>
+             <div class="confirmation-buttons">
+                 <button id="btn-back-to-selection" class="button button--secondary">返回重选</button>
+                 <button id="btn-confirm-selection" class="button button--primary">确认选取</button>
+             </div>
+        </section>
+
+        <!-- ==== 视图 4: 最终展示 ==== -->
+        <section id="view-final" class="view final-view" aria-hidden="true">
+            <div class="final-view__controls">
+                <button id="btn-redraw" class="button button--secondary">重新抽取</button>
+                <button id="btn-lock" class="button button--lock" title="锁定卡牌" aria-pressed="false">
+                     <i class="fas fa-unlock" aria-hidden="true"></i> <span>解锁</span>
+                 </button>
+            </div>
+            <!-- Card Details Component (Final Instance) -->
+            <div class="card-display-area card-display-area--large">
+                <div id="final-card-details" class="card-details placeholder" data-faction="">
+                     <div class="card-details__basic-info">
+                        <img id="final-general-image" src="" alt="武将图片" class="card-details__image">
+                        <div class="card-details__text">
+                            <p id="final-general-name" class="card-details__name">?</p>
+                            <div class="card-details__meta">
+                                 <span id="final-general-faction">势力: ?</span>
+                                 <span id="final-general-gender">性别: ?</span>
+                                 <span id="final-general-health">体力: ?</span>
+                                 <span id="final-general-armor" class="armor-display hidden">
+                                     <i class="fas fa-shield-alt" aria-hidden="true"></i> <span class="armor-value">?</span>
+                                 </span>
+                            </div>
+                            <p id="final-general-pack" class="card-details__pack"></p>
+                        </div>
+                     </div>
+                     <div class="card-details__skills">
+                         <h3>技能:</h3>
+                         <ul id="final-general-skills-list" class="card-details__skill-list"> <li>...</li> </ul>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

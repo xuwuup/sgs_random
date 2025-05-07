@@ -1,0 +1,30 @@
+{
+    "displayName": "江山如故", 
+    "files": [
+      {
+        "file": "beginning.json",   
+        "subPackName": "启"   
+      },
+      {
+        "file": "continue.json",
+        "subPackName": "承"
+      },
+      {
+        "file": "transition.json",
+        "subPackName": "转"
+      },
+      {
+        "file": "conclusion.json",
+        "subPackName": "合"
+      },
+      {
+        "file": "rise.json",
+        "subPackName": "兴"
+      },
+      {
+        "file": "decline.json",
+        "subPackName": "衰"
+      }
+     
+    ]
+  }

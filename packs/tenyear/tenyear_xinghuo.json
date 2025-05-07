@@ -1,0 +1,219 @@
+[
+    {
+      "name": "严畯",
+      "image": "/packs/tenyear/images/yanjun.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "观潮",
+          "skillDescription": "出牌阶段开始时，你可以选择一项直到回合结束：1.当你使用牌时，若你此阶段使用过的所有牌的点数为严格递增，你摸一张牌；2.当你使用牌时，若你此阶段使用过的所有牌的点数为严格递减，你摸一张牌。"
+        },
+        {
+          "skillName": "逊贤",
+          "skillDescription": "每回合限一次，你使用或打出的牌置入弃牌堆时，你可以将之交给一名手牌数或体力值大于你的角色。"
+        }
+      ]
+    },
+    {
+      "name": "新服李典",
+      "image": "/packs/tenyear/images/ty__lidian.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "恂恂",
+          "skillDescription": "摸牌阶段，你可以少摸一张牌，然后从牌堆顶亮出三张牌，获得其中任意数量的基本牌，然后将其余牌置入弃牌堆。"
+        },
+        {
+          "skillName": "忘隙",
+          "skillDescription": "当你对其他角色造成1点伤害后，或当你受到其他角色造成的1点伤害后，若其存活，你可以摸两张牌，然后将一张牌交给该角色。"
+        }
+      ]
+    },
+    {
+      "name": "杜畿",
+      "image": "/packs/tenyear/images/duji.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "安东",
+          "skillDescription": "当你受到其他角色造成的伤害时，你可令伤害来源选择一项：1.防止此伤害，本回合弃牌阶段♥牌不计入手牌上限；2.观看其手牌，若其中有♥牌则你获得这些牌。"
+        },
+        {
+          "skillName": "应势",
+          "skillDescription": "出牌阶段开始时，若没有武将牌旁有“酬”的角色，你可将所有♥牌置于一名其他角色的武将牌旁，称为“酬”。若如此做，当一名角色使用【杀】对武将牌旁有“酬”的角色造成伤害后，其可以获得一张“酬”。当武将牌旁有“酬”的角色死亡时，你获得所有“酬”。"
+        }
+      ]
+    },
+    {
+      "name": "刘焉",
+      "image": "/packs/tenyear/images/liuyan.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "图射",
+          "skillDescription": "当你使用非装备牌指定目标后，若你没有基本牌，则你可以摸X张牌（X为此牌指定的目标数）。"
+        },
+        {
+          "skillName": "立牧",
+          "skillDescription": "出牌阶段，你可以将一张方块牌当【乐不思蜀】对自己使用，然后回复1点体力；你的判定区有牌时，你对攻击范围内的其他角色使用牌没有次数和距离限制。"
+        }
+      ]
+    },
+    {
+      "name": "潘濬",
+      "image": "/packs/tenyear/images/panjun.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "观微",
+          "skillDescription": "每回合限一次，一名角色的出牌阶段结束时，若其于此回合内使用过的牌数大于1且这些牌花色均相同或均没有花色，你可弃置一张牌。其摸两张牌，获得一个额外的出牌阶段。"
+        },
+        {
+          "skillName": "公清",
+          "skillDescription": "锁定技，当你受到伤害时，若来源的攻击范围小于3且伤害值大于1，你将伤害值改为1；当你受到伤害时，若来源的攻击范围大于3，你令伤害值+1。"
+        }
+      ]
+    },
+    {
+      "name": "新服王粲",
+      "image": "/packs/tenyear/images/ty__wangcan.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "散文",
+          "skillDescription": "每回合限一次，当你获得牌时，若你手中有与这些牌牌名相同的牌，你可以展示之，并弃置获得的同名牌，然后摸弃牌数两倍数量的牌。"
+        },
+        {
+          "skillName": "七哀",
+          "skillDescription": "限定技，当你进入濒死状态时，你可令每名其他角色同时交给你一张牌。"
+        },
+        {
+          "skillName": "登楼",
+          "skillDescription": "限定技，结束阶段开始时，若你没有手牌，你可以亮出牌堆顶四张牌，然后获得其中的非基本牌，并使用其中的基本牌（不使用则置入弃牌堆）。"
+        }
+      ]
+    },
+    {
+      "name": "SP庞统",
+      "image": "/packs/tenyear/images/sp__pangtong.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "过论",
+          "skillDescription": "出牌阶段限一次，你可以展示一名其他角色的一张手牌，然后你可以展示一张手牌，交换这两张牌，展示牌点数小的角色摸一张牌。"
+        },
+        {
+          "skillName": "送丧",
+          "skillDescription": "限定技，当其他角色死亡时，若你已受伤，你可回复1点体力；若你未受伤，你可加1点体力上限。然后你获得〖展骥〗。"
+        },
+        {
+          "skillName": "展骥",
+          "skillDescription": "锁定技，当你于出牌阶段内不因此技能摸牌后，你摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "SP太史慈",
+      "image": "/packs/tenyear/images/sp__taishici.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "击虚",
+          "skillDescription": "出牌阶段限一次，你可令任意名体力值相同的其他角色同时猜测你的手牌中是否有【杀】。若有角色猜错，且你：有【杀】，你于本回合使用【杀】额外指定所有猜错的角色为目标；没有【杀】，你弃置所有猜错的角色各一张牌。然后你摸等同于猜错的角色数的牌。若没有角色猜错，则你结束此阶段。"
+        }
+      ]
+    },
+    {
+      "name": "周鲂",
+      "image": "/packs/tenyear/images/zhoufang.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "断发",
+          "skillDescription": "出牌阶段，你可以弃置任意张黑色牌，然后摸等量的牌（你每阶段以此法弃置的牌数总和不能大于体力上限）。"
+        },
+        {
+          "skillName": "诱敌",
+          "skillDescription": "结束阶段，你可以令一名其他角色弃置你一张手牌，若弃置的牌不是【杀】，则你获得其一张牌；若弃置的牌不是黑色，则你摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "吕岱",
+      "image": "/packs/tenyear/images/lvdai.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "勤国",
+          "skillDescription": "当你于回合内使用装备牌结算结束后，你可视为使用【杀】；当你的装备区里的牌数变化后，若你装备区里的牌数与你的体力值相等，你回复1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "刘繇",
+      "image": "/packs/tenyear/images/liuyao.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "戡难",
+          "skillDescription": "出牌阶段，若你于此阶段内发动过此技能的次数小于X（X为你的体力值），你可与你于此阶段内未以此法拼点过的一名角色拼点。若：你赢，你使用的下一张【杀】的伤害值基数+1且你于此阶段内不能发动此技能；其赢，其使用的下一张【杀】的伤害值基数+1。"
+        }
+      ]
+    },
+    {
+      "name": "吕虔",
+      "image": "/packs/tenyear/images/lvqian.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "威虏",
+          "skillDescription": "锁定技，当你受到其他角色造成的伤害后，伤害来源在你的下回合出牌阶段开始时失去体力至1，回合结束时其回复以此法失去的体力值。"
+        },
+        {
+          "skillName": "赠刀",
+          "skillDescription": "限定技，出牌阶段，你可以将装备区内任意数量的牌置于一名其他角色的武将牌旁，该角色造成伤害时，移去一张“赠刀”牌，然后此伤害+1。"
+        }
+      ]
+    },
+    {
+      "name": "张梁",
+      "image": "/packs/tenyear/images/zhangliang.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "集军",
+          "skillDescription": "当你于出牌阶段内使用武器或非装备牌指定你为目标后，你可以判定。当此次判定的判定牌移至弃牌堆后，你可以将此判定牌置于你的武将牌上（称为“方”）。"
+        },
+        {
+          "skillName": "方统",
+          "skillDescription": "结束阶段，你可以弃置一张牌，然后将至少一张“方”置入弃牌堆。若此牌与你以此法置入弃牌堆的所有“方”的点数之和为36，你对一名其他角色造成3点雷电伤害。"
+        }
+      ]
+    }
+  ]

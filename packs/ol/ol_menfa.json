@@ -1,0 +1,473 @@
+[
+    {
+      "name": "族荀谌",
+      "image": "/packs/ol/images/olz__xunchen.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "三恇",
+          "skillDescription": "锁定技，当你每轮首次使用一种类别的牌后，你令一名其他角色交给你至少X张牌并获得你使用的牌（X为其满足的项数：1.场上有牌；2.已受伤；3.体力值小于手牌数）。"
+        },
+        {
+          "skillName": "卑势",
+          "skillDescription": "锁定技，当你首次发动〖三恇〗选择的角色失去最后的手牌后，你回复1点体力。"
+        },
+        {
+          "skillName": "蹈节",
+          "skillDescription": "宗族技，锁定技，当你每回合首次使用非伤害类普通锦囊牌后，你选择一项：1.失去1点体力；2.失去一个锁定技。然后令一名同族角色获得此牌。"
+        }
+      ]
+    },
+    {
+      "name": "族荀淑",
+      "image": "/packs/ol/images/olz__xunshu.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "神君",
+          "skillDescription": "当一名角色使用【杀】或普通锦囊牌时，你展示所有同名手牌记为“神君”，本阶段结束时，你可以将X张牌当任意“神君”牌使用（X为“神君”牌数）。"
+        },
+        {
+          "skillName": "八龙",
+          "skillDescription": "锁定技，当你每回合体力值首次变化后，若你手牌中锦囊牌为唯一最多的类型，你展示手牌并摸至与存活角色数相同。"
+        },
+        {
+          "skillName": "蹈节",
+          "skillDescription": "宗族技，锁定技，当你每回合首次使用非伤害类普通锦囊牌后，你选择一项：1.失去1点体力；2.失去一个锁定技。然后令一名同族角色获得此牌。"
+        }
+      ]
+    },
+    {
+      "name": "族荀粲",
+      "image": "/packs/ol/images/olz__xuncan.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "熨身",
+          "skillDescription": "出牌阶段限一次，你可以选择一名已受伤的其他角色并选择：1.令其回复1点体力，其视为对你使用冰【杀】；2.令其回复1点体力，你视为对其使用冰【杀】。"
+        },
+        {
+          "skillName": "伤神",
+          "skillDescription": "当每回合首次有角色受到属性伤害后，你可以进行一次【闪电】判定并令其将手牌摸至四张。"
+        },
+        {
+          "skillName": "分钗",
+          "skillDescription": "锁定技，若首次成为你技能目标的异性角色存活，你的判定牌视为♥，否则视为♠。"
+        },
+        {
+          "skillName": "蹈节",
+          "skillDescription": "宗族技，锁定技，当你每回合首次使用非伤害类普通锦囊牌后，你选择一项：1.失去1点体力；2.失去一个锁定技。然后令一名同族角色获得此牌。"
+        }
+      ]
+    },
+    {
+      "name": "族荀采",
+      "image": "/packs/ol/images/olz__xuncai.jpg",
+      "faction": "群",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "烈誓",
+          "skillDescription": "出牌阶段，你可以选择一项：1.废除判定区并受到你的1点火焰伤害；2.弃置所有【闪】；3.弃置所有【杀】。然后令一名其他角色选择其他两项中的一项。"
+        },
+        {
+          "skillName": "点盏",
+          "skillDescription": "锁定技，当你每轮首次使用一种花色的牌后，你横置此牌唯一目标并重铸此花色的所有手牌，然后若你以此法横置了角色且你以此法重铸了牌，你摸一张牌。"
+        },
+        {
+          "skillName": "还阴",
+          "skillDescription": "锁定技，当你进入濒死状态时，你将手牌摸至四张。"
+        },
+        {
+          "skillName": "蹈节",
+          "skillDescription": "宗族技，锁定技，当你每回合首次使用非伤害类普通锦囊牌后，你选择一项：1.失去1点体力；2.失去一个锁定技。然后令一名同族角色获得此牌。"
+        }
+      ]
+    },
+    {
+      "name": "族吴班",
+      "image": "/packs/ol/images/olz__wuban.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "斩钉",
+          "skillDescription": "你可以将任意张牌当【杀】使用并令你手牌上限-1，若此【杀】：造成伤害，你将手牌数调整至手牌上限；未造成伤害，此【杀】不计入次数。"
+        },
+        {
+          "skillName": "穆荫",
+          "skillDescription": "宗族技，回合开始时，你可以令一名手牌上限不为全场最大的同族角色手牌上限+1。"
+        }
+      ]
+    },
+    {
+      "name": "族吴苋",
+      "image": "/packs/ol/images/olz__wuxian.jpg",
+      "faction": "蜀",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "移荣",
+          "skillDescription": "出牌阶段限两次，你可以将手牌摸/弃至手牌上限并令你手牌上限-1/+1。"
+        },
+        {
+          "skillName": "贵相",
+          "skillDescription": "锁定技，你回合内第X个阶段改为出牌阶段（X为你的手牌上限）。"
+        },
+        {
+          "skillName": "穆荫",
+          "skillDescription": "宗族技，回合开始时，你可以令一名手牌上限不为全场最大的同族角色手牌上限+1。"
+        }
+      ]
+    },
+    {
+      "name": "族韩韶",
+      "image": "/packs/ol/images/olz__hanshao.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "放赈",
+          "skillDescription": "出牌阶段开始时，你可以横置一名角色，然后选择：1.摸两张牌并交给其两张牌；2.令其回复1点体力。第X轮开始时（X为其座次），你失去此技能。"
+        },
+        {
+          "skillName": "留驹",
+          "skillDescription": "出牌阶段结束时，你可以与一名角色拼点，输的角色可以使用拼点牌中的任意张非基本牌。若你与其的相互距离因此变化，你复原〖恤民〗。"
+        },
+        {
+          "skillName": "恤民",
+          "skillDescription": "宗族技，限定技，出牌阶段，你可以将一张牌当【五谷丰登】对任意名其他角色使用。"
+        }
+      ]
+    },
+    {
+      "name": "族韩融",
+      "image": "/packs/ol/images/olz__hanrong.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "连和",
+          "skillDescription": "出牌阶段开始时，你可以横置两名角色，这些角色的下个出牌阶段的阶段结束时，若其于此阶段内未摸过牌，其选择：1.令你摸X+1张牌；2.交给你X-1张牌（X为其于此阶段内得到过的牌数且至多为3）。"
+        },
+        {
+          "skillName": "缓颊",
+          "skillDescription": "出牌阶段结束时，你可以与一名角色拼点，赢的角色可以使用一张拼点牌，若此牌：未造成伤害，你获得另一张拼点牌；造成了伤害，你失去一个技能。"
+        },
+        {
+          "skillName": "恤民",
+          "skillDescription": "宗族技，限定技，出牌阶段，你可以将一张牌当【五谷丰登】对任意名其他角色使用。"
+        }
+      ]
+    },
+    {
+      "name": "族吴匡",
+      "image": "/packs/ol/images/olz__wukuang.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "联诛",
+          "skillDescription": "转换技，每名角色出牌阶段限一次，阳：其可以与你各重铸一张牌，若颜色相同，你的手牌上限+1；阴：你选择一名在你或其攻击范围内的角色，其可以与你各对目标使用一张【杀】，若颜色不同，你的手牌上限-1。"
+        },
+        {
+          "skillName": "穆荫",
+          "skillDescription": "宗族技，回合开始时，你可以令一名手牌上限不为全场最大的同族角色手牌上限+1。"
+        }
+      ]
+    },
+    {
+      "name": "族王允",
+      "image": "/packs/ol/images/olz__wangyun.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "解悬",
+          "skillDescription": "转换技，限定技，阳：你可以将一张红色牌当【顺手牵羊】使用；阴：你可以将一张黑色牌当【过河拆桥】使用。"
+        },
+        {
+          "skillName": "铭戒",
+          "skillDescription": "限定技，出牌阶段，你可以选择一名角色，直到其下回合结束，你使用牌可以额外指定其为目标，且其下回合结束时，你可以使用弃牌堆中此回合中被使用过的♠牌和被抵消过的牌。"
+        },
+        {
+          "skillName": "中流",
+          "skillDescription": "宗族技，锁定技，当你使用牌时，若不为同族角色的手牌，你视为未发动此武将牌上的技能。"
+        }
+      ]
+    },
+    {
+      "name": "族王淩",
+      "image": "/packs/ol/images/olz__wangling.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "驳龙",
+          "skillDescription": "出牌阶段限一次，你可以令一名其他角色选择一项：1.你交给其一张牌，视为对其使用一张雷【杀】；2.交给你与你手牌数等量张牌，视为对你使用一张【酒】。"
+        },
+        {
+          "skillName": "中流",
+          "skillDescription": "宗族技，锁定技，当你使用牌时，若不为同族角色的手牌，你视为未发动此武将牌上的技能。"
+        }
+      ]
+    },
+    {
+      "name": "族钟琰",
+      "image": "/packs/ol/images/olz__zhongyan.jpg",
+      "faction": "晋",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "博览",
+          "skillDescription": "出牌阶段开始时，你可以从随机三个“出牌阶段限一次”的技能中选择一个获得直到本阶段结束；其他角色的出牌阶段限一次，其可以失去1点体力，令你从随机三个“出牌阶段限一次”的技能中选择一个，其获得之直到此阶段结束。村：“博览”技能池为多服扩充版，且不会出现房间禁卡"
+        },
+        {
+          "skillName": "仪法",
+          "skillDescription": "锁定技，当其他角色使用【杀】或黑色普通锦囊牌指定你为目标后，其手牌上限-1直到其回合结束。"
+        },
+        {
+          "skillName": "保族",
+          "skillDescription": "宗族技，限定技，当同族角色进入濒死状态时，你可以令其横置并回复1点体力。"
+        }
+      ]
+   },
+    {
+        "name": "族钟会",
+        "image": "/packs/ol/images/olz__zhonghui.jpg",
+        "faction": "魏",
+        "gender": "男",
+        "health": 4,
+        "startingHealth": 3,
+        "skills": [
+        {
+            "skillName": "迂志",
+            "skillDescription": "锁定技，每轮开始时，你展示一张手牌，摸X张牌。此轮结束时，你弃置此牌，若你于此轮内使用过的牌数或上轮以此法摸牌数小于X，你受到1点雷电伤害或失去〖保族〗。（X为此牌牌名字数）"
+        },
+        {
+            "skillName": "挟术",
+            "skillDescription": "当你造成或受到牌的伤害后，你可以横置，然后弃置X张牌（X为此牌牌名字数）并摸你已损失体力值张数的牌，若有角色于当前回合内进入过濒死状态，此技能于此回合内无效。"
+        },
+        {
+            "skillName": "保族",
+            "skillDescription": "锁定技，游戏开始时，你令手牌上限+2；当你受到伤害时，若伤害值大于1，你将伤害值改为1。"
+        }
+        ]
+    },
+    {
+        "name": "族王浑",
+        "image": "/packs/ol/images/olz__wanghun.jpg",
+        "faction": "晋",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+        {
+            "skillName": "抚循",
+            "skillDescription": "出牌阶段限一次，你可以交给一名其他角色一张手牌或获得一名其他角色一张手牌，然后若其手牌数与你相同且本阶段未因此法以外的方式变化过，你可以将一张牌当任意基本牌使用。"
+        },
+        {
+            "skillName": "沉雅",
+            "skillDescription": "一名角色发动“出牌阶段限一次”的技能后，你可以令其重铸任意张牌名字数为X的牌（X为其手牌数）。"
+        },
+        {
+            "skillName": "中流",
+            "skillDescription": "主公技，锁定技，其他体力上限不小于你的魏势力或晋势力角色的手牌上限+1。"
+        }
+        ]
+    },
+    {
+        "name": "族钟毓",
+        "image": "/packs/ol/images/olz__zhongyu.jpg",
+        "faction": "魏",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+        {
+            "skillName": "捷谏",
+            "skillDescription": "当你每回合使用第X张牌指定目标后，若此牌不为装备牌，你可以令其中一个目标摸X张牌（X为此牌牌名字数）。"
+        },
+        {
+            "skillName": "惶汗",
+            "skillDescription": "当你受到牌造成的伤害后，你可以摸X张牌（X为此牌牌名字数）并弃置你已损失体力值张牌；若不为本回合首次发动，你视为未发动过〖保族〗。"
+        },
+        {
+            "skillName": "保族",
+            "skillDescription": "锁定技，游戏开始时，你令手牌上限+2；当你受到伤害时，若伤害值大于1，你将伤害值改为1。"
+        }
+        ]
+    },
+    {
+        "name": "族王沦",
+        "image": "/packs/ol/images/olz__wanglun.jpg",
+        "faction": "魏",
+        "faction2": "晋",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+        {
+            "skillName": "求心",
+            "skillDescription": "出牌阶段限一次，你可以令一名其他角色声明一项：1.当你对其使用一张【杀】后，你可以视为对其使用一张普通锦囊牌；2.当你对其使用一张普通锦囊牌后，你可以视为对其使用一张无距离限制的【杀】。"
+        },
+        {
+            "skillName": "简远",
+            "skillDescription": "当一名角色发动“出牌阶段限一次”的技能后，你可以令其重铸任意张牌名字数为X的牌（X为其本阶段使用牌数）。"
+        },
+        {
+            "skillName": "中流",
+            "skillDescription": "主公技，锁定技，其他体力上限不小于你的魏势力或晋势力角色的手牌上限+1。"
+        }
+        ]
+    },
+    {
+        "name": "族荀攸",
+        "image": "/packs/ol/images/olz__xunyou.jpg",
+        "faction": "魏",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+        {
+            "skillName": "百出",
+            "skillDescription": "锁定技，当你使用牌后，若此牌：花色-类型组合为你首次使用，你记录一张普通锦囊牌，否则你本轮获得〖奇策〗；以此法记录过，你摸一张牌或回复1点体力。"
+        },
+        {
+            "skillName": "道节",
+            "skillDescription": "当你受到伤害后，你可以摸一张牌。当其他角色回复体力后，你可以令其摸一张牌。当你失去体力后，你可以令一名角色摸一张牌。"
+        }
+        ]
+    },
+    {
+        "name": "族吴乔",
+        "image": "/packs/ol/images/olz__wuqiao.jpg",
+        "faction": "群",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+        {
+            "skillName": "跒倔",
+            "skillDescription": "摸牌阶段开始时，你可以弃置一张黑色牌并于本阶段结束时展示所有手牌，若点数和大于30，你的手牌上限-2，否则你执行一个额外的摸牌阶段。"
+        },
+        {
+            "skillName": "慕隐",
+            "skillDescription": "你登场时，可以令你或一名其他角色选择一项：1.获得〖急救〗；2.获得〖龙胆〗；3.获得〖巧变〗。然后当其失去此技能时，你失去1点体力。"
+        }
+        ]
+    },
+    {
+        "name": "族王广",
+        "image": "/packs/ol/images/olz__wangguang.jpg",
+        "faction": "魏",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+        {
+            "skillName": "离论",
+            "skillDescription": "出牌阶段限一次，你可以重铸两张牌名相同的牌（不能是本回合以此法重铸过的牌名）并可以使用其中一张牌。"
+        },
+        {
+            "skillName": "见机",
+            "skillDescription": "限定技，一名角色的回合结束时，若与其相邻的角色于此回合内均未使用过牌，你可以与其各摸一张牌。若与其相邻的角色于此回合内均未成为过牌的目标，你可以视为使用【杀】。"
+        },
+        {
+            "skillName": "中流",
+            "skillDescription": "主公技，锁定技，其他体力上限不小于你的魏势力或晋势力角色的手牌上限+1。"
+        }
+        ]
+    },
+    {
+        "name": "族王明山",
+        "image": "/packs/ol/images/olz__wangmingshan.jpg",
+        "faction": "魏",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+        {
+            "skillName": "弹雀",
+            "skillDescription": "每回合限一次，当你使用的牌结算结束后，你可以对一名体力值为X的角色造成1点伤害（X为此牌的点数与你上一张使用的牌的点数之差且不能为0）。"
+        },
+        {
+            "skillName": "剩墨",
+            "skillDescription": "你可以获得于当前回合内移至弃牌堆的牌中的一张不为其中点数最大且不为其中点数最小的牌，视为使用未以此法使用过的基本牌。"
+        },
+        {
+            "skillName": "中流",
+            "skillDescription": "主公技，锁定技，其他体力上限不小于你的魏势力或晋势力角色的手牌上限+1。"
+        }
+        ]
+    },
+    {
+        "name": "族钟繇",
+        "image": "/packs/ol/images/olz__zhongyao.jpg",
+        "faction": "魏",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+        {
+            "skillName": "承启",
+            "skillDescription": "你可以将至少两张手牌当你于当前回合内未使用过的基本牌或普通锦囊牌使用，你以此法使用的牌的名字数不能大于转化前的牌的牌名字数之和，若相等，你于此牌被使用时令一名角色摸一张牌。"
+        },
+        {
+            "skillName": "诫厉",
+            "skillDescription": "结束阶段，你可以选择一名角色，观看其手牌中牌名字数最大的所有牌和牌堆顶的X张牌（X为你于此回合内使用过的牌的牌名字数的最大值），然后你可以交换其中等量的牌（其中换入牌堆的牌将被置于牌堆顶）。"
+        },
+        {
+            "skillName": "保族",
+            "skillDescription": "锁定技，游戏开始时，你令手牌上限+2；当你受到伤害时，若伤害值大于1，你将伤害值改为1。"
+        }
+        ]
+    },
+    {
+        "name": "族王昶",
+        "image": "/packs/ol/images/olz__wangchang.jpg",
+        "faction": "魏",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+        {
+            "skillName": "开济",
+            "skillDescription": "出牌阶段限一次，你可以令一名本轮未以此法指定过的角色弃置你一张手牌，然后你可以使用弃置的牌，若如此做，你摸一张牌。"
+        },
+        {
+            "skillName": "中流",
+            "skillDescription": "主公技，锁定技，其他体力上限不小于你的魏势力或晋势力角色的手牌上限+1。"
+        }
+        ]
+    },
+    {
+        "name": "族王沈",
+        "image": "/packs/ol/images/olz__wangshen.jpg",
+        "faction": "魏",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+        {
+            "skillName": "岸然",
+            "skillDescription": "出牌阶段开始时或当你受到伤害后，你可以选择：1.摸X张牌；2.令至多X名角色各摸一张牌。然后以此法获得牌的角色本回合使用的下一张牌不能是这些牌（X为此技能发动次数，至多为4）。"
+        },
+        {
+            "skillName": "告变",
+            "skillDescription": "锁定技，其他角色回合结束时，若本回合仅有一名角色受到过伤害，你令此受伤角色使用本回合进入弃牌堆的一张【杀】或失去1点体力。"
+        },
+        {
+            "skillName": "中流",
+            "skillDescription": "主公技，锁定技，其他体力上限不小于你的魏势力或晋势力角色的手牌上限+1。"
+        }
+        ]
+    }
+    
+
+  ]

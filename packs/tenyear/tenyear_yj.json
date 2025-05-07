@@ -1,0 +1,282 @@
+[
+    {
+      "name": "李婉",
+      "image": "/packs/tenyear/images/liwan.jpg",
+      "faction": "魏",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "联对",
+          "skillDescription": "当你使用一张牌时，若上一张牌的使用者不为你，你可以令其摸两张牌；其他角色使用一张牌时，若上一张牌的使用者为你，其可以令你摸两张牌。"
+        },
+        {
+          "skillName": "别君",
+          "skillDescription": "其他角色出牌阶段限一次，其可以交给你一张手牌。当你受到伤害时，若你手牌中没有本回合以此法获得的牌，你可以翻面并防止此伤害。"
+        }
+      ]
+    },
+    {
+      "name": "韩龙",
+      "image": "/packs/tenyear/images/hanlong.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "独往",
+          "skillDescription": "锁定技，游戏开始时，你将牌堆顶五张不为【杀】的牌置于武将牌上，称为“刺”。若你有“刺”，你与其他角色互相计算距离均+1。"
+        },
+        {
+          "skillName": "刺北",
+          "skillDescription": "当【杀】使用结算结束后，若此【杀】造成过伤害，你可以将此【杀】与一张不为【杀】的“刺”交换，然后弃置一名角色区域内的一张牌。一名角色的回合结束时，若所有“刺”均为【杀】，你获得所有“刺”，这些【杀】不能被弃置、不计入手牌上限、使用时无距离和次数限制。"
+        }
+      ]
+    },
+    {
+      "name": "诸葛尚",
+      "image": "/packs/tenyear/images/zhugeshang.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "三顾",
+          "skillDescription": "结束阶段，你可依次选择至多三张【杀】或普通锦囊牌（【借刀杀人】、【无懈可击】除外）并指定一名其他角色，其下个出牌阶段使用的前X张牌视为你选择的牌（X为你选择的牌数）。若你选择的牌均为本回合你使用过的牌，防止“三顾”牌对你造成的伤害。"
+        },
+        {
+          "skillName": "轶祖",
+          "skillDescription": "锁定技，每回合限一次，当你成为【杀】或【决斗】的目标后，若你的体力值不大于使用者的体力值，你回复1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "新服谯周",
+      "image": "/packs/tenyear/images/ty__qiaozhou.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "识命",
+          "skillDescription": "每轮限一次，一名角色的摸牌阶段开始时，你可以观看牌堆顶三张牌并调整顺序，且可以将其中一张置于牌堆底，若如此做，当前回合角色可以放弃摸牌，改为对自己造成1点伤害，然后从牌堆底摸三张牌。"
+        },
+        {
+          "skillName": "将息",
+          "skillDescription": "一名角色回合结束时，若一号位本回合进入过濒死状态或未受到过伤害，你重置〖识命〗并摸一张牌。若所有角色均未受到过伤害，你可以与当前回合角色各摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "陆凯",
+      "image": "/packs/tenyear/images/lukai.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "卜筮",
+          "skillDescription": "你使用♠牌无次数限制；你使用或打出♥牌后，摸一张牌；当你成为♣牌的目标后，你可以弃置一张手牌令此牌对你无效；结束阶段，你获得一张♦牌。准备阶段，你可以将以上四种花色重新分配。"
+        },
+        {
+          "skillName": "忠壮",
+          "skillDescription": "锁定技，你使用【杀】造成伤害时，若你的攻击范围大于3，则此伤害+1；若你的攻击范围小于3，则此伤害改为1。"
+        }
+      ]
+    },
+    {
+      "name": "新服苏飞",
+      "image": "/packs/tenyear/images/ty__sufei.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "数荐",
+          "skillDescription": "出牌阶段限三次，你可以交给一名其他角色一张牌，然后其选择一项：1.令你摸3张牌并弃2张牌；2.视为使用3张【过河拆桥】，本回合此技能失效。此阶段下次发动该技能，选项中所有数字-1。"
+        }
+      ]
+    },
+    {
+      "name": "轲比能",
+      "image": "/packs/tenyear/images/kebineng.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "寇旌",
+          "skillDescription": "出牌阶段开始时，你可以选择任意张手牌，这些牌本回合视为不计入次数的【杀】。其他角色受到以此法使用的【杀】的伤害后展示这些牌，其可用所有手牌交换这些牌。"
+        }
+      ]
+    },
+    {
+      "name": "武安国",
+      "image": "/packs/tenyear/images/wuanguo.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "叠嶂",
+          "skillDescription": "转换技，你出牌阶段使用【杀】次数上限+1。阳：当你使用牌被其他角色抵消后，你可以弃置一张牌视为对其使用(一)张【杀】；阴：当你使用牌抵消其他角色使用的牌后，你可以摸(一)张牌视为对其使用一张【杀】。"
+        },
+        {
+          "skillName": "断腕",
+          "skillDescription": "限定技，当你处于濒死状态时，你可以将体力回复至2点，然后修改〖叠嶂〗：失去当前状态的效果，括号内的数字+1。"
+        }
+      ]
+    },
+    {
+      "name": "夏侯楙",
+      "image": "/packs/tenyear/images/xiahoumao.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "统围",
+          "skillDescription": "出牌阶段限一次，你可以指定一名其他角色并重铸两张牌。若如此做，其使用下一张牌结算后，若此牌点数介于你上次此法重铸牌点数之间，你视为对其使用一张【杀】或【过河拆桥】。"
+        },
+        {
+          "skillName": "蹙国",
+          "skillDescription": "锁定技，当你对一名角色使用的牌被抵消后，若你本回合未发动此技能，你须弃置一张牌，令你于此牌结算后视为对该角色使用一张牌名相同的牌，若此牌仍被抵消，你失去1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "孙礼",
+      "image": "/packs/tenyear/images/sunli.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "伉厉",
+          "skillDescription": "当你造成或受到伤害后，你可以摸两张牌，然后你下次造成伤害时弃置这些牌。"
+        }
+      ]
+    },
+    {
+      "name": "陈式",
+      "image": "/packs/tenyear/images/chenshi.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "擎北",
+          "skillDescription": "每轮开始时，你可以选择任意种花色令你本轮无法使用，然后本轮你使用一张有花色的手牌后，摸本轮〖擎北〗选择过的花色数的牌。"
+        }
+      ]
+    },
+    {
+      "name": "费曜",
+      "image": "/packs/tenyear/images/feiyao.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "镇锋",
+          "skillDescription": "每回合限一次，一名其他角色于其回合内使用牌时，若其手牌数不大于体力值，你可以猜测其手牌中与此牌类别相同的牌数。若你猜对，你摸X张牌并视为对其使用一张【杀】（X为你连续猜对次数且最多为5）；若猜错且差值大于1，则视为其对你使用一张【杀】。"
+        }
+      ]
+    },
+    {
+      "name": "新服宣公主",
+      "image": "/packs/tenyear/images/ty__xuangongzhu.jpg",
+      "faction": "魏",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "齐眉",
+          "skillDescription": "出牌阶段限一次，你可以选择一名其他角色，你与其各摸两张牌并各展示两张手牌，根据展示牌的花色数，你执行以下效果：1，你可以依次使用这些牌；2，你与其复原武将牌；3，你与其重铸这些牌；4，你与其各摸一张牌。"
+        },
+        {
+          "skillName": "追姬",
+          "skillDescription": "当你死亡后，你可以令一名角色从牌堆和弃牌堆中随机使用有空余栏位的装备牌，直至其装备区满，若如此做，当其失去以此法使用的装备牌后，废除对应的装备栏。"
+        }
+      ]
+    },
+    {
+      "name": "令狐愚",
+      "image": "/packs/tenyear/images/linghuyu.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "蓄志",
+          "skillDescription": "出牌阶段限一次，你可以令两名角色同时选择至少一张手牌并交换这些牌，获得牌数较少的角色视为使用一张无距离限制的【杀】；若获得牌数相等，你摸两张牌，且可以对本阶段未以此法选择过的角色再发动〖蓄志〗。"
+        }
+      ]
+    },
+    {
+      "name": "徐琨",
+      "image": "/packs/tenyear/images/xukun.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "筏铸",
+          "skillDescription": "准备阶段，你可以重铸你区域内任意张非伤害牌，然后将因此获得的牌交给至多等量名角色各一张，以此法获得牌的角色可以依次使用一张【杀】（无距离限制）。"
+        }
+      ]
+    },
+    {
+      "name": "新服司马孚",
+      "image": "/packs/tenyear/images/ty__simafu.jpg",
+      "faction": "魏",
+      "faction2": "晋",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "备预",
+          "skillDescription": "出牌阶段限一次，你可以将手牌摸至体力上限，然后将一种花色的所有手牌以任意顺序置于牌堆底。"
+        },
+        {
+          "skillName": "督持",
+          "skillDescription": "每回合限一次，当你成为其他角色使用牌的目标后，你可以从牌堆底摸一张牌并展示所有手牌，若颜色均相同，此牌对你无效。"
+        }
+      ]
+    },
+    {
+      "name": "新服马钧",
+      "image": "/packs/tenyear/images/ty__majun.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "工巧",
+          "skillDescription": "出牌阶段限一次，你可以将一张手牌置入你的装备区（替换原装备，离开你的装备区时移出游戏）。若你的装备区里有以此法置入的：基本牌，你使用基本牌的数值+1；锦囊牌，你每回合首次使用一种类别的牌后摸一张牌；装备牌，你的手牌上限+3。"
+        },
+        {
+          "skillName": "精益",
+          "skillDescription": "锁定技，每个装备栏每回合限一次，当牌进入你的装备区后，你摸X张牌（X为你装备区里的牌数），然后弃置两张牌。"
+        }
+      ]
+    },
+    {
+      "name": "新服裴秀",
+      "image": "/packs/tenyear/images/ty__peixiu.jpg",
+      "faction": "群",
+      "faction2": "晋",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "制图",
+          "skillDescription": "你使用基本牌和单目标普通锦囊牌可以指定任意名你与其距离相等的角色为目标。"
+        },
+        {
+          "skillName": "复爵",
+          "skillDescription": "出牌阶段限一次，你可以移动场上一张牌，然后将你的牌调整至五张。若此过程中你获得且失去过牌，本回合你计算与其他角色的距离-1。"
+        }
+      ]
+    }
+  ]

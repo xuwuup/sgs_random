@@ -1,0 +1,34 @@
+{
+    "displayName": "国际服", 
+    "files": [
+      {
+        "file": "overseas_if.json",   
+        "subPackName": "IF篇"   
+      },
+      {
+        "file": "overseas_ex.json",
+        "subPackName": "界"
+      },
+      {
+        "file": "overseas_sp.json",
+        "subPackName": "专属1"
+      },
+      {
+        "file": "overseas_sp2.json",
+        "subPackName": "专属2"
+      },
+      {
+        "file": "overseas_sp3.json",
+        "subPackName": "专属3"
+      },
+      {
+        "file": "overseas_strategizing.json",
+        "subPackName": "运筹帷幄"
+      },
+      {
+        "file": "overseas_wuxia.json",
+        "subPackName": "武侠篇"
+      }
+      
+    ]
+  }

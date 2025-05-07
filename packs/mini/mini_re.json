@@ -1,0 +1,291 @@
+[
+    {
+      "name": "小程序曹操",
+      "image": "packs/mini/images/mini__caocao.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "奸雄",
+          "skillDescription": "当你于你的回合内使用牌造成伤害后，你可以获得造成伤害的牌（每回合每牌名的牌限一次）。"
+        },
+        {
+          "skillName": "护驾",
+          "skillDescription": "主公技，当你需要使用或打出【闪】时，你可以令其他魏势力角色选择是否打出一张【闪】（视为由你使用或打出）。"
+        }
+      ]
+    },
+    {
+      "name": "小程序吕蒙",
+      "image": "packs/mini/images/mini__lvmeng.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "克己",
+          "skillDescription": "当你使用一张基本牌时，若此时为你的出牌阶段，你摸一张牌，本回合的手牌上限+1。"
+        }
+      ]
+    },
+    {
+      "name": "小程序孙尚香",
+      "image": "packs/mini/images/mini__sunshangxiang.jpg",
+      "faction": "吴",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "结姻",
+          "skillDescription": "出牌阶段限一次，你可以弃置一张牌并选择一名男性角色，你与其各摸一张牌。"
+        },
+        {
+          "skillName": "枭姬",
+          "skillDescription": "当你失去装备区里的一张牌后，你可以摸两张牌。"
+        }
+      ]
+    },
+    {
+      "name": "小程序夏侯渊",
+      "image": "packs/mini/images/mini__xiahouyuan.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "神速",
+          "skillDescription": "①判定阶段开始前，你可跳过此阶段和摸牌阶段来视为使用无视防具的【杀】。②出牌阶段开始前，你可跳过此阶段来视为使用无视防具的【杀】。"
+        }
+      ]
+    },
+    {
+      "name": "小程序魏延",
+      "image": "packs/mini/images/mini__weiyan.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "狂骨",
+          "skillDescription": "锁定技，当你对距离1以内的一名角色造成1点伤害后，你回复1点体力并摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "小程序庞德",
+      "image": "packs/mini/images/mini__pangde.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "马术",
+          "skillDescription": "锁定技，你计算与其他角色的距离-1。"
+        },
+        {
+          "skillName": "鞬出",
+          "skillDescription": "当你使用【杀】指定目标后，你可弃置其一张牌，若此牌：为装备牌，其不能使用【闪】抵消此【杀】；不为装备牌，你获得此牌。"
+        }
+      ]
+    },
+    {
+      "name": "小程序孟获",
+      "image": "packs/mini/images/mini__menghuo.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "祸首",
+          "skillDescription": "【南蛮入侵】对你无效。其他角色受到【南蛮入侵】的伤害时，你可以弃置一张手牌，令此伤害+1。"
+        },
+        {
+          "skillName": "再起",
+          "skillDescription": "每局限七次，摸牌阶段，你可以改为亮出牌堆顶的X+1张牌，然后获得其中一种颜色的所有牌（X为本技能已发动的次数）。"
+        }
+      ]
+    },
+    {
+      "name": "小程序贾诩",
+      "image": "packs/mini/images/mini__jiaxu.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "完杀",
+          "skillDescription": "锁定技，你的回合内，若有角色处于濒死状态，不处于濒死状态的其他角色，不能使用【桃】。出牌阶段开始时，你令一名体力值大于1的角色失去1点体力，出牌阶段结束时，其回复1点体力。"
+        },
+        {
+          "skillName": "乱武",
+          "skillDescription": "限定技，出牌阶段，你可以获得一张【杀】，然后令所有角色选择一项：1. 对除你以外距离最小的另一名角色使用【杀】；2. 失去1点体力。"
+        },
+        {
+          "skillName": "帷幕",
+          "skillDescription": "锁定技，你不能成为黑色锦囊牌的目标。"
+        }
+      ]
+    },
+    {
+      "name": "小程序神诸葛亮",
+      "image": "packs/mini/images/mini__godzhugeliang.jpg",
+      "faction": "神",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "七星",
+          "skillDescription": "每轮限一次，当你进入濒死状态时，你可以进行判定，若判定结果的点数大于7，你回复1点体力。"
+        },
+        {
+          "skillName": "天罚",
+          "skillDescription": "你每于出牌阶段使用两张锦囊后，你于本回合内获得1枚“罚”标记。回合结束时，你可以对至多X名其他角色依次造成1点伤害（X为“罚”数）。"
+        },
+        {
+          "skillName": "祭风",
+          "skillDescription": "出牌阶段限一次，你可以弃置一张【杀】，然后直到回合结束，你使用牌无距离限制。"
+        }
+      ]
+    },
+    {
+      "name": "小程序界赵云",
+      "image": "packs/mini/images/mini_ex__zhaoyun.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "龙胆",
+          "skillDescription": "你可将【杀】当【闪】、【闪】当【杀】使用或打出，以此使用的【杀】不计入次数。"
+        },
+        {
+          "skillName": "涯角",
+          "skillDescription": "当你于回合外使用或打出手牌时，你可摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "小程序徐庶",
+      "image": "packs/mini/images/mini__xushu.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "无言",
+          "skillDescription": "锁定技，当你受到锦囊牌造成的伤害时，防止此伤害。"
+        },
+        {
+          "skillName": "举荐",
+          "skillDescription": "结束阶段，你可以弃置一张非基本牌，然后令一名其他角色选择一项：1.摸两张牌；2.回复1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "小程序曹冲",
+      "image": "packs/mini/images/mini__caochong.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "称象",
+          "skillDescription": "当你受到伤害后，你可以亮出牌堆顶的四张牌，然后获得其中任意数量点数之和不大于13的牌，将其余的牌置入弃牌堆。"
+        },
+        {
+          "skillName": "仁心",
+          "skillDescription": "每轮限一次，当其他角色受到不小于其体力值的伤害时，你可以弃置一张牌将此伤害转移给你。"
+        }
+      ]
+    },
+    {
+      "name": "小程序曹休",
+      "image": "packs/mini/images/mini__caoxiu.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "千驹",
+          "skillDescription": "锁定技，当你于回合外失去牌后，若你装备区里没有坐骑牌，你使用【杀】无距离限制直到回合结束。"
+        },
+        {
+          "skillName": "倾袭",
+          "skillDescription": "当你对其他角色造成伤害时，你可以令其选择一项：1.弃置X张手牌，然后弃置你装备区里的武器牌（X为你的攻击范围）；2.令此伤害+1。"
+        }
+      ]
+    },
+    {
+      "name": "小程序张星彩",
+      "image": "packs/mini/images/mini__zhangxingcai.jpg",
+      "faction": "蜀",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "甚贤",
+          "skillDescription": "当有角色因弃置而失去基本牌后，你可以摸一张牌。"
+        },
+        {
+          "skillName": "枪舞",
+          "skillDescription": "出牌阶段限一次，你可以弃置一张牌。若如此做，直到回合结束，你使用点数大于此牌的【杀】不计入次数且无距离限制。"
+        }
+      ]
+    },
+    {
+      "name": "小程序SP姜维",
+      "image": "packs/mini/images/mini_sp__jiangwei.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "困奋",
+          "skillDescription": "结束阶段开始时，你可失去1点体力，然后摸两张牌。"
+        },
+        {
+          "skillName": "逢亮",
+          "skillDescription": "觉醒技，当你进入濒死状态时，你减1点体力上限并将体力值回复至3点，获得〖挑衅〗。"
+        },
+        {
+          "skillName": "挑衅",
+          "skillDescription": "出牌阶段限一次，你可以选择一名其他角色，然后除非该角色对你使用一张【杀】，否则你弃置其一张牌。（由逢亮授予）"
+        }
+      ]
+    },
+    {
+      "name": "小程序吴国太",
+      "image": "packs/mini/images/mini__wuguotai.jpg",
+      "faction": "吴",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "甘露",
+          "skillDescription": "出牌阶段限一次，你可以弃置一张手牌，然后选择一项：1.移动场上一张装备区内的牌；2.将牌堆或弃牌堆中随机一张装备牌置入你的装备区。"
+        },
+        {
+          "skillName": "补益",
+          "skillDescription": "当一名角色进入濒死状态时，你可以展示该角色一张手牌，若不为基本牌，则其弃置此牌并回复1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "小程序杨修",
+      "image": "packs/mini/images/mini__yangxiu.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "啖酪",
+          "skillDescription": "出牌阶段限一次，你可以摸X张牌，然后将这些牌分配给任意名角色，然后未以此法获得牌的角色可以视为对你使用【杀】。（X为存活角色数）"
+        },
+        {
+          "skillName": "鸡肋",
+          "skillDescription": "当你受到伤害后，你选择一种牌的类别，然后伤害来源不能使用、打出或弃置其此类别的手牌直到回合结束。"
+        }
+      ]
+    }
+  ]

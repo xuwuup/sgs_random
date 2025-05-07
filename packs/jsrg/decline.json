@@ -1,0 +1,184 @@
+[
+    {
+        "name": "衰袁绍",
+        "image": "packs/jsrg/images/js__yuanshao.jpg",
+        "faction": "群",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "执盟",
+            "skillDescription": "准备阶段开始时，你可以亮出牌堆顶存活角色数的牌，令所有角色同时展示一张手牌，展示不重复花色手牌的角色获得亮出牌中此花色的所有牌。"
+          },
+          {
+            "skillName": "天予",
+            "skillDescription": "当一张伤害牌或装备牌进入弃牌堆后，若此牌于本回合内未属于过任何角色，则你可以获得之。"
+          },
+          {
+            "skillName": "诛逆",
+            "skillDescription": "出牌阶段限一次，你可以令所有角色同时选择一名除你外的角色，你本回合对此次被指定次数唯一最多的角色使用牌无距离次数限制。"
+          },
+          {
+            "skillName": "合志",
+            "skillDescription": "主公技，锁定技，其他群势力角色因“诛逆”指定的角色视为与你指定的角色相同。"
+          }
+        ]
+      },
+      {
+        "name": "衰宋皇后",
+        "image": "packs/jsrg/images/songhuanghou.jpg",
+        "faction": "群",
+        "gender": "女",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "众谮",
+            "skillDescription": "锁定技，弃牌阶段开始时，你令所有手牌数小于你的角色各交给你一张手牌。若如此做，此阶段结束时，若你本阶段弃置的♠牌数大于体力值，你弃置所有牌。"
+          },
+          {
+            "skillName": "虚宠",
+            "skillDescription": "当你成为牌的目标后，你可以选择一项：1.摸一张牌；2.令当前回合角色本回合手牌上限+2。选择项执行完成后，你获得一张【影】。"
+          }
+        ]
+      },
+      {
+        "name": "衰卢植",
+        "image": "packs/jsrg/images/js__luzhi.jpg",
+        "faction": "群",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "儒宗",
+            "skillDescription": "回合结束时，若你本回合使用牌指定过的目标角色均为同一角色，则你可以将手牌数摸至与其相同（至多摸五张），若该目标为你，则改为你可令至少一名其他角色将手牌数摸至与你相同。"
+          },
+          {
+            "skillName": "蹈刃",
+            "skillDescription": "出牌阶段限一次，你可以交给一名角色一张手牌，然后你对你与其攻击范围内均包含的所有角色各造成1点伤害。"
+          }
+        ]
+      },
+      {
+        "name": "衰曹节王甫",
+        "image": "packs/jsrg/images/caojiewangfu.jpg",
+        "faction": "群",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "纵害",
+            "skillDescription": "每轮限一次，当其他角色进入濒死状态时，你可以令其选择至多两名角色，未被选择的角色于此次濒死结算中不能使用牌。此濒死结算结束后，你对其选择的角色各造成1点伤害。"
+          },
+          {
+            "skillName": "绝禋",
+            "skillDescription": "当你每回合首次受到伤害后，你可以摸三张牌，然后本回合所有角色受到的伤害+1。"
+          }
+        ]
+      },
+      {
+        "name": "衰张角",
+        "image": "packs/jsrg/images/js__zhangjiao.jpg",
+        "faction": "群",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "相濡",
+            "skillDescription": "当一名已受伤的其他角色/你受到致命伤害时，你/其他已受伤的角色可以交给伤害来源两张牌防止此伤害。"
+          },
+          {
+            "skillName": "悟道",
+            "skillDescription": "觉醒技，当一名角色进入濒死状态时，若你没有手牌，你增加1点体力上限并回复1点体力，获得〖惊雷〗。"
+          },
+            {
+            "skillName": "惊雷",
+            "skillDescription": "准备阶段开始时，你可以选择一名手牌数不为最少的角色，然后你令任意名手牌数之和小于其的角色各对其造成1点雷电伤害。"
+          }
+        ]
+      },
+      {
+        "name": "衰张奂",
+        "image": "packs/jsrg/images/zhanghuan.jpg",
+        "faction": "群",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "诛首",
+            "skillDescription": "你失去过牌的回合结束时，你可以选择弃牌堆中本回合进入的点数唯一最大的牌，然后你对本回合失去过此牌的一名角色造成1点伤害。"
+          },
+          {
+            "skillName": "扬戈",
+            "skillDescription": "每轮限一次，体力值最低的其他角色可以于其出牌阶段对你发动〖密诏〗。"
+          },
+          {
+            "skillName": "密诏",
+            "skillDescription": "出牌阶段限一次，你可以将所有手牌（至少一张）交给一名其他角色。若如此做，你令其与你指定的另一名角色拼点。若其赢，其视为对没赢的角色使用一张【杀】。"
+          }
+        ]
+      },
+      {
+        "name": "衰阳球",
+        "image": "packs/jsrg/images/yangqiu.jpg",
+        "faction": "群",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "埽奸",
+            "skillDescription": "出牌阶段限一次，你可以观看一名其他角色的手牌并选择其中一张令除其外的角色观看，然后其重复弃置一张手牌（至多五次），直至其弃置了你选择的牌。然后若其手牌数大于你，你失去1点体力。"
+          }
+        ]
+      },
+      {
+        "name": "衰刘表",
+        "image": "packs/jsrg/images/js__liubiao.jpg",
+        "faction": "群",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "宴杀",
+            "skillDescription": "出牌阶段限一次，你可以视为使用一张以至少一名角色为目标的【五谷丰登】，然后所有非目标角色依次可以将一张装备牌当做无距离限制的【杀】对其中一名目标角色使用。"
+          },
+          {
+            "skillName": "清平",
+            "skillDescription": "结束阶段开始时，若你攻击范围内的角色手牌数均大于0且不大于你，则你可以摸等同于这些角色数的牌。"
+          }
+        ]
+      },
+      {
+        "name": "衰陈蕃",
+        "image": "packs/jsrg/images/chenfan.jpg",
+        "faction": "群",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "刚忿",
+            "skillDescription": "当手牌数大于你的角色使用【杀】指定第一个目标时，你可以成为此【杀】的额外目标，并令所有其他角色均可以如此做。然后使用者展示所有手牌，若其中黑色牌小于目标数，则取消所有目标。"
+          },
+          {
+            "skillName": "当仁",
+            "skillDescription": "转换技，阳：当你需要对你使用【桃】时，你可以视为使用之；阴：当你需要对其他角色使用【桃】时，你须视为使用之。"
+          }
+        ]
+      },
+      {
+        "name": "衰张举",
+        "image": "packs/jsrg/images/zhangju.jpg",
+        "faction": "群",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "起乱",
+            "skillDescription": "每回合限两次，当你需要使用【杀】或【闪】时，你可以弃置至少一张牌并令至多等量名其他角色选择是否替你使用之。当有角色响应时，你摸等同于弃置的牌数。"
+          },
+          {
+            "skillName": "相假",
+            "skillDescription": "出牌阶段限一次，若你装备区有武器牌，你可以视为使用一张【借刀杀人】，然后目标角色可以视为对你使用一张【借刀杀人】。"
+          }
+        ]
+      }
+]

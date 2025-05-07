@@ -1,0 +1,139 @@
+[
+    {
+        "name": "谋黄盖",
+        "image": "packs/mougong/images/mou__huanggai.jpg",
+        "faction": "吴",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "苦肉",
+            "skillDescription": "①出牌阶段开始时，你可以将一张手牌交给一名其他角色，若如此做，你失去1点体力，若你交出的牌为【桃】或【酒】则改为2点；②当你失去1点体力值时，你获得2点护甲。"
+          },
+          {
+            "skillName": "诈降",
+            "skillDescription": "锁定技，①摸牌阶段，你的摸牌基数+X；②出牌阶段，你使用的前X张牌无距离和次数限制且无法响应（X为你已损失的体力值）。"
+          }
+        ]
+      },
+      {
+        "name": "谋曹仁",
+        "image": "packs/mougong/images/mou__caoren.jpg",
+        "faction": "魏",
+        "gender": "男",
+        "health": 4,
+        "initialArmor": 1,
+        "skills": [
+          {
+            "skillName": "据守",
+            "skillDescription": "①出牌阶段限一次，若你的武将牌正面朝上，你可以翻面，然后你弃置至多两张牌并获得等量的护甲。\n②当你受到伤害后，若你的武将牌背面朝上，你可以选择一项：1.翻面；2.获得1点护甲。\n③当你的武将牌从背面翻至正面时，你摸等同于你护甲值的牌。"
+          },
+          {
+            "skillName": "解围",
+            "skillDescription": "出牌阶段限一次，你可以失去1点护甲并选择一名其他角色，你观看其手牌并获得其中一张。"
+          }
+        ]
+      },
+      {
+        "name": "谋于禁",
+        "image": "packs/mougong/images/mou__yujin.jpg",
+        "faction": "魏",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "狭援",
+            "skillDescription": "每轮限一次，其他角色受到伤害后，若此伤害令其失去全部护甲，则你可以弃置两张手牌，令其获得本次伤害结算中期失去的护甲。"
+          },
+          {
+            "skillName": "节钺",
+            "skillDescription": "结束阶段，你可以令一名其他角色获得1点护甲，然后其可以交给你一张牌。"
+          }
+        ]
+      },
+      {
+        "name": "谋黄忠",
+        "image": "packs/mougong/images/mou__huangzhong.jpg",
+        "faction": "蜀",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "烈弓",
+            "skillDescription": "若你未装备武器，你的【杀】只能当作普通【杀】使用或打出。你使用牌时或成为其他角色使用牌的目标后，若此牌的花色未被“烈弓”记录，则记录此种花色。当你使用【杀】指定唯一目标后，你可以亮出牌堆顶的X张牌（X为你记录的花色数-1，且至少为0），然后每有一张牌花色与“烈弓”记录的花色相同，你令此【杀】伤害+1，且其不能使用“烈弓”记录花色的牌响应此【杀】。若如此做，此【杀】结算结束后，清除“烈弓”记录的花色。"
+          }
+        ]
+      },
+      {
+        "name": "谋吕蒙",
+        "image": "packs/mougong/images/mou__lvmeng.jpg",
+        "faction": "吴",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "克己",
+            "skillDescription": "出牌阶段各限一次（若你已觉醒“渡江”，改为出牌阶段限一次），你可以选择一项：1.弃置一张手牌，获得1点护甲；2.失去1点体力，获得2点护甲（护甲值至多为5）。\n你的手牌上限+X（X为你的护甲值）。若你不处于濒死状态，你不能使用【桃】。"
+          },
+          {
+            "skillName": "渡江",
+            "skillDescription": "觉醒技，准备阶段，若你的护甲值不小于3，你获得技能〖夺荆〗。"
+          },
+          {
+            "skillName": "夺荆",
+            "skillDescription": "当你使用【杀】指定一名角色为目标时，你可以失去1点护甲，令此【杀】无视该角色的防具，然后你获得该角色的一张手牌，本阶段你使用【杀】的次数上限+1。"
+          }
+        ]
+      },
+      {
+        "name": "谋黄月英",
+        "image": "packs/mougong/images/mou__huangyueying.jpg",
+        "faction": "蜀",
+        "gender": "女",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "集智",
+            "skillDescription": "锁定技，当你使用普通锦囊牌时，你摸一张牌，以此法获得的牌本回合不计入手牌上限。"
+          },
+          {
+            "skillName": "奇才",
+            "skillDescription": "你使用锦囊牌无距离限制。出牌阶段限一次，你可以选择一名其他角色，将手牌或弃牌堆中一张装备牌置入其装备区（若为斗地主模式，则改为防具牌且每种牌名限一次），然后其获得“奇”标记。有“奇”标记的角色接下来获得的三张普通锦囊牌须交给你。"
+          }
+        ]
+      },
+      {
+        "name": "谋卢植",
+        "image": "packs/mougong/images/mou__luzhi.jpg",
+        "faction": "群",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "明任",
+            "skillDescription": "①游戏开始时，你摸两张牌，然后将一张手牌置于你的武将牌上，称为“任”；②结束阶段，你可以用任意一张手牌替换“任”。"
+          },
+          {
+            "skillName": "贞良",
+            "skillDescription": "转换技，阳：出牌阶段限一次，你可以选择一名你攻击范围内的其他角色并弃置X张与“任”颜色相同的牌（X为你与其体力值之差且至少为1），然后对其造成1点伤害；\n阴：你的回合外，当一名角色使用或打出牌结算结束后，若此牌与“任”类别相同，你可以令一名角色摸两张牌。"
+          }
+        ]
+      },
+      {
+        "name": "谋陆逊",
+        "image": "packs/mougong/images/mou__luxun.jpg",
+        "faction": "吴",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "谦逊",
+            "skillDescription": "当锦囊牌对你生效时，若此牌名未被“谦逊”记录过且你不为使用者，则你记录之，然后你可以将至多X张牌扣置于你的武将牌上（X为“谦逊”记录的牌名数，且至多为5）。若如此做，当前回合结束时，你获得这些扣置的牌；出牌阶段开始时，你可移去“谦逊”记录的一个牌名，若此牌名为普通锦囊牌，则你可视为使用此牌。"
+          },
+          {
+            "skillName": "连营",
+            "skillDescription": "其他角色的回合结束时，你可以观看牌堆顶X张牌，然后将这些牌分配给任意角色（X为你本回合失去过的牌数，若为斗地主模式则+1，且至多为5）。"
+          }
+        ]
+      }
+]

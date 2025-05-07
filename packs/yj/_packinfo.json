@@ -1,0 +1,34 @@
+{
+    "displayName": "一将成名", 
+    "files": [
+      {
+        "file": "2011.json",   
+        "subPackName": "2011"   
+      },
+      {
+        "file": "2012.json",
+        "subPackName": "2012"
+      },
+      {
+        "file": "2013.json",
+        "subPackName": "2013"
+      },
+      {
+        "file": "2014.json",
+        "subPackName": "2014"
+      },
+      {
+        "file": "2015.json",
+        "subPackName": "2015"
+      },
+      {
+        "file": "2016.json",
+        "subPackName": "原创之魂2016"
+      },
+      {
+        "file": "2017.json",
+        "subPackName": "原创之魂2017"
+      }
+     
+    ]
+  }

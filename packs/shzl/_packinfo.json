@@ -1,0 +1,34 @@
+{
+    "displayName": "神话再临", 
+    "files": [
+      {
+        "file": "wind.json",   
+        "subPackName": "风"   
+      },
+      {
+        "file": "fire.json",
+        "subPackName": "火"
+      },
+      {
+        "file": "forest.json",
+        "subPackName": "林"
+      },
+      {
+        "file": "mountain.json",
+        "subPackName": "山"
+      },
+      {
+        "file": "shadow.json",
+        "subPackName": "阴"
+      },
+      {
+        "file": "thunder.json",
+        "subPackName": "雷"
+      },
+      {
+        "file": "god.json",
+        "subPackName": "神"
+      }
+     
+    ]
+  }

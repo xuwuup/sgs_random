@@ -1,0 +1,160 @@
+[
+    {
+      "name": "新服界孙登",
+      "image": "/packs/tenyear/images/ty_ex__sundeng.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "匡弼",
+          "skillDescription": "出牌阶段开始时，你可以令一名其他角色将一至三张牌置于你的武将牌上，本阶段结束时将“匡弼”牌置入弃牌堆。当你于有“匡弼”牌时使用牌时，若你：有与之花色相同的“匡弼”牌，则随机将其中一张置入弃牌堆，然后你与该角色各摸一张牌；没有与之花色相同的“匡弼”牌，则随机将一张置入弃牌堆，然后你摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "新服界杜畿",
+      "image": "/packs/tenyear/images/ty_ex__duji.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "安东",
+          "skillDescription": "当你受到其他角色造成的伤害时，你可令伤害来源选择一项：1.防止此伤害，本回合弃牌阶段♥牌不计入手牌上限；2.观看其手牌，若其中有♥牌则你获得这些牌。若选择2且其没有手牌，则下一次发动时改为由你选择。"
+        },
+        {
+          "skillName": "应势",
+          "skillDescription": "出牌阶段开始时，你可以展示一张手牌并选择一名其他角色，然后令另一名角色对其使用一张【杀】（无距离限制）。若其使用了【杀】，则其获得你展示的牌；若此【杀】造成了伤害，则其再获得牌堆中所有与展示牌花色点数均相同的牌。"
+        }
+      ]
+    },
+    {
+      "name": "新服界郭皇后",
+      "image": "/packs/tenyear/images/ty_ex__guohuanghou.jpg",
+      "faction": "魏",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "矫诏",
+          "skillDescription": "出牌阶段限一次，你可以展示一张手牌并选择一名距离最近的其他角色，该角色声明一种基本牌或普通锦囊牌的牌名，本回合你可以将此牌当声明的牌使用（不能指定自己为目标）。"
+        },
+        {
+          "skillName": "殚心",
+          "skillDescription": "当你受到伤害后，你可以摸一张牌并修改〖矫诏〗。第1次修改：将“一名距离最近的其他角色”改为“你”；第2次修改：删去“不能指定自己为目标”并将“出牌阶段限一次”改为“出牌阶段每种类型限声明一次”。"
+        }
+      ]
+    },
+    {
+      "name": "新服界黄月英",
+      "image": "/packs/tenyear/images/ty_ex__huangyueying.jpg",
+      "faction": "群",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "机巧",
+          "skillDescription": "出牌阶段开始时，你可以弃置任意张牌，然后你亮出牌堆顶等量的牌，你弃置的牌中每有一张装备牌，则多亮出一张牌。然后你获得其中的非装备牌。"
+        },
+        {
+          "skillName": "玲珑",
+          "skillDescription": "锁定技，若你的装备区里没有防具牌，你视为装备【八卦阵】；若你的装备区里没有坐骑牌，你的手牌上限+2；若你的装备区里没有宝物牌，你视为拥有〖奇才〗。若均满足，你使用的【杀】和普通锦囊牌不能被响应。"
+        }
+      ]
+    },
+    {
+      "name": "新服界太史慈",
+      "image": "/packs/tenyear/images/ty_ex__taishici.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "击虚",
+          "skillDescription": "出牌阶段限一次，你可以令至多你体力值数量的其他角色各猜测你的手牌中是否有【杀】。若你的手牌中：有【杀】，此阶段你使用【杀】次数上限+X且可以额外指定所有猜错的角色为目标；没有【杀】，你弃置所有猜错的角色各一张牌。然后你摸X张牌（X为猜错的角色数）。"
+        }
+      ]
+    },
+    {
+      "name": "新服界文聘",
+      "image": "/packs/tenyear/images/ty_ex__wenpin.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 5,
+      "skills": [
+        {
+          "skillName": "镇卫",
+          "skillDescription": "当其他角色成为【杀】或黑色锦囊牌的唯一目标时，若该角色的体力值不大于你，你可以弃置一张牌并选择一项：1.摸一张牌，然后将此牌转移给你；2.令此牌无效，然后当前回合结束后，使用者获得此牌。"
+        }
+      ]
+    },
+    {
+      "name": "新服界公孙瓒",
+      "image": "/packs/tenyear/images/ty_ex__gongsunzan.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "趫猛",
+          "skillDescription": "当你使用黑色牌指定目标后，你可以弃置其中一名其他目标角色的一张牌，若此牌为：锦囊牌，此黑色牌不能被响应；装备牌，你改为获得之。"
+        },
+        {
+          "skillName": "义从",
+          "skillDescription": "锁定技，你计算与其他角色的距离-1；若你已损失的体力值不小于2，其他角色计算与你的距离+1。"
+        }
+      ]
+    },
+    {
+      "name": "新服界马忠",
+      "image": "/packs/tenyear/images/ty_ex__mazhong.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "抚蛮",
+          "skillDescription": "出牌阶段每名角色限一次，你可以弃置一张牌，令一名角色从弃牌堆中获得一张【杀】，然后其于其回合结束前失去此【杀】时，其摸一张牌。若为因使用或打出而失去，你摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "新服界诸葛诞",
+      "image": "/packs/tenyear/images/ty_ex__zhugedan.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "功獒",
+          "skillDescription": "锁定技，一名其他角色第一次进入濒死状态时，你加1点体力上限，然后回复1点体力。"
+        },
+        {
+          "skillName": "举义",
+          "skillDescription": "觉醒技，准备阶段开始时，若你已受伤且体力上限大于存活角色数，你将手牌摸至体力上限，然后获得技能〖崩坏〗和〖威重〗。"
+        },
+        {
+          "skillName": "威重",
+          "skillDescription": "锁定技，当你的体力上限变化时，你摸两张牌。"
+        }
+      ]
+    },
+    {
+      "name": "新服界司马朗",
+      "image": "/packs/tenyear/images/ty_ex__simalang.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "郡兵",
+          "skillDescription": "一名角色的结束阶段，若其手牌数小于体力值，该角色可以摸一张牌并将所有手牌交给你，然后你可以将等量的牌交给该角色。"
+        },
+        {
+          "skillName": "去疾",
+          "skillDescription": "出牌阶段限一次，若你已受伤，你可以弃置X张牌，令至多X名已受伤的角色各回复1点体力（X为你已损失的体力值），然后其中仍受伤的角色各摸一张牌。若弃置的牌中包含黑色牌，你失去1点体力。"
+        }
+      ]
+    }
+  ]

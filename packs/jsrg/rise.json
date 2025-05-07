@@ -1,0 +1,210 @@
+[
+  
+  {
+    "name": "兴司马昭",
+    "image": "packs/jsrg/images/js__simazhao.jpg",
+    "faction": "魏",
+    "faction2": "晋",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "谦吞",
+        "skillDescription": "出牌阶段限一次，你可以令一名其他角色展示至少一张手牌，并与其拼点，其本次拼点牌只能从展示牌中选择。若你赢，你获得其展示的手牌；若你没赢，你获得其未展示的手牌。然后你展示手牌。"
+      },
+      {
+        "skillName": "挟征",
+        "skillDescription": "结束阶段，你可以令至多三名角色依次将一张手牌置于牌堆顶，然后视为你使用一张【兵临城下】，结算后若未造成过伤害，你失去1点体力。"
+      },
+      {
+        "skillName": "昭凶",
+        "skillDescription": "限定技，准备阶段，若你已受伤且发动过〖挟征〗，你可以变更势力至晋，失去〖谦吞〗，获得〖威肆〗〖荡异〗。"
+      },
+      {
+        "skillName": "威肆",
+        "skillDescription": "出牌阶段限一次，你可以选择一名其他角色，令其将任意张手牌移出游戏直到回合结束，然后视为对其使用一张【决斗】，此牌对其造成伤害后，你获得其所有手牌。"
+      },
+      
+      {
+        "skillName": "荡异",
+        "skillDescription": "主公技，当你造成伤害时，你可以令此伤害值+1，本局游戏限X次（X为你获得此技能时已损失体力值+1）。"
+      }
+    ]
+  },
+  {
+    "name": "兴陆抗",
+    "image": "packs/jsrg/images/js__lukang.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "筑围",
+        "skillDescription": "出牌阶段限一次，你可以移动场上一张装备牌，然后你可以令一名攻击范围内的角色数变为0的角色失去2点体力。"
+      },
+      {
+        "skillName": "匡谏",
+        "skillDescription": "你可以将装备牌当任意基本牌使用（目标不能为你且无次数限制），结算后目标角色使用弃牌堆中的此装备牌。"
+      }
+    ]
+  },
+  {
+    "name": "兴马隆",
+    "image": "packs/jsrg/images/malong.jpg",
+    "faction": "晋",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "奋难",
+        "skillDescription": "出牌阶段限X次，你可以令一名角色选择一项：1.令你翻面，然后你移动其场上一张本回合未移动过的牌；2.你观看并重铸其至多X张手牌（X为你装备区内牌的数量）。"
+      },
+      {
+        "skillName": "勋济",
+        "skillDescription": "结束阶段，若你于本回合对回合内你使用牌指定过的其他角色均造成过伤害，你可以将弃牌堆中本回合造成伤害的牌分配给至多等量角色各一张。"
+      }
+    ]
+  },
+  {
+    "name": "兴王濬",
+    "image": "packs/jsrg/images/js__wangjun.jpg",
+    "faction": "晋",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "乘流",
+        "skillDescription": "准备阶段，你可以对一名装备区内牌数小于你的角色造成1点伤害，然后你可以弃置装备区内的一张牌，对一名本回合未以此法选择过的角色重复此流程。"
+      },
+      {
+        "skillName": "舰楼",
+        "skillDescription": "每回合限一次，当一张装备牌进入弃牌堆后，你可以弃置一张牌并获得之，然后若你对应装备栏没有装备，你使用之。"
+      }
+    ]
+  },
+  {
+    "name": "兴李密",
+    "image": "packs/jsrg/images/limi.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "health": 3,
+    "skills": [
+      {
+        "skillName": "辞应",
+        "skillDescription": "每回合限一次，你可以将至少X张牌当任意基本牌使用或打出（X为本回合未进入过弃牌堆的花色数，至少为1）。此牌结算结束后，若本回合所有花色的牌均进入过弃牌堆，你将手牌摸至体力上限。"
+      },
+      {
+        "skillName": "陈笃",
+        "skillDescription": "锁定技，当你的牌因使用、打出或弃置进入弃牌堆后，若数量大于你的体力值，你将这些牌分配给其他角色（若不为你的回合，则选择的角色必须包含当前回合角色）。"
+      }
+    ]
+  },
+  {
+    "name": "兴司马亮",
+    "image": "packs/jsrg/images/simaliang.jpg",
+    "faction": "晋",
+    "gender": "男",
+    "health": 4,
+    "startingHealth": 3,
+    "skills": [
+      {
+        "skillName": "慑惧",
+        "skillDescription": "锁定技，当你使用【杀】指定唯一目标后或成为【杀】的唯一目标后，你与对方议事：若结果为黑色，双方各减1点体力上限；否则意见为黑色的角色摸两张牌。"
+      },
+      {
+        "skillName": "族望",
+        "skillDescription": "锁定技，准备阶段和结束阶段，你将手牌摸至体力上限。"
+      }
+    ]
+  },
+  {
+    "name": "兴文鸯",
+    "image": "packs/jsrg/images/js__wenyang.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "覆阵",
+        "skillDescription": "准备阶段，你可以失去1点体力，视为使用一张无距离限制的雷【杀】，此【杀】可以额外指定至多两个目标，你秘密选择其中一名目标角色。此【杀】结算后，你摸造成伤害值的牌；若未对你秘密选择的角色造成伤害，你再视为对这些角色使用一张雷【杀】。"
+      }
+    ]
+  },
+  {
+    "name": "兴贾南风",
+    "image": "packs/jsrg/images/jiananfeng.jpg",
+    "faction": "晋",
+    "gender": "女",
+    "health": 3,
+    "skills": [
+      {
+        "skillName": "擅政",
+        "skillDescription": "出牌阶段限一次，你可以与任意名角色议事，若结果为：红色，你可以对一名未参与议事的角色造成1点伤害；黑色，你获得所有意见牌。"
+      },
+      {
+        "skillName": "凶暴",
+        "skillDescription": "当你参与议事选择议事牌前，你可以改为额外展示一张手牌，若如此做，其他角色改为随机展示一张手牌。"
+      },
+      {
+        "skillName": "烈妒",
+        "skillDescription": "锁定技，其他女性角色和手牌数大于你的角色不能响应你使用的牌。"
+      }
+    ]
+  },
+  {
+    "name": "兴秃发树机能",
+    "image": "packs/jsrg/images/tufashujineng.jpg",
+    "faction": "群",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "侵扰",
+        "skillDescription": "其他角色出牌阶段开始时，你可以将一张牌当【决斗】对其使用，若其手牌中有可以打出的【杀】，其必须打出响应，否则其展示所有手牌。"
+      },
+      {
+        "skillName": "复燃",
+        "skillDescription": "当你受到伤害后，若你不在伤害来源攻击范围内，你可以于此回合结束时回复1点体力。"
+      }
+    ]
+  },
+  {
+    "name": "兴邓艾",
+    "image": "packs/jsrg/images/js__dengai.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "辟奇",
+        "skillDescription": "出牌阶段限两次，你可以视为使用一张无距离限制的【顺手牵羊】（两次目标不能为同一名角色），与目标距离1以内的角色本回合可以将【闪】当【无懈可击】使用。"
+      },
+      {
+        "skillName": "骤临",
+        "skillDescription": "当你使用【杀】对一名角色造成伤害时，若本回合开始时其不在你的攻击范围内，此伤害+1。"
+      }
+    ]
+  },
+  {
+    "name": "兴诸葛诞",
+    "image": "packs/jsrg/images/js__zhugedan.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "坐瞻",
+        "skillDescription": "游戏开始时，你选择你与至多两名其他角色，你的攻击范围+X（X为你选择角色中最大的体力值，至多为5）。当“坐瞻”角色死亡后，你令一名存活的“坐瞻”角色从弃牌堆中获得至多X张牌名各不相同的基本牌。"
+      },
+      {
+        "skillName": "摧冰",
+        "skillDescription": "锁定技，出牌阶段结束时，你将手牌摸或弃置至X张（X为你攻击范围内的角色数且至多为5）。若你因此弃置了牌，你弃置场上至多等量张牌；否则你跳过弃牌阶段。"
+      },
+      {
+        "skillName": "阑干",
+        "skillDescription": "锁定技，当其他角色死亡后，你回复1点体力并摸两张牌，然后你的攻击范围-1（至多减3）。"
+      }
+    ]
+  }
+  
+]

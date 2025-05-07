@@ -1,0 +1,74 @@
+{
+    "displayName": "十周年", 
+    "files": [
+      {
+        "file": "tenyear_xinghuo.json",   
+        "subPackName": "星火燎原"   
+      },
+      {
+        "file": "tenyear_exxinghuo.json",
+        "subPackName": "界星火燎原"
+      },
+      {
+        "file": "tenyear_yj.json",
+        "subPackName": "一将成名"
+      }, 
+      {
+        "file": "tenyear_ex.json",
+        "subPackName": "界一将成名"
+      },
+      {
+        "file": "tenyear_star.json",
+        "subPackName": "星河璀璨"
+      },
+      {
+        "file": "tenyear_wei.json",
+        "subPackName": "威"
+      },
+      {
+        "file": "tenyear_mou.json",
+        "subPackName": "谋"
+      },
+      {
+        "file": "tenyear_liezhuan.json",
+        "subPackName": "武将列传"
+      },
+      {
+        "file": "tenyear_activity.json",
+        "subPackName": "南征北战"
+      },
+      {
+        "file": "tenyear_other.json",
+        "subPackName": "其他"
+      },
+      {
+        "file": "tenyear_sp1.json",
+        "subPackName": "限定专属1"
+      },
+      {
+        "file": "tenyear_sp2.json",
+        "subPackName": "限定专属2"
+      },
+      {
+        "file": "tenyear_sp3.json",
+        "subPackName": "限定专属3"
+      },
+      {
+        "file": "tenyear_sp4.json",
+        "subPackName": "限定专属4"
+      },
+      {
+        "file": "tenyear_huicui1.json",
+        "subPackName": "群英荟萃1"
+      },
+      {
+        "file": "tenyear_huicui2.json",
+        "subPackName": "群英荟萃2"
+      },
+      {
+        "file": "tenyear_huicui3.json",
+        "subPackName": "群英荟萃3"
+      }
+      
+    ]
+  }

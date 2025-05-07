@@ -1,0 +1,150 @@
+[
+    {
+      "name": "手杀张昌蒲",
+      "image": "packs/mobile/images/mobile__zhangchangpu.jpg",
+      "faction": "魏",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "抵诽",
+          "skillDescription": "锁定技，每回合限一次，当你受到伤害后，你摸一张牌或弃置一张手牌，然后你展示所有手牌，若对你造成伤害的牌无花色或你的手牌中没有与对你造成伤害的牌花色相同的牌，你回复1点体力。"
+        },
+        {
+          "skillName": "严教",
+          "skillDescription": "出牌阶段限一次，你可以将手牌中某种花色的所有牌（至少一张）交给一名其他角色，然后对其造成1点伤害，若如此做，你的下个回合开始时，你摸X张牌（X为你以此法给出的牌数）。"
+        }
+      ]
+    },
+    {
+      "name": "手杀崔琰",
+      "image": "packs/mobile/images/mobile__cuiyan.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "雅俊",
+          "skillDescription": "①摸牌阶段，你多摸一张牌；②出牌阶段开始时，你可以用一张本回合获得的牌与一名其他角色拼点，若你：赢，你可以将其中一张拼点牌置于牌堆顶；没赢，你本回合的手牌上限-1。"
+        },
+        {
+          "skillName": "尊嫡",
+          "skillDescription": "出牌阶段限一次，你可以弃置一张手牌并选择一名角色，然后你进行判定，若结果为：黑色，其摸三张牌；红色，其可以移动场上一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "手杀蒋琬",
+      "image": "packs/mobile/images/jiangwan.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "镇庭",
+          "skillDescription": "每回合限一次，当你攻击范围内的一名角色成为【杀】或延时锦囊牌的目标时，若你不为此牌的使用者或目标，你可以代替其成为此牌的目标，然后选择一项：1.弃置此牌使用者的一张牌；2.摸一张牌。"
+        },
+        {
+          "skillName": "尽瘁",
+          "skillDescription": "限定技，出牌阶段，你可以与一名其他角色交换座次，然后你失去X点体力（X为你的体力值）。"
+        }
+      ]
+    },
+    {
+      "name": "手杀刘巴",
+      "image": "packs/mobile/images/mobile__liuba.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "锻币",
+          "skillDescription": "限定技，出牌阶段，若所有角色的手牌数之和大于存活角色数的两倍，你可以令所有其他角色弃置X张手牌（X为其手牌数的一半，向上取整且至多为3），然后你可以选择一名角色，随机将三张以此法弃置的牌交给其。"
+        },
+        {
+          "skillName": "统度",
+          "skillDescription": "每回合限一次，当你成为其他角色使用牌的唯一目标后，你可以令一名角色重铸一张牌，若此牌为：♥牌或锦囊牌，其多摸一张牌；【无中生有】，你重置〖锻币〗。"
+        }
+      ]
+    },
+    {
+      "name": "手杀蒋钦",
+      "image": "packs/mobile/images/mobile__jiangqin.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "俭衣",
+          "skillDescription": "锁定技，其他角色回合结束时，若弃牌堆中有本回合弃置的防具牌，则你选择其中一张获得。"
+        },
+        {
+          "skillName": "尚义",
+          "skillDescription": "出牌阶段限一次，你可以弃置一张牌并令一名有手牌的其他角色观看你的手牌，然后你观看其手牌并获得其中一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "手杀吕范",
+      "image": "packs/mobile/images/mobile__lvfan.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "调度",
+          "skillDescription": "准备阶段，你可以移动场上的一张装备牌，然后以此法失去牌的角色摸一张牌。"
+        },
+        {
+          "skillName": "典财",
+          "skillDescription": "其他角色的出牌阶段结束时，若你于此阶段失去了至少X张牌（X为你的体力值），则你可以将手牌摸至体力上限。"
+        },
+        {
+          "skillName": "严纪",
+          "skillDescription": "出牌阶段开始时，你可以进行“整肃”。"
+        }
+      ]
+    },
+    {
+      "name": "手杀皇甫嵩",
+      "image": "packs/mobile/images/mobile__huangfusong.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "讨乱",
+          "skillDescription": "每回合限一次，当一名角色判定牌生效前，若判定结果为♠，你可以终止此次判定并选择一项：1.你获得此判定牌；2.若进行判定的角色不是你，你视为对其使用一张无距离和次数限制的火【杀】。"
+        },
+        {
+          "skillName": "势击",
+          "skillDescription": "当你对其他角色造成属性伤害时，若你的手牌数不为全场唯一最多，你可以观看其手牌并弃置其中所有的红色牌，然后你摸等量的牌。"
+        },
+        {
+          "skillName": "整军",
+          "skillDescription": "出牌阶段开始时，你可以进行“整肃”，弃牌阶段结束后，若“整肃”成功，你获得“整肃”奖励，然后你可以令一名其他角色也获得“整肃”奖励。"
+        }
+      ]
+    },
+    {
+      "name": "手杀朱儁",
+      "image": "packs/mobile/images/mobile__zhujun.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "佯解",
+          "skillDescription": "出牌阶段限一次，你可以与一名角色拼点。若你没赢，你可以令另一名其他角色视为对与你拼点的角色使用一张无距离限制的火【杀】。"
+        },
+        {
+          "skillName": "拒降",
+          "skillDescription": "限定技，当一名其他角色的濒死结算结束后，你可对其造成1点伤害。"
+        },
+        {
+          "skillName": "厚俸",
+          "skillDescription": "每轮限一次，你攻击范围内一名角色出牌阶段开始时，你可以令其“整肃”；你与其共同获得“整肃”奖励。"
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,45 @@
+[
+    {
+      "name": "台版曹昂",
+      "image": "packs/yjtw/images/tw__caoang.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "孝廉",
+          "skillDescription": "当一名其他角色成为【杀】的唯一目标时，你可以将此【杀】转移给你。此【杀】结算后，若你受到此【杀】的伤害，你可以将一张牌当【绝影】置入其装备区。"
+        }
+      ]
+    },
+    {
+      "name": "台版夏侯霸",
+      "image": "packs/yjtw/images/tw__xiahouba.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "姻亲",
+          "skillDescription": "准备阶段，你可以将势力变为魏或蜀。"
+        },
+        {
+          "skillName": "豹变",
+          "skillDescription": "当你使用【杀】或【决斗】造成伤害时，若你的势力与其：相同，你可以防止此伤害，令其将手牌摸至体力上限；不同，你可以将其手牌弃至体力值。"
+        }
+      ]
+    },
+    {
+      "name": "台版祖茂",
+      "image": "packs/yjtw/images/tw__zumao.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "替巾",
+          "skillDescription": "当其他角色使用【杀】指定唯一目标时，若你在其攻击范围内，你可以将此【杀】转移给你。此【杀】结算后，你弃置使用者一张牌。"
+        }
+      ]
+    }
+  ]

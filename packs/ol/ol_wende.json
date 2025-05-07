@@ -1,0 +1,448 @@
+[
+    {
+      "name": "OL司马懿",
+      "image": "/packs/ol/images/ol__simayi.jpg",
+      "faction": "晋",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "不臣",
+          "skillDescription": "隐匿。你于其他角色的回合登场后，你可获得其一张牌。"
+        },
+        {
+          "skillName": "鹰视",
+          "skillDescription": "锁定技，牌堆顶的X张牌于你出牌阶段空闲时对你可见（X为你的体力上限）。"
+        },
+        {
+          "skillName": "雄志",
+          "skillDescription": "限定技，出牌阶段，你可展示牌堆顶牌并使用之。你可重复此流程直到牌堆顶牌不能被使用。"
+        },
+        {
+          "skillName": "权变",
+          "skillDescription": "当你于出牌阶段首次使用或打出一种花色的手牌时，你可从牌堆顶X张牌中获得一张与此牌花色不同的牌，将其余牌以任意顺序置于牌堆顶。出牌阶段，你至多使用X张非装备手牌。（X为你的体力上限）"
+        }
+      ]
+    },
+    {
+      "name": "OL张春华",
+      "image": "/packs/ol/images/ol__zhangchunhua.jpg",
+      "faction": "晋",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "宣穆",
+          "skillDescription": "隐匿。锁定技，你于其他角色的回合登场时，防止你受到的伤害直到回合结束。"
+        },
+        {
+          "skillName": "慧识",
+          "skillDescription": "摸牌阶段，你可以放弃摸牌，改为观看牌堆顶的X张牌，获得其中的一半（向下取整），然后将其余牌置入牌堆底。（X为牌堆数量的个位数）"
+        },
+        {
+          "skillName": "清冷",
+          "skillDescription": "其他角色回合结束时，若其体力值与手牌数之和不小于X，你可将一张牌当无距离限制的冰【杀】对其使用。你对一名没有成为过〖清冷〗目标的角色发动〖清冷〗时，摸一张牌。（X为牌堆数量的个位数）"
+        }
+      ]
+    },
+    {
+      "name": "OL李肃",
+      "image": "/packs/ol/images/ol__lisu.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "巧言",
+          "skillDescription": "锁定技，在你的回合外，当其他角色对你造成伤害时，若你：没有“珠”，你防止此伤害并摸一张牌，然后将一张牌置于你的武将牌上，称为“珠”；有“珠”，其获得“珠”。"
+        },
+        {
+          "skillName": "献珠",
+          "skillDescription": "锁定技，出牌阶段开始时，你令一名角色获得“珠”；若不为你，其视为对你攻击范围内你指定的一名角色使用一张【杀】。"
+        }
+      ]
+    },
+    {
+      "name": "司马伷",
+      "image": "/packs/ol/images/simazhou.jpg",
+      "faction": "晋",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "才望",
+          "skillDescription": "当你使用/打出牌响应其他角色使用的牌后，或其他角色使用/打出牌响应你使用的牌后，若两张牌颜色相同，你可以弃置其一张牌。你可以将最后一张手牌当【闪】使用或打出；将最后一张你装备区里的牌当【无懈可击】使用；将最后一张你判定区的牌当【杀】使用或打出。"
+        },
+        {
+          "skillName": "纳降",
+          "skillDescription": "锁定技，当其他角色对你造成伤害或受到你的伤害后，你对其发动〖才望〗的“弃置”修改为“获得”直到你的回合开始。"
+        }
+      ]
+    },
+    {
+      "name": "彻里吉",
+      "image": "/packs/ol/images/cheliji.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "车悬",
+          "skillDescription": "①出牌阶段，若你的装备区里没有宝物牌，你可以弃置一张黑色牌，选择一张“舆”置入你的装备区（此牌离开装备区时销毁）。②当你不因使用装备牌失去装备区里的宝物牌后，你可以判定，若结果为黑色，将一张随机的“舆”置入你的装备区。"
+        },
+        {
+          "skillName": "羌首",
+          "skillDescription": "锁定技，若你的装备区里有宝物牌，你至其他角色的距离-1。"
+        }
+      ]
+    },
+    {
+      "name": "OL华歆",
+      "image": "/packs/ol/images/ol__huaxin.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "草诏",
+          "skillDescription": "出牌阶段限一次，你可展示一张手牌并声明一种未以此法声明过的基本牌或普通锦囊牌，令一名体力值不大于你的其他角色选择一项：令此牌视为你声明的牌，或其失去1点体力。然后若此牌声明成功，你可以将之交给一名其他角色。"
+        },
+        {
+          "skillName": "息兵",
+          "skillDescription": "当你受到其他角色造成的伤害后，你可以弃置你或其两张牌，然后手牌数少的角色摸两张牌，以此法摸牌的角色不能使用牌指定你为目标直到回合结束。"
+        }
+      ]
+    },
+    {
+      "name": "成济成倅",
+      "image": "/packs/ol/images/chengjichengcui.jpg",
+      "faction": "魏",
+      "faction2": "晋",
+      "gender": "男",
+      "health": 6,
+      "skills": [
+        {
+          "skillName": "透髓",
+          "skillDescription": "你可以将任意张牌置于牌堆底，视为使用一张需要等量张【闪】抵消的【杀】。"
+        },
+        {
+          "skillName": "畜鸣",
+          "skillDescription": "锁定技，当你对其他角色造成伤害或受到其他角色造成的伤害时，若此伤害：没有对应的实体牌，此伤害+1；有对应的实体牌，其本回合结束时将造成伤害的牌当【借刀杀人】或【过河拆桥】对你使用。"
+        }
+      ]
+    },
+    {
+      "name": "张虎乐綝",
+      "image": "/packs/ol/images/zhanghuyuechen.jpg",
+      "faction": "晋",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "袭爵",
+          "skillDescription": "游戏开始时，你获得4个“爵”标记；回合结束时，你获得X个“爵”标记（X为你本回合造成的伤害值）。你可以移去1个“爵”标记发动〖突袭〗或〖骁果〗。"
+        }
+      ]
+    },
+    {
+      "name": "夏侯徽",
+      "image": "/packs/ol/images/xiahouhui.jpg",
+      "faction": "晋",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "宝箧",
+          "skillDescription": "隐匿。锁定技，当你登场后，你从牌堆或弃牌堆获得一张宝物牌，然后你可以使用之。"
+        },
+        {
+          "skillName": "宜室",
+          "skillDescription": "每回合限一次，当一名其他角色于其出牌阶段弃置手牌后，你可以令其获得其中的一张牌，然后你获得其余的牌。"
+        },
+        {
+          "skillName": "识度",
+          "skillDescription": "出牌阶段限一次，你可以与一名角色拼点，若你赢，你获得其所有手牌，然后你交给其你的一半手牌（向下取整）。"
+        }
+      ]
+    },
+    {
+      "name": "OL司马师",
+      "image": "/packs/ol/images/ol__simashi.jpg",
+      "faction": "晋",
+      "gender": "男",
+      "health": 4,
+      "startingHealth": 3,
+      "skills": [
+        {
+          "skillName": "韬隐",
+          "skillDescription": "隐匿。你于其他角色的回合登场后，你可以令其本回合的手牌上限-2。"
+        },
+        {
+          "skillName": "夷灭",
+          "skillDescription": "每回合限一次，当你对一名其他角色造成伤害时，你可失去1点体力，令此伤害值+X（X为其体力值减去伤害值）。伤害结算后，其回复X点体力。"
+        },
+        {
+          "skillName": "泰然",
+          "skillDescription": "锁定技，回合结束时，你回复体力至体力上限，将手牌摸至体力上限；出牌阶段开始时，你失去上次以此法回复的体力值，弃置以此法获得的手牌。"
+        },
+        {
+          "skillName": "睿略",
+          "skillDescription": "主公技，其他晋势力角色的出牌阶段限一次，该角色可以将一张【杀】或伤害锦囊牌交给你。"
+        }
+      ]
+    },
+    {
+      "name": "OL羊徽瑜",
+      "image": "/packs/ol/images/ol__yanghuiyu.jpg",
+      "faction": "晋",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "慧容",
+          "skillDescription": "隐匿。锁定技，你登场时，令一名角色将手牌摸或弃至体力值（至多摸至五张）。"
+        },
+        {
+          "skillName": "慈威",
+          "skillDescription": "其他角色于其回合内使用第二张牌时，若此牌为基本牌或普通锦囊牌，你可弃置一张牌令此牌无效（取消所有目标）。"
+        },
+        {
+          "skillName": "才媛",
+          "skillDescription": "锁定技，回合结束前，若你于上回合结束至今未扣减过体力，你摸两张牌。"
+        }
+      ]
+    },
+    {
+      "name": "石苞",
+      "image": "/packs/ol/images/shibao.jpg",
+      "faction": "晋",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "擢升",
+          "skillDescription": "出牌阶段，当你使用本轮非以本技能获得的牌时，根据类型执行以下效果：1.基本牌，无距离和次数限制；2.普通锦囊牌，可以令此牌目标+1或-1；3.装备牌，你可以摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "OL司马昭",
+      "image": "/packs/ol/images/ol__simazhao.jpg",
+      "faction": "晋",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "推弑",
+          "skillDescription": "隐匿。当你于其他角色的回合内登场后，你可以于此回合结束阶段令其选择一项：1.对其攻击范围内你选择的一名角色使用【杀】；2.受到1点伤害。"
+        },
+        {
+          "skillName": "筹伐",
+          "skillDescription": "出牌阶段限一次，你可展示一名其他角色的一张手牌，其手牌中与此牌不同类型的牌均视为【杀】直到其回合结束。"
+        },
+        {
+          "skillName": "昭然",
+          "skillDescription": "出牌阶段开始时，你可展示所有手牌。若如此做，当你于本阶段失去任意花色的最后一张手牌时（每种花色限一次），你摸一张牌或弃置一名其他角色的一张牌。"
+        },
+        {
+          "skillName": "成务",
+          "skillDescription": "主公技，锁定技，其他晋势力角色攻击范围内的角色均视为在你的攻击范围内。"
+        }
+      ]
+    },
+    {
+      "name": "宣公主",
+      "image": "/packs/ol/images/xuangongzhu.jpg",
+      "faction": "晋",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "高陵",
+          "skillDescription": "隐匿。当你于其他角色的回合内登场时，你可以令一名角色回复1点体力。"
+        },
+        {
+          "skillName": "齐眉",
+          "skillDescription": "准备阶段，你可以选择一名其他角色，直到你的下个回合开始（每回合每项限一次），当你或该角色的手牌数或体力值变化后，若双方的此数值相等，另一方摸一张牌。"
+        },
+        {
+          "skillName": "追姬",
+          "skillDescription": "出牌阶段开始时，你可以选择一项：1.回复1点体力，并于此阶段结束时弃置两张牌；2.摸两张牌，并于此阶段结束时失去1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "OL王元姬",
+      "image": "/packs/ol/images/ol__wangyuanji.jpg",
+      "faction": "晋",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "识人",
+          "skillDescription": "隐匿。你于其他角色的回合登场后，若当前回合角色有手牌，你可以对其发动〖宴戏〗。"
+        },
+        {
+          "skillName": "宴戏",
+          "skillDescription": "出牌阶段限一次，你将一名其他角色的随机一张手牌与牌堆顶的两张牌混合后展示，你猜测哪张牌来自其手牌。若猜对，你获得三张牌；若猜错，你获得选中的牌。你以此法获得的牌本回合不计入手牌上限。"
+        }
+      ]
+    },
+    {
+      "name": "OL杜预",
+      "image": "/packs/ol/images/ol__duyu.jpg",
+      "faction": "晋",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "三陈",
+          "skillDescription": "出牌阶段限一次，你可令一名角色摸三张牌然后弃置三张牌。若其未因此次〖三陈〗的效果而弃置至少两张类别相同的牌，则其摸一张牌，且本技能视为未发动过（本回合不能再指定其为目标）。"
+        },
+        {
+          "skillName": "昭讨",
+          "skillDescription": "觉醒技，准备阶段开始时，若你本局游戏发动过至少3次〖三陈〗，你减1点体力上限，获得〖破竹〗。"
+        },
+        {
+          "skillName": "破竹",
+          "skillDescription": "出牌阶段，你可将一张手牌当【出其不意】使用，若此【出其不意】未造成伤害，此技能无效直到回合结束。"
+        }
+      ]
+    },
+    {
+      "name": "卫瓘",
+      "image": "/packs/ol/images/weiguan.jpg",
+      "faction": "晋",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "忠允",
+          "skillDescription": "锁定技，每回合各限一次，当你受到伤害或回复体力后，若你的体力值与你的手牌数相等，你回复1点体力或对你攻击范围内的一名角色造成1点伤害；当你获得或失去手牌后，若你的体力值与你的手牌数相等，你摸一张牌或弃置一名其他角色的一张牌。"
+        },
+        {
+          "skillName": "神品",
+          "skillDescription": "当一名角色的判定牌生效前，你可以打出一张与判定牌颜色不同的牌代替之。"
+        }
+      ]
+    },
+    {
+      "name": "钟琰",
+      "image": "/packs/ol/images/zhongyan.jpg",
+      "faction": "晋",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "博览",
+          "skillDescription": "出牌阶段开始时，你可以从随机三个“出牌阶段限一次”的技能中选择一个获得直到本阶段结束；其他角色的出牌阶段限一次，其可以失去1点体力，令你从随机三个“出牌阶段限一次”的技能中选择一个，其获得之直到此阶段结束。村：“博览”技能池为多服扩充版，且不会出现房间禁卡"
+        },
+        {
+          "skillName": "仪法",
+          "skillDescription": "锁定技，当其他角色使用【杀】或黑色普通锦囊牌指定你为目标后，其手牌上限-1直到其回合结束。"
+        }
+      ]
+    },
+    {
+      "name": "辛敞",
+      "image": "/packs/ol/images/xinchang.jpg",
+      "faction": "晋",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "参谋",
+          "skillDescription": "当手牌数全场唯一最多的角色使用普通锦囊牌指定目标时，你可以为此锦囊牌多指定一个目标。"
+        },
+        {
+          "skillName": "从鉴",
+          "skillDescription": "当体力值全场唯一最大的其他角色成为普通锦囊牌的唯一目标时，你可以也成为此牌目标，此牌结算后，若此牌对你造成伤害，你摸两张牌。"
+        }
+      ]
+    },
+    {
+      "name": "OL贾充",
+      "image": "/packs/ol/images/ol__jiachong.jpg",
+      "faction": "晋",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "凶竖",
+          "skillDescription": "其他角色出牌阶段开始时，你可以：弃置X张牌（X为本轮你此前发动过此技能的次数；不足则全弃，无牌则不弃），展示其一张手牌，你秘密猜测其于此出牌阶段是否会使用与此牌同名的牌。出牌阶段结束时，若你猜对，你对其造成1点伤害；若你猜错，你获得此牌。"
+        },
+        {
+          "skillName": "奸回",
+          "skillDescription": "锁定技，你记录上次对你造成伤害的角色。当你对其造成伤害后，你摸一张牌；当你受到其造成的伤害后，其弃置一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "王祥",
+      "image": "/packs/ol/images/wangxiang.jpg",
+      "faction": "晋",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "冰心",
+          "skillDescription": "若你手牌的数量等于体力值且颜色相同，你可以摸一张牌视为使用一张与本回合以此法使用过的牌牌名不同的基本牌。"
+        }
+      ]
+    },
+    {
+      "name": "杨艳",
+      "image": "/packs/ol/images/yangyan.jpg",
+      "faction": "晋",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "选备",
+          "skillDescription": "出牌阶段限一次，你可以选择一名其他角色区域内的一张牌，令其将此牌当无距离限制的【杀】对你使用，若此【杀】未对你造成伤害，你摸一张牌，否则你摸两张牌。"
+        },
+        {
+          "skillName": "娴婉",
+          "skillDescription": "你可以横置，视为使用一张【闪】；你可以重置，视为使用一张【杀】。"
+        }
+      ]
+    },
+    {
+      "name": "杨芷",
+      "image": "/packs/ol/images/yangzhi.jpg",
+      "faction": "晋",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "婉嫕",
+          "skillDescription": "当你使用【杀】或普通锦囊牌指定唯一其他角色为目标后，你可以将其一张牌置于你的武将牌上。你不能使用、打出、弃置与“婉嫕”牌花色相同的牌。结束阶段或当你受到伤害后，你令一名角色获得一张“婉嫕”牌。"
+        },
+        {
+          "skillName": "埋祸",
+          "skillDescription": "其他角色非因本技能使用的非转化的【杀】指定你为唯一目标后，若其没有“祸”，你可以令此【杀】对你无效并将之置于其武将牌上，称为“祸”，其下个出牌阶段开始时对你使用此【杀】（须合法且有次数限制，不合法则移去之）。当你对其他角色造成伤害后，你移去其武将牌上的“祸”。"
+        }
+      ]
+    },
+    {
+      "name": "王衍",
+      "image": "/packs/ol/images/wangyan.jpg",
+      "faction": "晋",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "阳狂",
+          "skillDescription": "当你回复体力至上限后，你可以视为使用一张【酒】并与当前回合角色各摸一张牌。"
+        },
+        {
+          "skillName": "雌黄",
+          "skillDescription": "当前回合角色对唯一目标使用的牌被抵消后，你可以将一张牌当一张本轮你未使用过的属性【杀】或单一目标普通锦囊牌对使用者使用且此牌不能被响应。"
+        },
+        {
+          "skillName": "三窟",
+          "skillDescription": "锁定技，当你进入濒死状态时，你减1点体力上限并回复体力至上限；当你的体力上限增加时，你防止之。"
+        }
+      ]
+    }
+  ]

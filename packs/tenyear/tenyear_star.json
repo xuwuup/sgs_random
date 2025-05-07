@@ -1,0 +1,198 @@
+[
+    {
+      "name": "新服星袁术",
+      "image": "/packs/tenyear/images/tystar__yuanshu.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "残玺",
+          "skillDescription": "锁定技，游戏开始时，你获得场上各势力的“玺角”标记，其中魏、蜀、吴、群每少一个势力你加1点体力上限。每轮开始时，你选择一个“玺角”势力并选择一个效果生效直到下轮开始：「妄生」：该势力角色每回合首次造成伤害+1，计算与其他角色距离-1；「向死」：该势力其他角色每回合首次回复体力后失去1点体力，每回合对你使用的第一张牌无效。"
+        },
+        {
+          "skillName": "圮秩",
+          "skillDescription": "锁定技，结束阶段，你摸X张牌；有角色死亡时，若其势力与当前生效的“玺角”势力相同或是该势力最后一名角色，你失去此“玺角”，然后摸X张牌并回复1点体力（X为你已失去的“玺角”数）。"
+        },
+        {
+          "skillName": "冢骨",
+          "skillDescription": "主公技，锁定技，若游戏轮数不小于群势力角色数，你摸牌阶段摸牌数+2，否则-1。"
+        }
+      ]
+    },
+    {
+      "name": "新服星董卓",
+      "image": "/packs/tenyear/images/tystar__dongzhuo.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 5,
+      "skills": [
+        {
+          "skillName": "威临",
+          "skillDescription": "锁定技，你于回合内对一名角色造成伤害时，若其本回合没有受到过伤害且你本回合已使用牌数不小于其体力值，则此伤害+1。"
+        },
+        {
+          "skillName": "掌戎",
+          "skillDescription": "准备阶段，你可以选择一项：1.令至多X名体力值不小于你的角色各失去1点体力；2.令至多X名手牌数不小于你的角色各弃置一张手牌（X为你的体力值）。这些角色执行你选择的选项前，你摸选择角色数量的牌。本回合结束时，若这些角色中有存活且本回合未受到伤害的角色，你失去1点体力"
+        },
+        {
+          "skillName": "豪首",
+          "skillDescription": "主公技，其他群雄势力角色使用【酒】后，可令你回复1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "新服星袁绍",
+      "image": "/packs/tenyear/images/tystar__yuanshao.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "硝焰",
+          "skillDescription": "游戏开始时，所有其他角色各受到你造成的1点火焰伤害，然后这些角色可以依次交给你一张牌并回复1点体力。"
+        },
+        {
+          "skillName": "纵势",
+          "skillDescription": "出牌阶段，你可以展示一张基本牌或普通锦囊牌，然后将此花色的所有其他手牌当这张牌使用（此牌可指定的目标数改为以此法使用的牌数）。"
+        },
+        {
+          "skillName": "骄妄",
+          "skillDescription": "锁定技，每轮结束时，若本轮没有角色死亡，你失去1点体力并发动〖硝焰〗。"
+        },
+        {
+          "skillName": "傲势",
+          "skillDescription": "主公技，其他群势力角色的出牌阶段限一次，其可以交给你一张手牌，然后你可以发动一次〖纵势〗。"
+        }
+      ]
+    },
+    {
+      "name": "新服星张昭",
+      "image": "/packs/tenyear/images/tystar__zhangzhao.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "忠言",
+          "skillDescription": "出牌阶段限一次，你可展示牌堆顶三张牌，令一名角色将一张手牌交换其中一张牌。然后若这些牌颜色相同，其选择回复1点体力或获得场上一张牌；若该角色不为你，你执行另一项。"
+        },
+        {
+          "skillName": "经纶",
+          "skillDescription": "每回合限一次，你距离1以内的角色造成伤害后，你可以令其摸X张牌，并对其发动〖忠言〗（X为其装备区牌数）。"
+        }
+      ]
+    },
+    {
+      "name": "新服星荀彧",
+      "image": "/packs/tenyear/images/tystar__xunyu.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "安庶",
+          "skillDescription": "每轮结束时，你可以将弃牌堆中牌名不同的基本牌各一张置于牌堆顶，然后视为使用一张【五谷丰登】，你选择从你或一名已受伤角色开始结算此【五谷丰登】。直到下轮结束，若有角色失去了因此【五谷丰登】选择的牌，当前回合结束时你可以令其将手牌摸至体力上限（最多摸至五张）。"
+        },
+        {
+          "skillName": "匡祚",
+          "skillDescription": "限定技，出牌阶段，你可以令一名角色获得技能〖承奉〗（若其为主公且没有主公技，则额外获得〖统荫〗），然后令另一名角色将每种花色各一张牌置于获得技能角色的武将牌上（称为“匡祚”牌）。"
+        },
+        {
+          "skillName": "承奉",
+          "skillDescription": "每回合限一次，你可以将一张红色“匡祚”牌当【闪】或黑色“匡祚”牌当【无懈可击】对即将对你生效的牌使用，此牌结算后，若“匡祚”不足两种颜色，你可以将牌堆顶一张牌置为“匡祚”。"
+        },
+        {
+          "skillName": "统荫",
+          "skillDescription": "主公技，当你受到其他角色使用牌造成的伤害后，若伤害来源与你势力相同，你可以将造成伤害的牌置为“匡祚”；若与你势力不同，你可以将其一张牌置为“匡祚”。"
+        }
+      ]
+    },
+    {
+      "name": "新服星法正",
+      "image": "/packs/tenyear/images/tystar__fazheng.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "知机",
+          "skillDescription": "准备阶段，你可以弃置任意张手牌（可以不弃），然后将手牌摸至5张。若你因此弃牌数比摸牌数：多，你可以对至多X名其他角色各造成1点伤害（X为弃牌数比摸牌数多的数量）；相等，你本回合使用牌不能被响应；少，你本回合手牌上限+2。"
+        },
+        {
+          "skillName": "谙计",
+          "skillDescription": "锁定技，当一名角色使用牌时，若此牌花色是本轮中使用次数最少的，你摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "新服星曹仁",
+      "image": "/packs/tenyear/images/tystar__caoren.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "肃军",
+          "skillDescription": "当你使用一张牌时，若你手牌中基本牌与非基本牌数量相等，你可以摸两张牌。"
+        },
+        {
+          "skillName": "砺锋",
+          "skillDescription": "你可以将一张本回合未被使用过的颜色的手牌当不计次数的【杀】或【无懈可击】使用。"
+        }
+      ]
+    },
+    {
+      "name": "新服星张春华",
+      "image": "/packs/tenyear/images/tystar__zhangchunhua.jpg",
+      "faction": "魏",
+      "gender": "女",
+      "health": 3,
+      "startingHealth": 3,
+      "skills": [
+        {
+          "skillName": "梁燕",
+          "skillDescription": "出牌阶段限一次，你可以选择一名其他角色并选择：1.你摸一至两张牌，其弃置等量的牌，若你与其手牌数相同，你跳过下个弃牌阶段；2.你弃置一至两张牌，其摸等量的牌，若你与其手牌数相同，其跳过下个弃牌阶段。"
+        },
+        {
+          "skillName": "明慧",
+          "skillDescription": "一名角色的回合结束时，若你是手牌数最小的角色，你可视为使用一张【杀】（无距离关系的限制）。若你是手牌数最大的角色，你可将手牌弃置至不为全场最多，令一名角色回复1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "新服星孙坚",
+      "image": "/packs/tenyear/images/tystar__sunjian.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 5,
+      "startingHealth": 4,
+      "skills": [
+        {
+          "skillName": "锐军",
+          "skillDescription": "当你于出牌阶段内第一次使用牌指定其他角色为目标后，你可以摸X张牌（X为你已损失的体力值+1），此阶段内：除其外的其他角色视为不在你的攻击范围内；你对其使用牌无距离限制；当你对其造成伤害时，伤害值比上次增加1（至多为5）。"
+        },
+        {
+          "skillName": "刚毅",
+          "skillDescription": "锁定技，若你于回合内未造成过伤害，你于此回合内不能使用【桃】。当你因执行【桃】或【酒】的作用效果而回复体力时，若你处于濒死状态，你令回复值+1。"
+        }
+      ]
+    },
+    {
+      "name": "新服星孙尚香",
+      "image": "/packs/tenyear/images/tystar__sunshangxiang.jpg",
+      "faction": "吴",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "飒影",
+          "skillDescription": "每轮每种牌名限一次，当你需要使用【杀】或【闪】时，你可以使用一张装备牌，然后视为使用之；当你需要使用【桃】或【酒】时，你可以收回装备区里的一张牌，然后视为使用之。"
+        },
+        {
+          "skillName": "骄豪",
+          "skillDescription": "出牌阶段限一次，你可以与装备区里的牌数不大于你的角色拼点，然后你可以令拼点赢的角色获得拼点的牌或者令其使用一张【杀】。"
+        }
+      ]
+    }
+  ]

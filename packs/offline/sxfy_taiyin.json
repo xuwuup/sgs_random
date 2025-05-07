@@ -1,0 +1,272 @@
+[
+    {
+      "name": "四象封印徐庶",
+      "image": "/packs/offline/images/sxfy__xushu.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "无言",
+          "skillDescription": "锁定技，你的锦囊牌视为【无懈可击】。"
+        },
+        {
+          "skillName": "举荐",
+          "skillDescription": "每回合限一次，当你使用的【无懈可击】结算结束后，你可以将此牌交给一名其他角色。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印王元姬",
+      "image": "/packs/offline/images/sxfy__wangyuanji.jpg",
+      "faction": "魏",
+      "gender": "女",
+      "health": 3,
+      "startingHealth": 3,
+      "skills": [
+        {
+          "skillName": "谦冲",
+          "skillDescription": "锁定技，若你的装备区的牌数为偶数/奇数，你使用牌无距离/次数限制。"
+        },
+        {
+          "skillName": "尚俭",
+          "skillDescription": "结束阶段，若你本回合失去的牌数不大于你的体力值，你可以从弃牌堆获得一张本回合你失去的牌。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印马良",
+      "image": "/packs/offline/images/sxfy__maliang.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "协穆",
+          "skillDescription": "其他角色出牌阶段限一次，其可以展示并交给你一张基本牌，然后本回合其攻击范围+1。"
+        },
+        {
+          "skillName": "纳蛮",
+          "skillDescription": "出牌阶段限一次，你可以将任意张基本牌当指定等量名目标的【南蛮入侵】使用。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印蒋琬",
+      "image": "/packs/offline/images/sxfy__jiangwan.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "备武",
+          "skillDescription": "你可以将装备区内一张不为本回合置入的牌当【无中生有】或【决斗】使用。"
+        },
+        {
+          "skillName": "承事",
+          "skillDescription": "限定技，当一名其他角色死亡时，你可以与其交换座次与装备区内的牌。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印孙邵",
+      "image": "/packs/offline/images/sxfy__sunshao.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "定仪",
+          "skillDescription": "一名角色结束阶段，若其装备区内没有牌，其可以摸一张牌。"
+        },
+        {
+          "skillName": "罪辞",
+          "skillDescription": "当你受到伤害后，你可以将场上一张牌移至伤害来源对应的区域。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印钟会",
+      "image": "/packs/offline/images/sxfy__zhonghui.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "兴伐",
+          "skillDescription": "准备阶段，若你的手牌数不小于体力值，你可以对一名其他角色造成1点伤害。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印关兴",
+      "image": "/packs/offline/images/sxfy__guanxings.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "武佑",
+          "skillDescription": "出牌阶段限一次，你可以与一名角色拼点，若你没赢，你本回合视为拥有〖武圣〗。然后拼点赢的角色视为对没赢的角色使用一张【决斗】。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印薛综",
+      "image": "/packs/offline/images/sxfy__xuezong.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "复难",
+          "skillDescription": "每回合限一次，其他角色使用的牌被你抵消时，你可以获得之。"
+        },
+        {
+          "skillName": "诫训",
+          "skillDescription": "结束阶段，你可以令一名角色弃置一张手牌，然后若此牌为♦牌，其摸两张牌"
+        }
+      ]
+    },
+    {
+      "name": "四象封印岑昏",
+      "image": "/packs/offline/images/sxfy__cenhun.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "极奢",
+          "skillDescription": "出牌阶段，你可以令本回合手牌上限-1（至少为0），然后摸一张牌。"
+        },
+        {
+          "skillName": "无度",
+          "skillDescription": "当一名没有手牌的角色受到伤害时，你可以减1点体力上限，防止此伤害。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印华歆",
+      "image": "/packs/offline/images/sxfy__huaxin.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "渊清",
+          "skillDescription": "回合结束时，你可以令所有角色依次选择并获得弃牌堆中因其此回合失去而置入的一张牌。"
+        },
+        {
+          "skillName": "疏陈",
+          "skillDescription": "你的回合外，你可以将超出手牌上限部分的手牌当一张【桃】使用。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印王朗",
+      "image": "/packs/offline/images/sxfy__wanglang.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "鼓舌",
+          "skillDescription": "出牌阶段限一次，你可以与一名角色拼点，拼点赢的角色摸一张牌，然后拼点输的角色可以与对方重复此流程。"
+        },
+        {
+          "skillName": "激词",
+          "skillDescription": "当你亮出拼点牌时，你可以失去1点体力，令你的拼点牌的点数视为K。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印刘璋",
+      "image": "/packs/offline/images/sxfy__liuzhang.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "引戈",
+          "skillDescription": "出牌阶段限一次，你可以令一名其他角色交给你一张牌，然后其视为对你或你攻击范围内的另一名角色使用一张【杀】。"
+        },
+        {
+          "skillName": "施仁",
+          "skillDescription": "每回合限一次，当你成为其他角色使用【杀】的目标后，你可以摸两张牌，然后交给该角色一张牌。"
+        },
+        {
+          "skillName": "据益",
+          "skillDescription": "主公技，其他群势力角色每回合首次对你造成伤害时，其可以防止此伤害，然后获得你一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印公孙渊",
+      "image": "/packs/offline/images/sxfy__gongsunyuan.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "怀异",
+          "skillDescription": "锁定技，准备阶段，你展示所有手牌，若颜色不全部相同，你弃置其中一种颜色的所有牌，获得至多等量名其他角色各一张牌，若超过一名角色，你失去1点体力。"
+        },
+        {
+          "skillName": "封拜",
+          "skillDescription": "主公技，当你获得一名群势力角色装备区里的一张牌后，你可以令其摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印刘表",
+      "image": "/packs/offline/images/sxfy__liubiao.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "自守",
+          "skillDescription": "出牌阶段开始前，你可以摸当前势力张牌，然后你跳过此阶段。"
+        },
+        {
+          "skillName": "宗室",
+          "skillDescription": "锁定技，你的手牌上限+X（X为场上现存势力数）。"
+        },
+        {
+          "skillName": "踞荆",
+          "skillDescription": "主公技，当你受到其他群势力角色造成的伤害后，你可以弃置两张牌，然后回复1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印司马师",
+      "image": "/packs/offline/images/sxfy__simashi.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "景略",
+          "skillDescription": "其他角色弃牌阶段开始时，你可以展示并交给其两张牌，令其本阶段不能弃置这些牌，然后你可以于本阶段结束时获得本阶段弃置的一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印伏皇后",
+      "image": "/packs/offline/images/sxfy__fuhuanghou.jpg",
+      "faction": "群",
+      "gender": "女",
+      "health": 3,
+      "startingHealth": 3,
+      "skills": [
+        {
+          "skillName": "惴恐",
+          "skillDescription": "其他角色准备阶段，你可以用【杀】与其拼点，赢的角色可以使用对方的拼点牌。"
+        },
+        {
+          "skillName": "求援",
+          "skillDescription": "当你成为一名角色使用【杀】的目标时，你可以令另一名角色选择交给你一张牌或成为此【杀】的额外目标。"
+        }
+      ]
+    }
+  ]

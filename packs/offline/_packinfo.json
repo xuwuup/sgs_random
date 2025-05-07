@@ -1,0 +1,22 @@
+{
+    "displayName": "线下", 
+    "files": [
+      {
+        "file": "oversxfy_shaoyang.json",   
+        "subPackName": "四象封印-少阳"   
+      },
+      {
+        "file": "sxfy_shaoyin.json",
+        "subPackName": "四象封印-少阴"
+      },
+      {
+        "file": "sxfy_taiyin.json",
+        "subPackName": "四象封印-太阴"
+      },
+      {
+        "file": "ofl_other.json",
+        "subPackName": "综合"
+      }
+      
+    ]
+  }

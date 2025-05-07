@@ -1,0 +1,18 @@
+{
+    "displayName": "小程序", 
+    "files": [
+      {
+        "file": "mini_re.json",   
+        "subPackName": "修改"   
+      },
+      {
+        "file": "mini_extreme.json",
+        "subPackName": "登峰造极"
+      },
+      {
+        "file": "minisp.json",
+        "subPackName": "专属"
+      }
+      
+    ]
+  }

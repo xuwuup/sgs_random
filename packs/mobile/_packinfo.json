@@ -1,0 +1,50 @@
+{
+    "displayName": "手杀", 
+    "files": [
+      {
+        "file": "benevolence.json",   
+        "subPackName": "始计篇·仁"   
+      },
+      {
+        "file": "wisdom.json",
+        "subPackName": "始计篇·智"
+      },
+      {
+        "file": "sincerity.json",
+        "subPackName": "始计篇·信"
+      }, 
+      {
+        "file": "courage.json",
+        "subPackName": "始计篇·勇"
+      },
+      {
+        "file": "strictness.json",
+        "subPackName": "始计篇·严"
+      },
+      {
+        "file": "m_shzl_ex.json",
+        "subPackName": "界神话再临"
+      },
+      {
+        "file": "m_yj_ex.json",
+        "subPackName": "界一将成名"
+      },
+      {
+        "file": "mobile_re.json",
+        "subPackName": "专属"
+      },
+      {
+        "file": "mobile_rare.json",
+        "subPackName": "稀有专属"
+      },
+      {
+        "file": "mobile_sp.json",
+        "subPackName": "SP"
+      },
+      {
+        "file": "mobile_sp2.json",
+        "subPackName": "SP2"
+      }
+      
+    ]
+  }

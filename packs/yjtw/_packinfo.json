@@ -1,0 +1,16 @@
+
+{
+    "displayName": "台版一将成名",
+    "files": [
+      {
+        "file": "yjtw2013.json",
+        "subPackName": "2013"        
+      },
+      {
+        "file": "standard.json",
+        "subPackName": "2017"        
+      }
+     
+      
+    ]
+  }

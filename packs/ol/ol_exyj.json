@@ -1,0 +1,237 @@
+[
+    {
+      "name": "OL界曹植",
+      "image": "/packs/ol/images/ol_ex__caozhi.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "酒诗",
+          "skillDescription": "若你的武将牌正面朝上，你可以翻面视为使用一张【酒】。若你的武将牌背面朝上，你使用“落英”牌无距离限制且不可被响应。当你受到伤害时或当你于回合外发动〖落英〗累计获得至少X张牌后（X为你的体力上限），若你的武将牌背面朝上，你可以翻至正面。"
+        }
+      ]
+    },
+    {
+      "name": "OL界张春华",
+      "image": "/packs/ol/images/ol_ex__zhangchunhua.jpg",
+      "faction": "魏",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "翦灭",
+          "skillDescription": "出牌阶段限一次，你可以选择一名其他角色，你与其同时选择一种颜色，弃置所有各自选择颜色的手牌，然后弃置牌数较多的角色视为对另一名角色使用【决斗】。"
+        }
+      ]
+    },
+    {
+      "name": "OL界法正",
+      "image": "/packs/ol/images/ol_ex__fazheng.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "眩惑",
+          "skillDescription": "摸牌阶段结束时，你可以交给一名其他角色两张牌，令其选择一项：1.对你指定的另一名角色使用一张【杀】；2.你观看其手牌并获得其两张牌。"
+        },
+        {
+          "skillName": "恩怨",
+          "skillDescription": "当你获得一名其他角色至少两张牌后，你可以令其摸一张牌。当你受到1点伤害后，你可以令伤害来源选择一项：1.交给你一张红色手牌；2.失去1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "OL界凌统",
+      "image": "/packs/ol/images/ol_ex__lingtong.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "旋风",
+          "skillDescription": "当你失去装备区里的牌后，或一次性失去至少两张牌后，你可以依次弃置至多两名其他角色共计至多两张牌。"
+        }
+      ]
+    },
+    {
+      "name": "OL界吴国太",
+      "image": "/packs/ol/images/ol_ex__wuguotai.jpg",
+      "faction": "吴",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "甘露",
+          "skillDescription": "出牌阶段限一次，你可以令两名角色交换装备区里的牌。若X大于你已损失体力值，你须先弃置X张手牌。（X为其装备区牌数之差）"
+        },
+        {
+          "skillName": "补益",
+          "skillDescription": "当一名角色进入濒死状态时，你可以选择其一张牌，若此牌不为基本牌，其弃置此牌，然后回复1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "OL界曹彰",
+      "image": "/packs/ol/images/ol_ex__caozhang.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "将驰",
+          "skillDescription": "摸牌阶段结束时，你可以选择一项：1.摸一张牌，本回合使用【杀】的次数上限-1，且【杀】不计入手牌上限；2.重铸一张牌，本回合使用【杀】无距离限制且次数上限+1。"
+        }
+      ]
+    },
+    {
+      "name": "OL界王异",
+      "image": "/packs/ol/images/ol_ex__wangyi.jpg",
+      "faction": "魏",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "贞烈",
+          "skillDescription": "当你成为【杀】或普通锦囊牌的目标后，若使用者不为你，你可以失去1点体力，令此牌对你无效，你选择：1.获得使用者的一张牌；2.于当前回合（你的回合除外）的结束阶段发动〖秘计〗。"
+        },
+        {
+          "skillName": "秘计",
+          "skillDescription": "结束阶段，若你已受伤，你可以摸X张牌，然后可以将至多X张牌交给其他角色。（X为你已损失的体力值）"
+        }
+      ]
+    },
+    {
+      "name": "OL界廖化",
+      "image": "/packs/ol/images/ol_ex__liaohua.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "当先",
+          "skillDescription": "锁定技，回合开始时，你执行一个额外的出牌阶段；此阶段开始时，你可以从牌堆或弃牌堆获得一张【杀】（使用此【杀】无距离限制），若如此做，此阶段结束时，若你此阶段未造成过伤害，你对自己造成1点伤害。"
+        },
+        {
+          "skillName": "伏枥",
+          "skillDescription": "限定技，当你处于濒死状态时，你可以将体力回复至X点且手牌摸至X张（X为全场势力数），若X大于你本局游戏造成的伤害值，你翻面。"
+        }
+      ]
+    },
+    {
+      "name": "OL界程普",
+      "image": "/packs/ol/images/ol_ex__chengpu.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "疬火",
+          "skillDescription": "你使用非火【杀】可以改为火【杀】，此牌结算后，若造成了伤害，你弃置一张牌或失去1点体力。你使用火【杀】时可以增加一个目标。"
+        },
+        {
+          "skillName": "醇醪",
+          "skillDescription": "你或你相邻角色的【杀】因弃置进入弃牌堆后，将之置为“醇”。当一名角色处于濒死状态时，你可以将X张“醇”置入弃牌堆，视为该角色使用一张【酒】（X为本轮以此法使用【酒】的次数）。"
+        }
+      ]
+    },
+    {
+      "name": "OL界刘表",
+      "image": "/packs/ol/images/ol_ex__liubiao.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "自守",
+          "skillDescription": "摸牌阶段，你可以多摸X张牌，若如此做，本回合结束阶段，若你本回合对其他角色造成过伤害，你弃置X张牌（X为全场势力数）。"
+        },
+        {
+          "skillName": "宗室",
+          "skillDescription": "锁定技，你的手牌上限+X（X为全场势力数）。其他角色对你造成伤害时，防止此伤害并令其摸一张牌，每个势力限一次。"
+        }
+      ]
+    },
+    {
+      "name": "OL界曹冲",
+      "image": "/packs/ol/images/ol_ex__caochong.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "称象",
+          "skillDescription": "当你受到1点伤害后，你可以亮出牌堆顶四张牌，获得其中任意张数量点数之和不大于13的牌，将其余的牌置入弃牌堆。若获得的牌点数之和恰好为13，你下次发动〖称象〗时多亮出一张牌。"
+        },
+        {
+          "skillName": "仁心",
+          "skillDescription": "当一名其他角色进入濒死状态时，你可以弃置一张装备牌并翻面，然后令其回复至1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "OL界虞翻",
+      "image": "/packs/ol/images/ol_ex__yufan.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "纵玄",
+          "skillDescription": "当你的牌因弃置而置入弃牌堆后，或你上家的牌于当前回合内第一次因弃置而置入弃牌堆后，你可以将其中任意张牌置于牌堆顶。"
+        },
+        {
+          "skillName": "直言",
+          "skillDescription": "你或你上家的结束阶段，你可以令一名角色摸一张牌并展示之，若此牌：为装备牌，其使用此牌并回复1点体力；不为装备牌且其体力值不等于你，其失去1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "OL界简雍",
+      "image": "/packs/ol/images/ol_ex__jianyong.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "巧说",
+          "skillDescription": "出牌阶段，你可以与一名角色拼点。若你赢，本回合你使用下一张基本牌或普通锦囊牌可以多或少选择一个目标（无距离限制）；若你没赢，此技能失效且你不能使用锦囊牌直到回合结束。"
+        }
+      ]
+    },
+    {
+      "name": "OL界李儒",
+      "image": "/packs/ol/images/ol_ex__liru.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "绝策",
+          "skillDescription": "结束阶段，你可以对一名手牌数不大于你的其他角色造成1点伤害。"
+        },
+        {
+          "skillName": "灭计",
+          "skillDescription": "出牌阶段限一次，你可以将一张锦囊牌置于牌堆顶并令一名有手牌的其他角色选择一项：1.弃置一张锦囊牌；2.依次弃置两张牌。"
+        },
+        {
+          "skillName": "焚城",
+          "skillDescription": "限定技，出牌阶段，你可以选择一名其他角色开始，所有其他角色依次选择一项：1.弃置任意张牌（须比上家弃置的牌多）；2.受到你造成的2点火焰伤害。"
+        }
+      ]
+    },
+    {
+      "name": "OL界蔡夫人",
+      "image": "/packs/ol/images/ol_ex__caifuren.jpg",
+      "faction": "群",
+      "gender": "女",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "窃听",
+          "skillDescription": "其他角色的回合结束后，若其于此回合内未对其以外的角色造成过伤害或未对其以外的角色使用过牌，你可以选择：1.将其装备区的一张牌置入你的装备区；2.摸一张牌。若其于此回合内未对其以外的角色使用过牌，你可以执行另一项。"
+        }
+      ]
+    }
+  ]

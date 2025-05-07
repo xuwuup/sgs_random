@@ -1,0 +1,462 @@
+[
+    {
+      "name": "神姜维",
+      "image": "/packs/tenyear/images/godjiangwei.jpg",
+      "faction": "神",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "天任",
+          "skillDescription": "锁定技，当一张基本牌或普通锦囊牌不因使用而置入弃牌堆后，你获得1个“天任”标记，然后若“天任”标记数不小于X，你移去X个“天任”标记，加1点体力上限并摸两张牌（X为你的体力上限）。"
+        },
+        {
+          "skillName": "九伐",
+          "skillDescription": "当你每累计使用或打出九张不同牌名的牌后，你可以亮出牌堆顶的九张牌，然后若其中有点数相同的牌，你选择并获得其中每个重复点数的牌各一张。"
+        },
+        {
+          "skillName": "平襄",
+          "skillDescription": "限定技，出牌阶段，若你的体力上限大于9，你可以减9点体力上限。若如此做，你失去技能〖九伐〗且本局游戏内你的手牌上限等于体力上限，然后你可以视为使用至多九张火【杀】。"
+        }
+      ]
+    },
+    {
+      "name": "神马超",
+      "image": "/packs/tenyear/images/godmachao.jpg",
+      "faction": "神",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "狩骊",
+          "skillDescription": "游戏开始时，从下家开始所有角色随机使用牌堆中的一张坐骑。你可以将场上的一张进攻马当【杀】（无次数限制）、防御马当【闪】使用或打出，以此法失去坐骑的其他角色本回合非锁定技失效，你与其本回合受到的伤害+1且改为雷电伤害。"
+        },
+        {
+          "skillName": "横骛",
+          "skillDescription": "当你使用或打出牌时，若你没有该花色的手牌，你可以摸X张牌（X为场上与此牌花色相同的装备数量）。"
+        }
+      ]
+    },
+    {
+      "name": "神张飞",
+      "image": "/packs/tenyear/images/godzhangfei.jpg",
+      "faction": "神",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "神裁",
+          "skillDescription": "出牌阶段限一次，你可以令一名其他角色进行判定，你获得判定牌。若判定牌包含以下内容，其获得（已有标记则改为修改）对应标记：体力：“笞”标记，每次受到伤害后失去等量体力；武器：“杖”标记，无法响应【杀】；打出：“徒”标记，以此法外失去手牌后随机弃置一张手牌；距离：“流”标记，结束阶段将武将牌翻面；若判定牌不包含以上内容，该角色获得一个“死”标记且手牌上限减少其身上“死”标记个数，然后你获得其区域内一张牌。“死”标记个数大于场上存活人数的角色回合结束时，其直接死亡。"
+        },
+        {
+          "skillName": "巡使",
+          "skillDescription": "锁定技，你的多目标锦囊牌均视为无色【杀】。你使用无色牌无距离和次数限制且可以额外指定任意个目标，然后〖神裁〗的发动次数+1（至多为5）。"
+        }
+      ]
+    },
+    {
+      "name": "神张角",
+      "image": "/packs/tenyear/images/godzhangjiao.jpg",
+      "faction": "神",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "异兆",
+          "skillDescription": "锁定技，当你使用或打出一张牌后，获得等同于此牌点数的“黄”标记，然后若“黄”标记数的十位数变化，你随机获得牌堆中一张点数为变化后十位数的牌。"
+        },
+        {
+          "skillName": "三首",
+          "skillDescription": "当你受到伤害时，你可以亮出牌堆顶的三张牌，若其中有本回合所有角色均未使用过的牌的类型，防止此伤害。"
+        },
+        {
+          "skillName": "肆军",
+          "skillDescription": "准备阶段，若“黄”标记数大于牌堆里的牌数，你可以移去所有“黄”标记并洗牌，然后获得随机张点数之和为36的牌。"
+        },
+        {
+          "skillName": "天劫",
+          "skillDescription": "一名角色的回合结束时，若本回合牌堆进行过洗牌，你可以对至多三名其他角色各造成X点雷电伤害（X为其手牌中【闪】的数量且至少为1）。"
+        }
+      ]
+    },
+    {
+      "name": "神邓艾",
+      "image": "/packs/tenyear/images/goddengai.jpg",
+      "faction": "神",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "拓域",
+          "skillDescription": "锁定技，你的手牌区域添加三个未开发的副区域：丰田：伤害和回复值+1；清渠：无距离和次数限制；峻山：不能被响应。出牌阶段开始时和结束时，你将手牌分配至已开发的副区域中，每个区域至多五张。"
+        },
+        {
+          "skillName": "险进",
+          "skillDescription": "锁定技，当你造成或受到两次伤害后开发一个手牌副区域，摸X张牌（X为你已开发的手牌副区域数，若你手牌全场最多则改为1）。"
+        },
+        {
+          "skillName": "奇径",
+          "skillDescription": "觉醒技，每个回合结束时，若你的手牌副区域均已开发，你减1点体力上限，获得技能“摧心”，然后将座次移动至相邻的两名其他角色之间并执行一个额外回合。"
+        },
+        {
+          "skillName": "摧心",
+          "skillDescription": "当你不以此法对上家/下家使用的牌结算后，你可以视为对下家/上家使用一张同名牌。"
+        }
+      ]
+    },
+    {
+      "name": "神许褚",
+      "image": "/packs/tenyear/images/godxuchu.jpg",
+      "faction": "神",
+      "gender": "男",
+      "health": 5,
+      "skills": [
+        {
+          "skillName": "争擎",
+          "skillDescription": "锁定技，每轮结束时，移去所有“擎”标记，然后本轮单回合内造成伤害值最多的角色获得X个“擎”标记并与你各摸一张牌（X为其该回合造成的伤害数）。若是你获得“擎”且是获得数量最多的一次，你改为摸X张牌（最多摸5）。"
+        },
+        {
+          "skillName": "壮魄",
+          "skillDescription": "你可将牌面信息中有【杀】字的牌当【决斗】使用。若你拥有“擎”，则此【决斗】指定目标后，你可以移去任意个“擎”，然后令其弃置等量的牌；若此【决斗】指定了有“擎”的角色为目标，则此牌伤害+1。"
+        }
+      ]
+    },
+    {
+      "name": "新服神华佗",
+      "image": "/packs/tenyear/images/ty__godhuatuo.jpg",
+      "faction": "神",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "静域",
+          "skillDescription": "锁定技，每项技能每轮限一次，当一名角色发动除“静域”外的技能时，你摸一张牌。注：请不要反馈此技能相关的任何问题。"
+        },
+        {
+          "skillName": "滤心",
+          "skillDescription": "出牌阶段限一次，你可以交给一名其他角色一张手牌，然后选择一项：1.令其摸X张牌；2.令其随机弃置X张手牌（X为游戏轮数且至多为5）。若其以此法摸到/弃置与你交给其的牌牌名相同的牌，则其下次发动技能时，其回复1点体力/失去1点体力。注：请不要反馈此技能相关的任何问题。"
+        },
+        {
+          "skillName": "寰道",
+          "skillDescription": "限定技，出牌阶段，你可以选择一名其他角色，令其复原武将牌，然后其可随机获得一项同名武将的技能并选择失去一项其他技能。"
+        }
+      ]
+    },
+    {
+      "name": "神黄忠",
+      "image": "/packs/tenyear/images/godhuangzhong.jpg",
+      "faction": "神",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "裂穹",
+          "skillDescription": "当你对其他角色造成伤害后，你可以选择以下任一部位进行“击伤”：力烽：令其随机弃置一半手牌（向上取整）。地机：令其下次受到伤害+1直到其回合结束。中枢：令其使用下一张牌失效直到其回合结束。气海：令其不能使用♥牌直到其回合结束。若你本回合击伤过该角色，则额外出现“天冲”选项。天冲：令其失去所有体力，然后若其死亡，则你加1点体力上限。"
+        },
+        {
+          "skillName": "斩决",
+          "skillDescription": "出牌阶段开始时，你可以选择一项：1.摸体力值数量的牌，令你此阶段使用下一张【杀】无距离限制且不可被响应；2.摸已损失体力值数量的牌，令你于此阶段下一次造成伤害后回复等量体力。"
+        }
+      ]
+    },
+    {
+      "name": "神庞统",
+      "image": "/packs/tenyear/images/godpangtong.jpg",
+      "faction": "神",
+      "gender": "男",
+      "health": 1,
+      "skills": [
+        {
+          "skillName": "鸾锁",
+          "skillDescription": "锁定技，你的回合内，所有角色不能弃置手牌，与本回合进入弃牌堆的牌花色均不同的手牌视为【铁索连环】。"
+        },
+        {
+          "skillName": "凤燎",
+          "skillDescription": "锁定技，转换技，当你使用牌指定唯一目标后，阳：你令其摸一张牌；阴：你对其造成1点火焰伤害。"
+        },
+        {
+          "skillName": "鹍浴",
+          "skillDescription": "锁定技，你的体力上限始终为1，当你濒死求桃结算后，若体力值仍小于1，你将牌堆中的一张火属性伤害牌移出游戏，然后将体力值回复至1点。"
+        }
+      ]
+    },
+    {
+      "name": "新服陈琳",
+      "image": "/packs/tenyear/images/ty__chenlin.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "笔伐",
+          "skillDescription": "结束阶段，你可以将一张手牌置于一名其他角色的武将牌上，称为“檄”。有“檄”的角色回合开始时，其观看此“檄”并选择一项：1.将此“檄”交给一名手牌数最多的角色（若有多个则选择其中一个），然后弃置一张牌；2.将此“檄”置入弃牌堆，然后失去1点体力。"
+        },
+        {
+          "skillName": "颂词",
+          "skillDescription": "①出牌阶段，你可以选择一名角色（每名角色每局游戏限一次），若该角色的手牌数：不大于体力值，其摸两张牌；大于体力值，其弃置两张牌。②弃牌阶段结束时，若你对所有存活角色均发动过“颂词”，你摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "新服杨修",
+      "image": "/packs/tenyear/images/ty__yangxiu.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "啖酪",
+          "skillDescription": "当你成为【杀】或锦囊牌的目标后，若你不是唯一目标，你可以摸一张牌，然后此牌对你无效。"
+        },
+        {
+          "skillName": "鸡肋",
+          "skillDescription": "当你受到伤害后，你可以声明一种牌的类别，伤害来源不能使用、打出或弃置你声明的此类手牌直到其下回合开始。"
+        }
+      ]
+    },
+    {
+      "name": "新服骆统",
+      "image": "/packs/tenyear/images/ty__luotong.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "仁政",
+          "skillDescription": "锁定技，当有伤害被减少或防止后，你摸两张牌。"
+        },
+        {
+          "skillName": "进谏",
+          "skillDescription": "当你造成伤害时，你可令此伤害+1，若如此做，你此回合下次造成的伤害-1且不能发动〖进谏〗；当你受到伤害时，你可令此伤害-1，若如此做，你此回合下次受到的伤害+1且不能发动〖进谏〗。"
+        }
+      ]
+    },
+    {
+      "name": "新服王昶",
+      "image": "/packs/tenyear/images/ty__wangchang.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "开济",
+          "skillDescription": "转换技，出牌阶段限一次，阳：你可以摸体力上限张数的牌；阴：你可以弃置至多体力上限张数的牌（至少一张）。"
+        },
+        {
+          "skillName": "平袭",
+          "skillDescription": "结束阶段，你可以选择至多X名其他角色（X为本回合因弃置而进入弃牌堆的牌数），弃置这些角色各一张牌（无牌则不弃），然后视为对这些角色各使用一张【杀】。"
+        }
+      ]
+    },
+    {
+      "name": "程秉",
+      "image": "/packs/tenyear/images/chengbing.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "经造",
+          "skillDescription": "出牌阶段每名角色限一次，你可以选择一名其他角色并亮出牌堆顶三张牌，然后该角色选择一项：1.弃置一张与亮出牌同名的牌，然后此技能本回合亮出的牌数+1；2.令你随机获得这些牌中牌名不同的牌各一张，每获得一张，此技能本回合亮出的牌数-1。"
+        },
+        {
+          "skillName": "恩遇",
+          "skillDescription": "锁定技，当你成为其他角色使用【杀】或普通锦囊牌的目标后，若你本回合已成为过同名牌的目标，此牌对你无效。"
+        }
+      ]
+    },
+    {
+      "name": "新服杨彪",
+      "image": "/packs/tenyear/images/ty__yangbiao.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "昭汉",
+          "skillDescription": "摸牌阶段，你可以多摸两张牌，然后选择一项：1.交给一名没有手牌的角色两张手牌；2.弃置两张手牌。"
+        },
+        {
+          "skillName": "尽节",
+          "skillDescription": "每轮限一次，一名角色进入濒死状态时，你可以令其摸0-3张牌，然后你可以弃置等量的牌令其回复1点体力。"
+        },
+        {
+          "skillName": "举讹",
+          "skillDescription": "每轮限一次，一名角色的结束阶段，你可以视为随机对其使用【过河拆桥】、【杀】或【五谷丰登】共计X次（X为弃牌堆里于此回合内因弃置而移至此区域的牌数且至多为其体力上限，若其为你，改为你选择一名其他角色）。"
+        }
+      ]
+    },
+    {
+      "name": "阮籍",
+      "image": "/packs/tenyear/images/ruanji.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "昭文",
+          "skillDescription": "出牌阶段开始时，你可以展示所有手牌。若如此做，本回合其中的黑色牌可以当任意一张普通锦囊牌使用（每回合每种牌名限一次），其中的红色牌你使用时摸一张牌。"
+        },
+        {
+          "skillName": "酒遁",
+          "skillDescription": "以使用方法①使用的【酒】对你的作用效果改为：目标角色使用的下一张[杀]的伤害值基数+1。当你成为其他角色使用黑色牌的目标后，若你未处于【酒】状态，你可以摸一张牌并视为使用一张【酒】；若你处于【酒】状态，你可以弃置一张手牌令此牌对你无效。"
+        }
+      ]
+    },
+    {
+      "name": "新服崔琰毛玠",
+      "image": "/packs/tenyear/images/ty__cuiyanmaojie.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "征辟",
+          "skillDescription": "出牌阶段开始时，你可以选择一名其他角色并选择一项：1.此阶段结束时，若其此阶段获得过手牌，你获得其一张手牌和装备区内一张牌；2.交给其一张基本牌，然后其交给你一张非基本牌或两张基本牌。"
+        },
+        {
+          "skillName": "奉迎",
+          "skillDescription": "限定技，出牌阶段，你可以弃置所有手牌，若如此做，此回合结束后，你执行一个额外回合，此额外回合开始时，若你的体力值全场最少，你将手牌摸至体力上限。"
+        }
+      ]
+    },
+    {
+      "name": "董贵人",
+      "image": "/packs/tenyear/images/dongguiren.jpg",
+      "faction": "群",
+      "gender": "女",
+      "health": 3,
+      "startingHealth": 3,
+      "skills": [
+        {
+          "skillName": "连枝",
+          "skillDescription": "游戏开始时，你选择一名其他角色。每回合限一次，当你进入濒死状态时，若该角色没有死亡，你回复1点体力且与其各摸一张牌。该角色死亡时，你可以选择一名其他角色，你与其获得〖受责〗，其获得与你等量的“绞”标记（至少1个）。"
+        },
+        {
+          "skillName": "凌芳",
+          "skillDescription": "锁定技，准备阶段或当其他角色对你使用或你对其他角色使用的黑色牌结算后，你获得一枚“绞”标记。"
+        },
+        {
+          "skillName": "风影",
+          "skillDescription": "一名角色的回合开始时，你记录弃牌堆中的黑色基本牌和黑色普通锦囊牌牌名。你可以将一张点数不大于“绞”标记数的手牌当一张记录的本回合未以此法使用过的牌使用（无距离和次数限制）。"
+        },
+        {
+          "skillName": "受责",
+          "skillDescription": "锁定技，结束阶段，你弃置一枚“绞”，然后随机获得弃牌堆一张黑色牌并失去1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "新服滕芳兰",
+      "image": "/packs/tenyear/images/ty__tengfanglan.jpg",
+      "faction": "吴",
+      "gender": "女",
+      "health": 3,
+      "startingHealth": 3,
+      "skills": [
+        {
+          "skillName": "落宠",
+          "skillDescription": "每轮开始时，你可以弃置任意名角色区域内共计至多4张牌，若你一次性弃置了一名角色区域内至少3张牌，〖落宠〗弃置牌数-1。"
+        },
+        {
+          "skillName": "哀尘",
+          "skillDescription": "锁定技，若剩余牌堆数大于80，当你发动〖落宠〗弃置自己区域内的牌后，你摸两张牌；若剩余牌堆数大于40，你跳过弃牌阶段；若剩余牌堆数小于40，当你成为♠牌的目标后，你不能响应此牌。"
+        }
+      ]
+    },
+    {
+      "name": "张瑾云",
+      "image": "/packs/tenyear/images/zhangjinyun.jpg",
+      "faction": "蜀",
+      "gender": "女",
+      "health": 3,
+      "startingHealth": 3,
+      "skills": [
+        {
+          "skillName": "蕙质",
+          "skillDescription": "准备阶段，你可以弃置任意张手牌（可不弃），然后将手牌摸至与全场手牌最多的角色相同（至少摸一张，最多摸五张）。"
+        },
+        {
+          "skillName": "继椒",
+          "skillDescription": "限定技，出牌阶段，你可以令一名角色获得弃牌堆中本局游戏你使用和弃置的所有普通锦囊牌，这些牌不能被抵消。每回合结束后，若此回合内牌堆洗过牌或有角色死亡，复原此技能。"
+        }
+      ]
+    },
+    {
+      "name": "周不疑",
+      "image": "/packs/tenyear/images/zhoubuyi.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "十计",
+          "skillDescription": "一名角色的结束阶段，若其本回合未造成伤害，你可以声明一种普通锦囊牌（每轮每种牌名限一次），其可以将一张牌当你声明的牌使用（不能指定其为目标）。"
+        },
+        {
+          "skillName": "四论",
+          "skillDescription": "准备阶段或当你受到伤害后，你可以摸四张牌，然后将四张牌依次置于场上、牌堆顶或牌堆底，若此牌为你装备区里的牌，你复原武将牌，若你将装备牌置于一名角色装备区，其复原武将牌。"
+        }
+      ]
+    },
+    {
+      "name": "新服许靖",
+      "image": "/packs/tenyear/images/ty__xujing.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "赏誉",
+          "skillDescription": "锁定技，游戏开始时，你获得一张【杀】并标记之，然后可以将其交给一名角色。此【杀】：造成伤害后，你和使用者各摸一张牌；进入弃牌堆后，你将其交给一名本回合未以此法指定过的角色。"
+        },
+        {
+          "skillName": "才瑕",
+          "skillDescription": "当你造成或受到伤害后，你可以摸至多X张牌（X为游戏人数且至多为5）。若如此做，此技能失效直到你累计使用了等量的牌。"
+        }
+      ]
+    },
+    {
+      "name": "关樾",
+      "image": "/packs/tenyear/images/guanyueg.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "守执",
+          "skillDescription": "锁定技，一名角色的回合结束时，若你的手牌数：大于此回合开始时的手牌数，你弃置一张手牌；小于此回合开始时的手牌数，你摸两张牌。"
+        },
+        {
+          "skillName": "奋恚",
+          "skillDescription": "限定技，出牌阶段，你可以令一名其他角色获得X枚“恨”（X为你对其使用过牌的次数且至多为5），你摸等量的牌。当其受到伤害时，其弃1枚“恨”且伤害值+1；当其死亡时，若其有“恨”，你减1点体力上限，失去〖守执〗，获得〖守执〗和〖兴门〗。"
+        },
+        {
+          "skillName": "兴门",
+          "skillDescription": "当你因执行〖守执〗的效果而弃置手牌后，你可以回复1点体力。当你因摸牌而得到牌后，若这些牌数大于1，你使用其中的红色牌不能被响应。"
+        }
+      ]
+    },
+    {
+      "name": "诸葛京",
+      "image": "/packs/tenyear/images/zhugejing.jpg",
+      "faction": "群",
+      "faction2": "晋",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "研作",
+          "skillDescription": "出牌阶段限一次，你可以将一张牌置于武将牌上，然后视为使用一张“研作”基本牌或普通锦囊牌。"
+        },
+        {
+          "skillName": "祖荫",
+          "skillDescription": "锁定技，你成为其他角色使用【杀】或普通锦囊牌的目标后，若你的“研作”牌中：没有同名牌，令〖研作〗出牌阶段可发动次数+1（至多为3），然后你从牌堆或弃牌堆中将一张同名牌置为“研作”牌；有同名牌，令此牌无效并移去“研作”牌中全部同名牌。"
+        },
+        {
+          "skillName": "辟剑",
+          "skillDescription": "锁定技，结束阶段，若“研作”牌数不少于存活角色数，你移去这些牌，然后对一名角色造成2点伤害。"
+        }
+      ]
+    }
+  ]

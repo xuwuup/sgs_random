@@ -1,0 +1,256 @@
+[
+    {
+      "name": "四象封印张苞",
+      "image": "/packs/offline/images/sxfy__zhangbaos.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "角逐",
+          "skillDescription": "锁定技，当你造成伤害后，你本回合使用牌无次数限制；当你受到伤害后，你视为对伤害来源使用一张【决斗】。"
+        },
+        {
+          "skillName": "承继",
+          "skillDescription": "你可以将两张颜色不同的牌当【杀】使用或打出。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印刘谌",
+      "image": "/packs/offline/images/sxfy__liuchen.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "战绝",
+          "skillDescription": "出牌阶段限一次，你可以将所有手牌当【决斗】使用，然后你摸一张牌。"
+        },
+        {
+          "skillName": "勤王",
+          "skillDescription": "主公技，当你需打出【杀】时，其他蜀势力角色可以弃置一张基本牌，视为你打出一张【杀】。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印丁奉",
+      "image": "/packs/offline/images/sxfy__dingfeng.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "短兵",
+          "skillDescription": "锁定技，你的攻击范围始终为1，你使用【杀】每回合首次造成的伤害+1。"
+        },
+        {
+          "skillName": "奋迅",
+          "skillDescription": "出牌阶段限一次，你可以弃置一张防具牌并选择一名其他角色，其本回合视为在你的攻击范围内。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印孙鲁班",
+      "image": "/packs/offline/images/sxfy__sunluban.jpg",
+      "faction": "吴",
+      "gender": "女",
+      "health": 3,
+      "startingHealth": 3,
+      "skills": [
+        {
+          "skillName": "谮毁",
+          "skillDescription": "当你使用【杀】或锦囊牌时，你可以令一名非目标角色成为此牌使用者。"
+        },
+        {
+          "skillName": "除异",
+          "skillDescription": "每轮限一次，当一名其他角色对你攻击范围内一名角色造成伤害时，你可以令此伤害+1。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印留赞",
+      "image": "/packs/offline/images/sxfy__liuzan.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "奋音",
+          "skillDescription": "摸牌阶段，你可以多摸两张牌，若如此做，当你本回合使用牌时，若此牌与你本回合使用的上一张牌颜色相同，你须弃置一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印孙翊",
+      "image": "/packs/offline/images/sxfy__sunyi.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "躁厉",
+          "skillDescription": "锁定技，准备阶段，你须弃置所有手牌或装备区内的牌，然后摸等量的牌（每损失1点体力额外摸一张牌），然后你失去1点体力。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印吕范",
+      "image": "/packs/offline/images/sxfy__lvfan.jpg",
+      "faction": "吴",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "调度",
+          "skillDescription": "准备阶段，你可以移动一名角色装备区内的一张牌，然后其摸一张牌。"
+        },
+        {
+          "skillName": "典财",
+          "skillDescription": "当一名角色失去装备区内的最后一张牌时，你摸一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印夏侯霸",
+      "image": "/packs/offline/images/sxfy__xiahouba.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "豹变",
+          "skillDescription": "出牌阶段开始时，你可以失去1点体力并指定一名其他角色，其需弃置一张手牌，若此牌为基本牌，你视为对其使用一张【杀】（无距离次数限制）。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印陶谦",
+      "image": "/packs/offline/images/sxfy__taoqian.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "揖让",
+          "skillDescription": "出牌阶段开始时，你可以展示所有手牌，将这些牌交给一名手牌数最少的其他角色，然后你摸等同于交出类别数的牌。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印纪灵",
+      "image": "/packs/offline/images/sxfy__jiling.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "双刃",
+          "skillDescription": "出牌阶段开始时，你可以与一名其他角色拼点，若你赢，你可以视为对其距离1的至多两名角色各使用一张【杀】（无距离限制，计入次数）；若你没赢，你本回合不能使用【杀】。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印李儒",
+      "image": "/packs/offline/images/sxfy__liru.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "灭计",
+          "skillDescription": "出牌阶段限一次，你可以交给一名其他角色一张黑色锦囊牌，然后你可以弃置其至多两张牌。"
+        },
+        {
+          "skillName": "绝策",
+          "skillDescription": "结束阶段，你可以对一名本回合失去过至少两张牌的角色造成1点伤害。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印郭皇后",
+      "image": "/packs/offline/images/sxfy__guohuanghou.jpg",
+      "faction": "魏",
+      "gender": "女",
+      "health": 3,
+      "startingHealth": 3,
+      "skills": [
+        {
+          "skillName": "矫诏",
+          "skillDescription": "出牌阶段限一次，你可以令一名其他角色展示两张手牌，然后你可以用一张手牌交换其中一张牌。"
+        },
+        {
+          "skillName": "殚心",
+          "skillDescription": "当你受到伤害后，你可以发动一次〖矫诏〗且改为你获得其展示的一张牌。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印关索",
+      "image": "/packs/offline/images/sxfy__guansuo.jpg",
+      "faction": "蜀",
+      "gender": "男",
+      "health": 4,
+      "skills": [
+        {
+          "skillName": "征南",
+          "skillDescription": "准备阶段，你可以将一张红色手牌当【杀】使用，若因此杀死了角色，你摸两张牌。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印刘晔",
+      "image": "/packs/offline/images/sxfy__liuye.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "破橹",
+          "skillDescription": "当你造成或受到伤害后，你可以弃置受伤角色装备区内的一张牌，若为你，你摸一张牌。"
+        },
+        {
+          "skillName": "筹略",
+          "skillDescription": "出牌阶段限一次，你可以交给一名其他角色一张手牌，然后其可以交给你一张装备牌。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印曹叡",
+      "image": "/packs/offline/images/sxfy__caorui.jpg",
+      "faction": "魏",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "恢拓",
+          "skillDescription": "当你受到伤害后，你可以展示牌堆顶两张牌，用任意张手牌替换等量的牌。"
+        },
+        {
+          "skillName": "明鉴",
+          "skillDescription": "出牌阶段限一次，你可以展示并交给一名其他角色一张牌，然后其可以使用此牌。"
+        },
+        {
+          "skillName": "兴衰",
+          "skillDescription": "主公技，其他魏势力角色的出牌阶段限一次，其可以将一张牌交给你。"
+        }
+      ]
+    },
+    {
+      "name": "四象封印王允",
+      "image": "/packs/offline/images/sxfy__wangyun.jpg",
+      "faction": "群",
+      "gender": "男",
+      "health": 3,
+      "skills": [
+        {
+          "skillName": "运机",
+          "skillDescription": "你可以将一张装备牌当【借刀杀人】使用。"
+        },
+        {
+          "skillName": "纵计",
+          "skillDescription": "当一名角色受到【杀】或【决斗】造成的伤害后，你可以弃置其与伤害来源各一张牌。"
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,185 @@
+[
+    {
+        "name": "合诸葛亮",
+        "image": "packs/jsrg/images/js__zhugeliang.jpg",
+        "faction": "蜀",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "问天",
+            "skillDescription": "你可以将牌堆顶的牌当【无懈可击】/【火攻】使用，若此牌不为黑色/红色，本技能于本轮内失效；每回合限一次，你的任意阶段开始时，你可以观看牌堆顶五张牌，然后将其中一张牌交给一名其他角色，其余牌以任意顺序置于牌堆顶或牌堆底。"
+          },
+          {
+            "skillName": "出师",
+            "skillDescription": "出牌阶段限一次，你可以和主公议事，若结果为：红色，你与其各摸一张牌，然后重复此摸牌流程，直到你与其手牌之和不小于7（若此主公为你，则改为你重复摸一张牌直到你的手牌数不小于7）；黑色，当你于本轮内造成属性伤害时，此伤害+1。"
+          },
+          {
+            "skillName": "隐略",
+            "skillDescription": "每轮每项各限一次，当一名角色受到火焰/雷电伤害时，你可以防止此伤害，然后若此时在一名角色的回合内，你于此回合结束后执行一个仅有摸牌/弃牌阶段的额外回合。"
+          }
+        ]
+      },
+      {
+        "name": "合姜维",
+        "image": "packs/jsrg/images/js__jiangwei.jpg",
+        "faction": "蜀",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "矜伐",
+            "skillDescription": "出牌阶段限一次，你可以展示一张手牌，然后与体力上限不大于你的所有角色议事，当此议事结果确定后，若结果与你展示牌的颜色：相同，你令至多两名参与议事的角色将手牌摸至体力上限；不同，你获得两张【影】。最后若没有其他角色与你意见相同，则你可变更势力。"
+          },
+          {
+            "skillName": "复谋",
+            "skillDescription": "魏势力技，当你参与的议事结束后，所有与你意见不同的角色本回合内不能使用或打出其意见颜色的牌，然后你可将一张【影】当【出其不意】对其中一名角色使用。"
+          },
+          {
+            "skillName": "选锋",
+            "skillDescription": "蜀势力技，你可以将一张【影】当无距离次数限制的刺【杀】使用。"
+          }
+        ]
+      },
+      {
+        "name": "合刘永",
+        "image": "packs/jsrg/images/js__liuyong.jpg",
+        "faction": "蜀",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "丹心",
+            "skillDescription": "你可以将一张牌当做【推心置腹】使用，你须展示获得和给出的牌，以此法得到♥牌的角色回复1点体力，此牌结算后，本回合内你计算与此牌目标的距离+1。"
+          },
+          {
+            "skillName": "封乡",
+            "skillDescription": "锁定技，当你受到伤害后，你须与一名其他角色交换装备区内的所有牌，若你装备区内的牌数因此而减少，你摸等同于减少数的牌。"
+          }
+        ]
+      },
+      {
+        "name": "合赵云",
+        "image": "packs/jsrg/images/js__zhaoyun.jpg",
+        "faction": "蜀",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "龙临",
+            "skillDescription": "当其他角色于其出牌阶段内首次使用【杀】指定目标后，你可以弃置一张牌令此【杀】无效，然后其可以视为对你使用一张【决斗】，你以此法造成伤害后，其本阶段不能再使用手牌。"
+          },
+          {
+            "skillName": "镇胆",
+            "skillDescription": "你可以将一张非基本手牌当做任意基本牌使用或打出；当你受到伤害后或每轮结束时，你摸X张牌，然后此技能本轮失效（X为本轮所有角色执行过的回合数且至多为5）。"
+          }
+        ]
+      },
+      {
+        "name": "合曹芳",
+        "image": "packs/jsrg/images/js__caofang.jpg",
+        "faction": "魏",
+        "gender": "男",
+        "health": 4,
+        "startingHealth": 3,
+        "skills": [
+          {
+            "skillName": "招图",
+            "skillDescription": "每轮限一次，你可以将一张红色非锦囊牌当做【乐不思蜀】使用，此回合结束后，目标执行一个手牌上限-2的回合。"
+          },
+          {
+            "skillName": "惊惧",
+            "skillDescription": "你可以将其他角色判定区里的一张牌移至你的判定区里，视为你使用一张基本牌。"
+          },
+          {
+            "skillName": "危坠",
+            "skillDescription": "主公技，其他魏势力角色的结束阶段，其可以将一张黑色牌当做【过河拆桥】对你使用。"
+          }
+        ]
+      },
+      {
+        "name": "合司马懿",
+        "image": "packs/jsrg/images/js__simayi.jpg",
+        "faction": "魏",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "鹰视",
+            "skillDescription": "当你翻面后，你可以观看牌堆底的三张牌（若场上阵亡角色数大于2则改为五张），然后将其中任意牌以任意顺序放置牌堆顶，其余牌以任意顺序放置牌堆底。"
+          },
+          {
+            "skillName": "蜕骨",
+            "skillDescription": "回合开始时，你可以翻面令你本回合手牌上限+X，然后摸X张牌并视为使用一张【解甲归田】（目标角色不能使用这些装备牌直到其回合结束，X为场上角色数的一半，向下取整）；每轮结束时，若你本轮未行动过，你执行一个额外的回合；当你失去装备区里的牌后，你回复一点体力。"
+          }
+        ]
+      },
+      {
+        "name": "合郭照",
+        "image": "packs/jsrg/images/js__guozhao.jpg",
+        "faction": "魏",
+        "gender": "女",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "偏宠",
+            "skillDescription": "一名角色的结束阶段，若你于此回合内失去过牌，你可以判定，你摸X张牌（X为弃牌堆里于此回合内移至此区域的与判定结果颜色相同的牌数）。"
+          },
+          {
+            "skillName": "尊位",
+            "skillDescription": "出牌阶段限一次，你可以选择一名其他角色，并选择执行以下一个选项，然后移除该选项：1.将手牌补至与其手牌数相同（至多摸五张）；2.将其装备里的牌移至你的装备区，直到你装备区里的牌数不小于其装备区里的牌数；3.将体力值回复至与其相同。"
+          }
+        ]
+      },
+      {
+        "name": "合陆逊",
+        "image": "packs/jsrg/images/js__luxun.jpg",
+        "faction": "吴",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "诱进",
+            "skillDescription": "出牌阶段开始时，你可以与一名角色拼点，双方本回合不能使用或打出点数小于各自拼点牌的手牌，赢的角色视为对没赢的角色使用一张【杀】。"
+          },
+          {
+            "skillName": "待劳",
+            "skillDescription": "出牌阶段，若你没有可以使用的手牌，你可以展示所有手牌并摸两张牌，然后结束回合。"
+          },
+          {
+            "skillName": "逐北",
+            "skillDescription": "锁定技，你对本回合受到过伤害/失去过最后手牌的角色造成的伤害+1/使用牌无次数限制。"
+          }
+        ]
+      },
+      {
+        "name": "合孙峻",
+        "image": "packs/jsrg/images/js__sunjun.jpg",
+        "faction": "吴",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "邀宴",
+            "skillDescription": "准备阶段开始时，你可以令所有角色依次选择是否于本回合结束时参与议事，若此议事结果为：红色，你获得至少一名未参与议事的角色各一张手牌；黑色，你对一名参与议事的角色造成2点伤害。"
+          },
+          {
+            "skillName": "霸政",
+            "skillDescription": "锁定技，当你参与的议事展示意见后，参与议事角色中本回合受到过你造成伤害的角色意见改为与你相同。"
+          }
+        ]
+      },
+      {
+        "name": "合卫温诸葛直",
+        "image": "packs/jsrg/images/js__weiwenzhugezhi.jpg",
+        "faction": "吴",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "浮海",
+            "skillDescription": "出牌阶段限一次，你可以令所有其他角色同时展示一张手牌（没有手牌则跳过），然后你选择顺时针或逆时针方向，摸X张牌（X为从你开始该方向上角色展示牌点数严格递增或严格递减的数量，至少为1）。"
+          }
+        ]
+      }
+]

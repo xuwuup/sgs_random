@@ -1,0 +1,218 @@
+[
+    {
+        "name": "承孙策",
+        "image": "packs/jsrg/images/js__sunce.jpg",
+        "faction": "吴",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "独行",
+            "skillDescription": "出牌阶段限一次，你可以视为使用一张以任意名角色为目标的【决斗】，直到此【决斗】结算完毕，所有目标的手牌均视为【杀】。"
+          },
+          {
+            "skillName": "猘横",
+            "skillDescription": "锁定技，当你使用牌对目标角色造成伤害时，若其本回合使用或打出牌响应过你使用的牌，此伤害+1。"
+          },
+          {
+            "skillName": "诈死",
+            "skillDescription": "限定技，当你受到致命伤害时，你可以防止之，失去〖猘横〗并获得〖制衡〗，然后你不计入座次和距离计算，直到你对其他角色使用牌或当你受到伤害后。"
+          },
+          {
+            "skillName": "霸世",
+            "skillDescription": "主公技，当你需要打出【杀】或【闪】时，你可令其他吴势力角色各选择是否代替你打出。"
+          },
+          {
+            "skillName": "制衡",
+            "skillDescription": "出牌阶段限一次，你可以弃置任意张牌并摸等量的牌。若你以此法弃置了所有的手牌，你多摸一张牌。"
+          }
+        ]
+      },
+      {
+        "name": "承许贡",
+        "image": "packs/jsrg/images/js__xugong.jpg",
+        "faction": "吴",
+        "faction2": "群",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "表召",
+            "skillDescription": "准备阶段，你可以选择两名其他角色，直到你下回合开始时或你死亡后，你选择的第一名角色对第二名角色使用牌无距离次数限制，第二名角色对你使用牌造成伤害+1。"
+          },
+          {
+            "skillName": "业仇",
+            "skillDescription": "当你死亡时，你可以选择一名其他角色，本局游戏当其受到致命伤害时，此伤害翻倍。"
+          }
+        ]
+      },
+      {
+        "name": "承淳于琼",
+        "image": "packs/jsrg/images/js__chunyuqiong.jpg",
+        "faction": "群",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "仓储",
+            "skillDescription": "每名角色的结束阶段，你可以令至多X名角色各摸一张牌；若X大于存活角色数，则改为各摸两张牌（X为你此回合得到过的牌数）。"
+          },
+          {
+            "skillName": "失守",
+            "skillDescription": "锁定技，当你使用【酒】时，你摸三张牌，然后你不能使用牌直到回合结束。当你受到火焰伤害后，〖仓储〗失效直到你下回合结束。"
+          }
+        ]
+      },
+      {
+        "name": "承许攸",
+        "image": "packs/jsrg/images/js__xuyou.jpg",
+        "faction": "群",
+        "faction2": "魏",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "离叛",
+            "skillDescription": "结束阶段结束时，你可以变更势力，然后摸X张牌并执行一个额外的出牌阶段（X为势力与你相同的其他角色数）。此阶段结束时，所有势力与你相同的其他角色可以将一张牌当【决斗】对你使用。"
+          },
+          {
+            "skillName": "轻袭",
+            "skillDescription": "群势力技，出牌阶段对每名角色限一次，你可以选择一名手牌数小于你的角色，你将手牌弃至与其相同，然后视为对其使用一张无距离和次数限制的刺【杀】。"
+          },
+          {
+            "skillName": "烬灭",
+            "skillDescription": "魏势力技，出牌阶段限一次，你可以选择一名手牌数大于你的角色，视为对其使用一张无距离和次数限制的火【杀】。此牌造成伤害后，你将其手牌弃置至与你相同。"
+          }
+        ]
+      },
+      {
+        "name": "承吕布",
+        "image": "packs/jsrg/images/js__lvbu.jpg",
+        "faction": "群",
+        "faction2": "蜀",
+        "gender": "男",
+        "health": 5,
+        "skills": [
+          {
+            "skillName": "无常",
+            "skillDescription": "锁定技，当你得到其他角色的牌后，你变更势力至与其相同；当你使用【杀】或【决斗】对势力与你相同的角色造成伤害时，你令此伤害+1，然后你变更势力至群。"
+          },
+          {
+            "skillName": "轻狡",
+            "skillDescription": "群势力技，出牌阶段各限一次，你可以将一张牌当【推心置腹】/【趁火打劫】对一名手牌数大于/小于你的角色使用。"
+          },
+          {
+            "skillName": "乘虚",
+            "skillDescription": "蜀势力技，锁定技，势力与你相同的其他角色不能响应你使用的牌。"
+          }
+        ]
+      },
+      {
+        "name": "承张郃",
+        "image": "packs/jsrg/images/js__zhanghe.jpg",
+        "faction": "群",
+        "faction2": "魏",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "穷途",
+            "skillDescription": "群势力技，每回合限一次，你可以将一张非基本牌置于武将牌上视为使用一张【无懈可击】，若该【无懈可击】生效，你摸一张牌，否则你变更势力至魏并获得武将牌上的所有牌。"
+          },
+          {
+            "skillName": "先著",
+            "skillDescription": "魏势力技，你可以将一张普通锦囊牌当无次数限制的【杀】使用，此【杀】对唯一目标造成伤害后，你视为对目标额外执行该锦囊牌的效果。"
+          }
+        ]
+      },
+      {
+        "name": "承邹氏",
+        "image": "packs/jsrg/images/js__zoushi.jpg",
+        "faction": "群",
+        "gender": "女",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "孤吟",
+            "skillDescription": "准备阶段，你可以翻面，然后令所有其他男性角色各选择其是否翻面，然后你和所有翻面的角色轮流各摸一张牌直到以此法摸牌数达到X张（X为本局游戏男性角色数）。"
+          },
+          {
+            "skillName": "帐灯",
+            "skillDescription": "当一名武将牌背面朝上的角色需要使用【酒】时，若你的武将牌背面朝上，其可以视为使用之。当本技能于一回合内第二次及以上发动时，你翻面至正面朝上。"
+          }
+        ]
+      },
+      {
+        "name": "承关羽",
+        "image": "packs/jsrg/images/js__guanyu.jpg",
+        "faction": "蜀",
+        "gender": "男",
+        "health": 5,
+        "skills": [
+          {
+            "skillName": "冠绝",
+            "skillDescription": "锁定技，当你使用或打出一张牌时，所有其他角色不能使用或打出此花色的牌直到回合结束。"
+          },
+          {
+            "skillName": "念恩",
+            "skillDescription": "你可以将你的一张牌当任意基本牌使用或打出；若转化后的牌不为红色普【杀】，〖念恩〗失效且你获得〖马术〗直到回合结束。"
+          },
+          {
+            "skillName": "马术",
+            "skillDescription": "锁定技，你计算与其他角色的距离时，始终-1。"
+          }
+        ]
+      },
+      {
+        "name": "承陈登",
+        "image": "packs/jsrg/images/js__chendeng.jpg",
+        "faction": "群",
+        "gender": "男",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "论势",
+            "skillDescription": "出牌阶段限一次，你可以令一名角色摸等同于其攻击范围内角色数的牌（至多摸至五张），然后令该角色弃置等同于攻击范围内含有其的角色数的牌。"
+          },
+          {
+            "skillName": "诡图",
+            "skillDescription": "准备阶段，你可以交换场上的两张武器牌，然后攻击范围因此以此法减少的角色回复1点体力。"
+          }
+        ]
+      },
+      {
+        "name": "承甄宓",
+        "image": "packs/jsrg/images/js__zhenji.jpg",
+        "faction": "群",
+        "gender": "女",
+        "health": 3,
+        "skills": [
+          {
+            "skillName": "济乡",
+            "skillDescription": "当其他角色于你的回合内需要使用或打出基本牌时（每回合每种牌名各限一次），你可以弃置一张牌令其视为使用或打出之，然后你摸一张牌并令〖称贤〗于此阶段可发动次数+1。"
+          },
+          {
+            "skillName": "称贤",
+            "skillDescription": "出牌阶段限两次，你可以将一张手牌当任意普通锦囊牌使用（每回合每种牌名各限一次，且以此法转化后的牌须与转化前的牌的合法目标角色数相等）。"
+          }
+        ]
+      },
+      {
+        "name": "承张辽",
+        "image": "packs/jsrg/images/js__zhangliao.jpg",
+        "faction": "群",
+        "faction2": "魏",
+        "gender": "男",
+        "health": 4,
+        "skills": [
+          {
+            "skillName": "整兵",
+            "skillDescription": "群势力技，出牌阶段限三次，你可以重铸一张牌，若此牌为：\n【杀】，你此回合手牌上限+2；\n【闪】，你摸一张牌；\n【桃】，你变更势力至魏。"
+          },
+          {
+            "skillName": "突围",
+            "skillDescription": "魏势力技，出牌阶段开始时，你可以获得攻击范围内任意名角色各一张牌；回合结束时，这些角色中本回合未受到过伤害的角色各获得你的一张牌。"
+          }
+        ]
+      }
+]

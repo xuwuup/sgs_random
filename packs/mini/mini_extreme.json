@@ -1,0 +1,373 @@
+[
+  {
+    "name": "极吕布",
+    "image": "packs/mini/images/miniex__lvbu.jpg",
+    "faction": "群",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "无双",
+        "skillDescription": "锁定技，你使用【杀】或【决斗】指定目标后，其需依次使用两张【闪】或【杀】响应；当你成为【杀】或【决斗】的目标后，你每次响应此类牌需依次使用两张【闪】或【杀】。"
+      },
+      {
+        "skillName": "虓虎",
+        "skillDescription": "你使用【杀】可以额外指定一个目标。出牌阶段开始时，你可以弃置一张手牌，获得一张【杀】。"
+      }
+    ]
+  },
+  {
+    "name": "极大乔",
+    "image": "packs/mini/images/miniex__daqiao.jpg",
+    "faction": "吴",
+    "gender": "女",
+    "health": 3,
+    "skills": [
+      {
+        "skillName": "相知",
+        "skillDescription": "韵律技，出牌阶段限一次，平：你摸一张牌；仄：你回复1点体力。转韵：你发动〖节烈〗后。"
+      },
+      {
+        "skillName": "节烈",
+        "skillDescription": "出牌阶段限一次，你可以选择一项，令一名其他角色：1.其可以使用一张手牌，若此牌为红色【杀】，则你失去1点体力，然后你可以再次发动〖节烈〗；2.你下次发动〖相知〗时，令其获得相同效果。"
+      }
+    ]
+  },
+  {
+    "name": "极小乔",
+    "image": "packs/mini/images/miniex__xiaoqiao.jpg",
+    "faction": "吴",
+    "gender": "女",
+    "health": 3,
+    "skills": [
+      {
+        "skillName": "同心",
+        "skillDescription": "韵律技，出牌阶段限一次，平：你可以令一名其他角色交给你一张手牌，然后若其手牌数不大于你，其摸一张牌；仄：你可以交给一名其他角色一张手牌，然后若其手牌数不小于你，你对其造成1点伤害。转韵：出牌阶段，使用本回合未使用过的类型的牌。"
+      },
+      {
+        "skillName": "韶颜",
+        "skillDescription": "每回合限一次，当你成为其他角色使用牌的目标后，若其手牌数大于你，你摸一张牌。"
+      }
+    ]
+  },
+  {
+    "name": "极郭嘉",
+    "image": "packs/mini/images/miniex__guojia.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "health": 3,
+    "skills": [
+      {
+        "skillName": "算略",
+        "skillDescription": "游戏开始时，你获得3点谋略值。每个回合结束时，你获得X点谋略值（X为你本回合使用牌的类别数）。"
+      },
+      {
+        "skillName": "定策",
+        "skillDescription": "每回合限一次，你可以消耗1点谋略值，将一张牌当你本回合使用的上一张基本牌或普通锦囊牌使用。"
+      },
+      {
+        "skillName": "妙计",
+        "skillDescription": "每回合限一次，你可以消耗1~3点谋略值，视为使用对应的牌：1.【过河拆桥】；3.【无懈可击】或【无中生有】。(拥有谋略值时获得)"
+      }
+    ]
+  },
+  {
+    "name": "极马超",
+    "image": "packs/mini/images/miniex__machao.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "弃袍",
+        "skillDescription": "当你使用【杀】指定目标后，你可令其选择一项：1. 弃置装备区内的所有牌（至少一张）；2. 此回合非锁定技失效且不能响应此【杀】。"
+      },
+      {
+        "skillName": "追袭",
+        "skillDescription": "①结束阶段，若其他角色均处于你的攻击范围内，你可选择一名角色，视为对其使用【杀】。②你至装备区里没有坐骑牌的角色的距离视为1。"
+      }
+    ]
+  },
+  {
+    "name": "极诸葛亮",
+    "image": "packs/mini/images/miniex__zhugeliang.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "health": 3,
+    "skills": [
+      {
+        "skillName": "三顾",
+        "skillDescription": "锁定技，每当有三张牌指定你为目标后，你获得3点谋略值，然后你观看牌堆顶的三张牌并将这些牌置于牌堆顶或牌堆底。"
+      },
+      {
+        "skillName": "演势",
+        "skillDescription": "出牌阶段限一次，你可从牌堆顶或牌堆底（不可与你此阶段上一次选择的相同）摸一张牌。若你于此阶段使用了此牌，你可弃置一张牌再次发动〖演势〗。"
+      },
+      {
+        "skillName": "妙计",
+        "skillDescription": "每回合限一次，你可以消耗1~3点谋略值，视为使用对应的牌：1.【过河拆桥】；3.【无懈可击】或【无中生有】。(拥有谋略值时获得)"
+      }
+    ]
+  },
+  {
+    "name": "极黄月英",
+    "image": "packs/mini/images/miniex__huangyueying.jpg",
+    "faction": "蜀",
+    "gender": "女",
+    "health": 3,
+    "skills": [
+      {
+        "skillName": "妙笔",
+        "skillDescription": "当你于出牌阶段内使用的、非转化且非虚拟的锦囊牌结算结束后，你可将此牌置于其中一个目标角色的武将牌上（每牌名每回合限一次）。拥有“妙笔”牌的角色的准备阶段，其选择一项：1. 交给你一张锦囊牌，将“妙笔”牌置入弃牌堆；2. 你对其依次使用“妙笔”牌。"
+      },
+      {
+        "skillName": "慧心",
+        "skillDescription": "回合开始时，若你装备区里的牌的数量为：偶数，此回合你拥有〖集智〗；奇数，此回合你拥有〖祭风〗。"
+      },
+      {
+        "skillName": "集智",
+        "skillDescription": "当你使用普通锦囊牌时，你可以摸一张牌。(由慧心授予)"
+      },
+      {
+        "skillName": "祭风",
+        "skillDescription": "出牌阶段限一次，你可弃置一张手牌，然后从牌堆中随机获得一张锦囊牌。(由慧心授予)"
+      }
+    ]
+  },
+  {
+    "name": "极曹操",
+    "image": "packs/mini/images/miniex__caocao.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "得鹿",
+        "skillDescription": "出牌阶段限一次，你可与任意名体力值不大于你的角色进行一次逐鹿，赢的角色依次获得没赢的角色区域内随机一张牌。此次你拼点的牌点数+X（X为参加拼点的角色数）。"
+      },
+      {
+        "skillName": "煮酒",
+        "skillDescription": "出牌阶段限一次，你可选择一名其他角色，你与其同时选择一张手牌并交换，若这两张牌颜色相同/不同，你回复1点体力/你对其造成1点伤害。"
+      },
+      {
+        "skillName": "护驾",
+        "skillDescription": "主公技，当你需要使用或打出【闪】时，你可以令其他魏势力角色选择是否打出一张【闪】（视为由你使用或打出）。"
+      }
+    ]
+  },
+  {
+    "name": "极司马懿",
+    "image": "packs/mini/images/miniex__simayi.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "health": 3,
+    "skills": [
+      {
+        "skillName": "隐忍",
+        "skillDescription": "回合开始时，你可跳过出牌阶段和弃牌阶段，然后获得以下技能中你没有的第一个技能：〖奸雄〗、〖行殇〗、〖明鉴〗。"
+      },
+      {
+        "skillName": "夺权",
+        "skillDescription": "结束阶段，你可观看一名其他角色的手牌，秘密选择一种类型，当其使用下一张牌时，若此牌的类型与你选择的类型相同，则你令取消之，然后当此牌结算完毕后，你可使用此牌对应的一张实体牌。"
+      },
+      {
+        "skillName": "奸雄",
+        "skillDescription": "当你受到伤害后，你可以获得对你造成伤害的牌。(由隐忍授予)"
+      },
+      {
+        "skillName": "行殇",
+        "skillDescription": "当其他角色死亡时，你可以获得其所有牌。(由隐忍授予)"
+      },
+      {
+        "skillName": "明鉴",
+        "skillDescription": "出牌阶段限一次，你可以将所有手牌交给一名其他角色，然后其对你指定的一名角色造成1点伤害。(由隐忍授予)"
+      }
+    ]
+  },
+  {
+    "name": "极袁绍",
+    "image": "packs/mini/images/miniex__yuanshao.jpg",
+    "faction": "群",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "尊北",
+        "skillDescription": "出牌阶段限一次，你可与所有其他角色进行一次逐鹿，然后若此次“逐鹿”：有胜者，则胜者视为使用一张【万箭齐发】，此牌结算结束后，你摸X张牌（X为受到此牌伤害的角色数）；没有胜者，则此技能视为此阶段未发动过。"
+      },
+      {
+        "skillName": "盟首",
+        "skillDescription": "每轮限一次，当你受到其他角色造成的伤害时，若其本轮造成的伤害值不大于你，你可防止此伤害。"
+      }
+    ]
+  },
+  {
+    "name": "极鲁肃",
+    "image": "packs/mini/images/miniex__lusu.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "health": 3,
+    "skills": [
+      {
+        "skillName": "虑远",
+        "skillDescription": "结束阶段，你可以弃置任意张牌并摸等量的牌，然后若你以此法弃置了至少两张牌且颜色相同，直到你的下回合开始时，当你失去另一种颜色的一张手牌后，你摸一张牌。"
+      },
+      {
+        "skillName": "合纵",
+        "skillDescription": "每轮开始时，你可以选择两名角色，本轮内：当其中一名角色使用【杀】指定除这些角色以外的角色为唯一目标结算后，另一名角色须对相同目标使用一张【杀】，否则交给其一张牌；当其中一名角色成为除这些角色以外的角色使用【杀】的唯一目标时，另一名角色须交给目标角色一张【闪】，否则成为此【杀】的额外目标。"
+      }
+    ]
+  },
+  {
+    "name": "极许褚",
+    "image": "packs/mini/images/miniex__xuchu.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "虎侯",
+        "skillDescription": "①与你【决斗】的角色不能打出【杀】。②你可将一张装备牌当【杀】使用或打出，此【杀】或以此法响应的【决斗】伤害+1。"
+      },
+      {
+        "skillName": "武卫",
+        "skillDescription": "结束阶段，你可以选择一名角色，直到你的下回合开始，当其不以此法成为伤害牌的目标后，若其体力值不大于你，你令此牌对其无效，然后此牌结算结束后，使用者视为对你使用一张【决斗】。"
+      }
+    ]
+  },
+  {
+    "name": "极荀彧",
+    "image": "packs/mini/images/miniex__xunyu.jpg",
+    "faction": "魏",
+    "gender": "男",
+    "health": 3,
+    "skills": [
+      {
+        "skillName": "王佐",
+        "skillDescription": "每回合限一次，你可跳过摸牌阶段、出牌阶段或弃牌阶段，然后令一名其他角色执行一个对应的额外阶段。"
+      },
+      {
+        "skillName": "举贤",
+        "skillDescription": "你的回合内，当其他角色的牌因使用、打出或弃置而进入弃牌堆后，你获得之（至多为3）。"
+      },
+      {
+        "skillName": "先识",
+        "skillDescription": "每轮限一次，一名角色的摸牌阶段开始时，你可观看牌堆顶的三张牌并用任意张手牌交换其中等量张牌。"
+      }
+    ]
+  },
+  {
+    "name": "极甄姬",
+    "image": "packs/mini/images/miniex__zhenji.jpg",
+    "faction": "魏",
+    "gender": "女",
+    "health": 3,
+    "skills": [
+      {
+        "skillName": "神赋",
+        "skillDescription": "①当一名角色受到1点伤害后，你获得1枚“洛神”标记，上限为6。结束阶段，你弃置所有“洛神”标记，亮出牌堆顶等量张牌，然后选择一项：1.可以依次使用其中的黑色牌；2.获得其中的红色牌。"
+      },
+      {
+        "skillName": "思怨",
+        "skillDescription": "当你受到伤害后，你可以选择一名其他角色，令伤害来源视为对其造成过1点伤害。"
+      }
+    ]
+  },
+  {
+    "name": "极孙策",
+    "image": "packs/mini/images/miniex__sunce.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "讨逆",
+        "skillDescription": "出牌阶段开始时，你可失去任意点体力，摸等量的牌，然后令至多X名没有“讨逆”的其他角色各获得1枚“讨逆”（X为你以此法失去的体力值），此回合你的手牌上限为你的体力上限。"
+      },
+      {
+        "skillName": "平江",
+        "skillDescription": "出牌阶段，你可选择一名有“讨逆”的角色，弃其“讨逆”，视为对其使用【决斗】。若其受到了此【决斗】的伤害，你此回合使用的【决斗】目标角色需要打出【杀】的数量+1，对目标角色造成的伤害+1；否则此技能此回合失效。"
+      },
+      {
+        "skillName": "鼎业",
+        "skillDescription": "结束阶段，你回复X点体力。（X为此回合受到过伤害的其他角色数）"
+      }
+    ]
+  },
+  {
+    "name": "极孙权",
+    "image": "packs/mini/images/miniex__sunquan.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "纵阋",
+        "skillDescription": "出牌阶段限一次，你可将至多三张牌以任意顺序置于牌堆顶，然后令X名角色进行逐鹿（X为你以此法置于牌堆的牌数+1），赢的角色摸两张牌。“逐鹿”结束后，你获得其他角色的“逐鹿”牌。"
+      },
+      {
+        "skillName": "戮衡",
+        "skillDescription": "结束阶段，若你本回合发动过“纵阋”，你可选择一名本回合参与过“逐鹿”中手牌数最多的其他角色，视为对其使用一张【杀】。"
+      }
+    ]
+  },
+  {
+    "name": "极周瑜",
+    "image": "packs/mini/images/miniex__zhouyu.jpg",
+    "faction": "吴",
+    "gender": "男",
+    "health": 3,
+    "skills": [
+      {
+        "skillName": "英锐",
+        "skillDescription": "摸牌阶段结束时，或当你杀死一名角色后，你获得4点谋略值。"
+      },
+      {
+        "skillName": "焚离",
+        "skillDescription": "出牌阶段限一次，你可以消耗2点“谋略”值，弃置至多两名座次相邻角色各一张牌，若这些牌颜色相同，你可以再消耗2点“谋略”值，对这些角色依次造成1点火焰伤害。"
+      },
+      {
+        "skillName": "曲顾",
+        "skillDescription": "每回合你首次成为其他角色使用牌的目标后，你可以从牌堆中获得一张与此牌类别不同的牌。"
+      },
+      {
+        "skillName": "妙计",
+        "skillDescription": "每回合限一次，你可以消耗1~3点谋略值，视为使用对应的牌：1.【过河拆桥】；3.【无懈可击】或【无中生有】。(拥有谋略值时获得)"
+      }
+    ]
+  },
+  {
+    "name": "极蔡文姬",
+    "image": "packs/mini/images/miniex__caiwenji.jpg",
+    "faction": "群",
+    "gender": "女",
+    "health": 3,
+    "skills": [
+      {
+        "skillName": "悲笳",
+        "skillDescription": "韵律技，每回合限一次，平：你可以将一张点数大于X的牌当任意普通锦囊牌使用；仄：你可以将一张点数小于X的牌当任意基本牌使用。转韵：出牌阶段，使用一张点数等于X的牌（X为你使用的上一张牌的点数）。"
+      },
+      {
+        "skillName": "思赋",
+        "skillDescription": "出牌阶段各限一次，你可以选择一个本回合你使用/未使用过的牌的点数，然后从牌堆里随机获得一张该点数的牌。"
+      }
+    ]
+  },
+  {
+    "name": "极关羽",
+    "image": "packs/mini/images/miniex__guanyu.jpg",
+    "faction": "蜀",
+    "gender": "男",
+    "health": 4,
+    "skills": [
+      {
+        "skillName": "翊汉",
+        "skillDescription": "出牌阶段限一次，你可以展示一名其他角色的一张手牌，然后令其选择一项：1.将此牌交给你；2.令你视为对其使用一张无次数限制的【杀】。"
+      },
+      {
+        "skillName": "武威",
+        "skillDescription": "奋武技，出牌阶段，你可以弃置X+1张牌（X为此阶段本技能的发动次数），然后弃置一名角色等量张牌。若你弃置自己的牌点数之和不大于弃置其的牌点数之和，你对其造成1点雷电伤害。"
+      }
+    ]
+  }
+]
