@@ -1,5 +1,5 @@
 <template>
-  <section class="view selection-view">
+  <section class="selection-view content-area">
     <h2>请选择一张卡牌查看详情 (左右滑动)</h2>
     <SelectionCarousel :items="drawStore.drawnBatch" @select="handleCarouselSelect" />
     <button id="btn-cancel-selection" class="button button--secondary" @click="handleCancelSelection">

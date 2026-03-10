@@ -1,78 +1,87 @@
-import { defineStore } from 'pinia';
-import { ref } from 'vue';
-import type { Character } from '../types';
-import { usePackStore } from './packStore';
+import { defineStore } from 'pinia'
+import { ref, computed } from 'vue'
+import type { Character } from '../types'
+import { usePackStore } from './packStore'
 
 export const useDrawStore = defineStore('draw', () => {
-  // 从 packStore 获取卡池
-  const packStore = usePackStore();
+  const selectedCard = ref<Character | null>(null)
+  const confirmedCard = ref<Character | null>(null)
+  const drawnBatch = ref<Character[]>([])
+  const drawCount = ref(1)
 
-  // 抽取设置
-  const drawCount = ref(1);
+  // 助手模式状态
+  const isHelperMode = ref(false)
+  const currentHealth = ref(0)
+  const maxHealth = ref(0)
 
-  // 抽取结果
-  const drawnBatch = ref<Character[]>([]);
-  const selectedCard = ref<Character | null>(null);
-  const confirmedCard = ref<Character | null>(null);
-  const isLocked = ref(false);
+  const hasSelection = computed(() => !!selectedCard.value)
+  const isConfirmed = computed(() => !!confirmedCard.value)
 
-  // 抽取卡牌
-  const drawCards = () => {
-    if (packStore.pool.length === 0) return;
+  function drawCards() {
+    const packStore = usePackStore()
+    if (packStore.pool.length === 0) return
 
-    // 此处可引入 utils/randomizer 进行更优雅的随机抽取
-    const poolCopy = [...packStore.pool];
-    const shuffled = poolCopy.sort(() => Math.random() - 0.5);
-    drawnBatch.value = shuffled.slice(0, drawCount.value);
-    
-    selectedCard.value = null;
-    confirmedCard.value = null;
-    isLocked.value = false;
-  };
+    // 随机乱序并抽取指定数量
+    const shuffled = [...packStore.pool].sort(() => Math.random() - 0.5)
+    drawnBatch.value = shuffled.slice(0, drawCount.value)
 
-  // 选择卡牌
-  const selectCard = (card: Character) => {
-    selectedCard.value = card;
-  };
+    // 开启新一轮时重置状态
+    selectedCard.value = null
+    confirmedCard.value = null
+    isHelperMode.value = false
+  }
 
-  // 确认选择
-  const confirmSelection = () => {
+  function selectCard(card: Character) {
+    selectedCard.value = card
+  }
+
+  function confirmSelection() {
     if (selectedCard.value) {
-      confirmedCard.value = selectedCard.value;
+      confirmedCard.value = selectedCard.value
+      // 初始化体力
+      maxHealth.value = Math.floor(selectedCard.value.health || 3)
+      currentHealth.value = maxHealth.value
+      // 自动进入助手模式
+      isHelperMode.value = true
     }
-  };
+  }
 
-  // 重新抽取
-  const redraw = () => {
-    drawCards();
-  };
+  function reset() {
+    selectedCard.value = null
+    confirmedCard.value = null
+    isHelperMode.value = false
+    currentHealth.value = 0
+    maxHealth.value = 0
+    drawnBatch.value = []
+  }
 
-  // 锁定/解锁结果
-  const lockResult = () => {
-    isLocked.value = !isLocked.value;
-  };
+  function changeHealth(delta: number) {
+    const newVal = currentHealth.value + delta
+    if (newVal >= 0 && newVal <= maxHealth.value) {
+      currentHealth.value = newVal
+    }
+  }
 
-  // 重置游戏状态
-  const reset = () => {
-    drawnBatch.value = [];
-    selectedCard.value = null;
-    confirmedCard.value = null;
-    isLocked.value = false;
-  };
+  function setMaxHealth(val: number) {
+    maxHealth.value = val
+    if (currentHealth.value > val) currentHealth.value = val
+  }
 
   return {
-    drawCount,
-    drawnBatch,
     selectedCard,
     confirmedCard,
-    isLocked,
+    drawnBatch,
+    drawCount,
+    isHelperMode,
+    currentHealth,
+    maxHealth,
+    hasSelection,
+    isConfirmed,
     drawCards,
     selectCard,
     confirmSelection,
-    redraw,
-    lockResult,
-    reset
-  };
-}, {
-  persist: true
-});
+    reset,
+    changeHealth,
+    setMaxHealth
+  }
+})

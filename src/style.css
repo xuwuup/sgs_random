@@ -69,7 +69,7 @@ body {
 
 .app-header {
     text-align: center;
-    margin-bottom: calc(var(--spacing-unit) * 2.5); /* 20px */
+    margin-bottom: clamp(10px, 2vh, 20px);
 }
 
 h1, h2, h3 {
@@ -134,12 +134,14 @@ h2 {
    Views General
    ========================================================================== */
 .view {
-    max-width: 700px;
-    margin: calc(var(--spacing-unit) * 2.5) auto; /* 20px auto */
+    width: 95%;
+    max-width: 900px; /* Increased for landscape flow */
+    margin: 1rem auto;
     background-color: var(--color-surface);
-    padding: calc(var(--spacing-unit) * 3); /* 24px */
+    padding: clamp(12px, 3vw, 24px);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
+    transition: all 0.3s ease;
 }
 
 .view[aria-hidden="true"] {

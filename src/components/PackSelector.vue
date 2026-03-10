@@ -136,16 +136,24 @@ function getTotalCharacterCount(): number {
 
 /* 紧凑列表样式 */
 .packs-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr; /* Default to single column */
   gap: 8px;
   margin-bottom: 20px;
-  max-height: 400px;
+  max-height: calc(100vh - 300px); /* Responsive height */
+  min-height: 200px;
   overflow-y: auto;
   padding: 5px;
   /* 自定义滚动条 */
   scrollbar-width: thin;
   scrollbar-color: rgba(140, 34, 34, 0.4) rgba(0,0,0,0.05);
+}
+
+@media screen and (min-width: 768px), screen and (orientation: landscape) {
+  .packs-list {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    max-height: calc(100vh - 250px);
+  }
 }
 
 .packs-list::-webkit-scrollbar {
