@@ -11,7 +11,7 @@
 
       <!-- 右上角返回按钮 -->
       <div class="top-right-actions">
-        <button class="button button--secondary btn-small" @click="handleRedraw">重新抽取</button>
+        <button class="action-btn-redraw" @click="handleRedraw">⟳ 重新抽取</button>
       </div>
 
       <!-- 主体：大号体力管理 -->
@@ -108,21 +108,26 @@ function getMagatamaClass(index: number) {
   position: absolute;
   top: 20px;
   left: 20px;
-  width: 90px;
-  background: #3d342d;
-  border: 2px solid #cfb78f;
-  border-radius: 8px;
-  padding: 4px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  width: 100px;
+  background: rgba(30, 25, 20, 0.8);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(207, 183, 143, 0.6);
+  border-radius: 10px;
+  padding: 6px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
   cursor: pointer;
   z-index: 50;
-  transition: transform 0.2s;
+  transition: all 0.3s ease;
 }
-.mini-avatar-box:hover { transform: scale(1.05); }
+.mini-avatar-box:hover {
+  transform: scale(1.05);
+  border-color: #ffeb3b;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6), 0 0 15px rgba(255, 235, 59, 0.2);
+}
 
-.mini-img { width: 100%; height: 70px; object-fit: cover; border-radius: 4px; }
-.mini-name { font-size: 13px; text-align: center; color: #fff; margin-top: 3px; font-weight: bold; }
-.exit-hint { font-size: 9px; color: #a69888; text-align: center; }
+.mini-img { width: 100%; height: 80px; object-fit: cover; border-radius: 6px; }
+.mini-name { font-size: 14px; text-align: center; color: #fff; margin-top: 4px; font-weight: bold; letter-spacing: 1px; }
+.exit-hint { font-size: 10px; color: #a69888; text-align: center; }
 
 /* 右上角操作 */
 .top-right-actions {
@@ -131,16 +136,33 @@ function getMagatamaClass(index: number) {
   right: 20px;
   z-index: 50;
 }
-.btn-small { padding: 8px 15px; font-size: 13px; }
+.action-btn-redraw {
+  padding: 10px 20px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #e5dfd9;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: var(--font-family-base);
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.action-btn-redraw:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #ffeb3b;
+  color: #fff;
+}
 
 /* 体力管理区 */
 .health-tracker {
-  background: rgba(43, 37, 33, 0.85);
+  background: rgba(30, 25, 20, 0.8);
+  backdrop-filter: blur(12px);
   padding: 50px 60px;
   border-radius: 20px;
-  border: 1px solid #5a4a3a;
+  border: 1px solid rgba(255, 215, 100, 0.15);
   text-align: center;
-  box-shadow: 0 20px 50px rgba(0,0,0,0.8), inset 0 0 20px rgba(0,0,0,0.4);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.8), inset 0 0 20px rgba(0,0,0,0.3);
 }
 .helper-title { color: #ffe066; margin-bottom: 40px; font-size: 26px; letter-spacing: 4px; }
 

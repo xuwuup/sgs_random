@@ -21,8 +21,6 @@ onMounted(() => {
         <p class="hint-sub">以获得手机版三国杀最佳体验</p>
       </div>
     </div>
-
-    <h1>三国杀武将抽卡器</h1>
     <RouterView />
   </div>
 </template>
@@ -31,7 +29,7 @@ onMounted(() => {
 #app {
   width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

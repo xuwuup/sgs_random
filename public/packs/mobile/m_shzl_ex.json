@@ -1,10 +1,10 @@
 [
   {
     "name": "手杀界张角",
-    "image": "packs/mobile/images/m_ex__zhangjiao.jpg",
     "faction": "群",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/m_ex__zhangjiao.jpg",
     "skills": [
       {
         "skillName": "雷击",
@@ -22,10 +22,10 @@
   },
   {
     "name": "手杀界于吉",
-    "image": "packs/mobile/images/m_ex__yuji.jpg",
     "faction": "群",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/m_ex__yuji.jpg",
     "skills": [
       {
         "skillName": "蛊惑",
@@ -39,10 +39,10 @@
   },
   {
     "name": "手杀界典韦",
-    "image": "packs/mobile/images/m_ex__dianwei.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/m_ex__dianwei.jpg",
     "skills": [
       {
         "skillName": "强袭",
@@ -52,10 +52,10 @@
   },
   {
     "name": "手杀界荀彧",
-    "image": "packs/mobile/images/m_ex__xunyu.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/m_ex__xunyu.jpg",
     "skills": [
       {
         "skillName": "驱虎",
@@ -69,10 +69,10 @@
   },
   {
     "name": "手杀界卧龙诸葛亮",
-    "image": "packs/mobile/images/m_ex__wolong.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/m_ex__wolong.jpg",
     "skills": [
       {
         "skillName": "八阵",
@@ -90,10 +90,10 @@
   },
   {
     "name": "手杀界庞统",
-    "image": "packs/mobile/images/m_ex__pangtong.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/m_ex__pangtong.jpg",
     "skills": [
       {
         "skillName": "连环",
@@ -107,10 +107,10 @@
   },
   {
     "name": "手杀界颜良文丑",
-    "image": "packs/mobile/images/m_ex__yanliangwenchou.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/m_ex__yanliangwenchou.jpg",
     "skills": [
       {
         "skillName": "双雄",
@@ -120,10 +120,10 @@
   },
   {
     "name": "手杀界袁绍",
-    "image": "packs/mobile/images/m_ex__yuanshao.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/m_ex__yuanshao.jpg",
     "skills": [
       {
         "skillName": "乱击",
@@ -137,10 +137,10 @@
   },
   {
     "name": "手杀界徐晃",
-    "image": "packs/mobile/images/m_ex__xuhuang.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/m_ex__xuhuang.jpg",
     "skills": [
       {
         "skillName": "断粮",
@@ -154,10 +154,10 @@
   },
   {
     "name": "手杀界曹丕",
-    "image": "packs/mobile/images/m_ex__caopi.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/m_ex__caopi.jpg",
     "skills": [
       {
         "skillName": "行殇",
@@ -175,10 +175,10 @@
   },
   {
     "name": "手杀界邓艾",
-    "image": "packs/mobile/images/m_ex__dengai.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/m_ex__dengai.jpg",
     "skills": [
       {
         "skillName": "屯田",
@@ -196,10 +196,10 @@
   },
   {
     "name": "手杀界姜维",
-    "image": "packs/mobile/images/m_ex__jiangwei.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/m_ex__jiangwei.jpg",
     "skills": [
       {
         "skillName": "挑衅",
@@ -217,10 +217,10 @@
   },
   {
     "name": "手杀界刘禅",
-    "image": "packs/mobile/images/m_ex__liushan.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/m_ex__liushan.jpg",
     "skills": [
       {
         "skillName": "享乐",
@@ -242,10 +242,10 @@
   },
   {
     "name": "手杀界孙策",
-    "image": "packs/mobile/images/m_ex__sunce.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/m_ex__sunce.jpg",
     "skills": [
       {
         "skillName": "激昂",
@@ -271,10 +271,10 @@
   },
   {
     "name": "手杀界张昭张纮",
-    "image": "packs/mobile/images/m_ex__zhangzhaozhanghong.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/m_ex__zhangzhaozhanghong.jpg",
     "skills": [
       {
         "skillName": "直谏",
@@ -288,10 +288,10 @@
   },
   {
     "name": "手杀界蔡文姬",
-    "image": "packs/mobile/images/m_ex__caiwenji.jpg",
     "faction": "群",
     "gender": "女",
     "health": 3,
+    "image": "packs/mobile/images/m_ex__caiwenji.jpg",
     "skills": [
       {
         "skillName": "悲歌",

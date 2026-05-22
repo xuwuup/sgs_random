@@ -1,10 +1,10 @@
 [
   {
     "name": "孙茹",
-    "image": "packs/mobile/images/sunru.jpg",
     "faction": "吴",
     "gender": "女",
     "health": 3,
+    "image": "packs/mobile/images/sunru.jpg",
     "skills": [
       {
         "skillName": "影箭",
@@ -18,10 +18,10 @@
   },
   {
     "name": "凌操",
-    "image": "packs/mobile/images/lingcao.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/lingcao.jpg",
     "skills": [
       {
         "skillName": "独进",
@@ -31,10 +31,10 @@
   },
   {
     "name": "留赞",
-    "image": "packs/mobile/images/liuzan.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/liuzan.jpg",
     "skills": [
       {
         "skillName": "奋音",
@@ -44,10 +44,10 @@
   },
   {
     "name": "祢衡",
-    "image": "packs/mobile/images/miheng.jpg",
     "faction": "群",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/miheng.jpg",
     "skills": [
       {
         "skillName": "狂才",
@@ -61,10 +61,10 @@
   },
   {
     "name": "曹纯",
-    "image": "packs/mobile/images/caochun.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/caochun.jpg",
     "skills": [
       {
         "skillName": "缮甲",
@@ -74,10 +74,10 @@
   },
   {
     "name": "庞德公",
-    "image": "packs/mobile/images/pangdegong.jpg",
     "faction": "群",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/pangdegong.jpg",
     "skills": [
       {
         "skillName": "评才",
@@ -91,10 +91,10 @@
   },
   {
     "name": "马钧",
-    "image": "packs/mobile/images/majun.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/majun.jpg",
     "skills": [
       {
         "skillName": "精械",
@@ -108,10 +108,10 @@
   },
   {
     "name": "郑玄",
-    "image": "packs/mobile/images/zhengxuan.jpg",
     "faction": "群",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/zhengxuan.jpg",
     "skills": [
       {
         "skillName": "整经",
@@ -121,10 +121,10 @@
   },
   {
     "name": "手杀星张辽",
-    "image": "packs/mobile/images/mxing__zhangliao.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/mxing__zhangliao.jpg",
     "skills": [
       {
         "skillName": "威风",
@@ -134,10 +134,10 @@
   },
   {
     "name": "手杀星张郃",
-    "image": "packs/mobile/images/mxing__zhanghe.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/mxing__zhanghe.jpg",
     "skills": [
       {
         "skillName": "知略",
@@ -147,10 +147,10 @@
   },
   {
     "name": "手杀星徐晃",
-    "image": "packs/mobile/images/mxing__xuhuang.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/mxing__xuhuang.jpg",
     "skills": [
       {
         "skillName": "治严",
@@ -160,10 +160,10 @@
   },
   {
     "name": "手杀星甘宁",
-    "image": "packs/mobile/images/mxing__ganning.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/mxing__ganning.jpg",
     "skills": [
       {
         "skillName": "锦帆",
@@ -177,10 +177,10 @@
   },
   {
     "name": "手杀星黄忠",
-    "image": "packs/mobile/images/mxing__huangzhong.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/mxing__huangzhong.jpg",
     "skills": [
       {
         "skillName": "势敌",
@@ -198,11 +198,11 @@
   },
   {
     "name": "手杀星魏延",
-    "image": "packs/mobile/images/mxing__weiyan.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
     "initialArmor": 1,
+    "image": "packs/mobile/images/mxing__weiyan.jpg",
     "skills": [
       {
         "skillName": "孤厉",
@@ -216,10 +216,10 @@
   },
   {
     "name": "手杀星周不疑",
-    "image": "packs/mobile/images/mxing__zhoubuyi.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/mxing__zhoubuyi.jpg",
     "skills": [
       {
         "skillName": "慧夭",
@@ -233,11 +233,11 @@
   },
   {
     "name": "手杀星董卓",
-    "image": "packs/mobile/images/mxing__dongzhuo.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
     "startingHealth": 3,
+    "image": "packs/mobile/images/mxing__dongzhuo.jpg",
     "skills": [
       {
         "skillName": "雄进",
@@ -255,10 +255,10 @@
   },
   {
     "name": "十常侍",
-    "image": "packs/mobile/images/shichangshi.jpg",
     "faction": "群",
     "gender": "男",
     "health": 1,
+    "image": "packs/mobile/images/shichangshi.jpg",
     "skills": [
       {
         "skillName": "党锢",
@@ -312,10 +312,10 @@
   },
   {
     "name": "南华老仙",
-    "image": "packs/mobile/images/nanhualaoxian.jpg",
     "faction": "群",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/nanhualaoxian.jpg",
     "skills": [
       {
         "skillName": "御风",
@@ -329,10 +329,10 @@
   },
   {
     "name": "神司马懿",
-    "image": "packs/mobile/images/mobile__godsimayi.jpg",
     "faction": "神",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/mobile__godsimayi.jpg",
     "skills": [
       {
         "skillName": "忍戒",
@@ -374,10 +374,10 @@
   },
   {
     "name": "手杀张奋",
-    "image": "packs/mobile/images/mobile__zhangfen.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/mobile__zhangfen.jpg",
     "skills": [
       {
         "skillName": "渠冲",
@@ -386,7 +386,7 @@
       {
         "skillName": "*大攻车·进击",
         "skillDescription": "装备牌·武器\n 攻击范围：9 耐久度：2\n 武器技能：当此牌进入装备区后，弃置你装备区里的其他牌；当其他装备牌进入装备区前，改为将之置入弃牌堆；当你造成伤害时，你可以令此牌减1点耐久度，令此伤害+X（X为游戏轮数且至多为3）；当此牌不因“渠冲”而离开装备区时，防止之，然后此牌—1点耐久度；当此牌耐久度减至0时，销毁此牌。"
-          },
+      },
       {
         "skillName": "*大攻车·守御",
         "skillDescription": "装备牌·武器\n 攻击范围：9 耐久度：3\n 武器技能：当此牌进入装备区后，弃置你装备区里的其他牌；当其他装备牌进入装备区前，改为将之置入弃牌堆；当你受到伤害时，此牌减等量点耐久度（不足则全减），令此伤害—X（X为减少的耐久度）；当此牌不因“渠冲”而离开装备区时，防止之，然后此牌减1点耐久度；当此牌耐久度减至0时，销毁此牌。"

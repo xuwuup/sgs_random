@@ -1,10 +1,8 @@
-
 [
   {
     "id": "standard",
     "folder": "standard",
-    "nameForCheckbox": "标准包" 
-
+    "nameForCheckbox": "标准包"
   },
   {
     "id": "standard_ex",
@@ -15,7 +13,6 @@
     "id": "shzl",
     "folder": "shzl",
     "nameForCheckbox": "神话再临"
-
   },
   {
     "id": "mougong",
@@ -73,5 +70,3 @@
     "nameForCheckbox": "线下"
   }
 ]
-    
-    

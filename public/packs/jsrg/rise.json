@@ -1,12 +1,11 @@
 [
-  
   {
     "name": "兴司马昭",
-    "image": "packs/jsrg/images/js__simazhao.jpg",
     "faction": "魏",
     "faction2": "晋",
     "gender": "男",
     "health": 4,
+    "image": "packs/jsrg/images/js__simazhao.jpg",
     "skills": [
       {
         "skillName": "谦吞",
@@ -24,7 +23,6 @@
         "skillName": "威肆",
         "skillDescription": "出牌阶段限一次，你可以选择一名其他角色，令其将任意张手牌移出游戏直到回合结束，然后视为对其使用一张【决斗】，此牌对其造成伤害后，你获得其所有手牌。"
       },
-      
       {
         "skillName": "荡异",
         "skillDescription": "主公技，当你造成伤害时，你可以令此伤害值+1，本局游戏限X次（X为你获得此技能时已损失体力值+1）。"
@@ -33,10 +31,10 @@
   },
   {
     "name": "兴陆抗",
-    "image": "packs/jsrg/images/js__lukang.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/jsrg/images/js__lukang.jpg",
     "skills": [
       {
         "skillName": "筑围",
@@ -50,10 +48,10 @@
   },
   {
     "name": "兴马隆",
-    "image": "packs/jsrg/images/malong.jpg",
     "faction": "晋",
     "gender": "男",
     "health": 4,
+    "image": "packs/jsrg/images/malong.jpg",
     "skills": [
       {
         "skillName": "奋难",
@@ -67,10 +65,10 @@
   },
   {
     "name": "兴王濬",
-    "image": "packs/jsrg/images/js__wangjun.jpg",
     "faction": "晋",
     "gender": "男",
     "health": 4,
+    "image": "packs/jsrg/images/js__wangjun.jpg",
     "skills": [
       {
         "skillName": "乘流",
@@ -84,10 +82,10 @@
   },
   {
     "name": "兴李密",
-    "image": "packs/jsrg/images/limi.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 3,
+    "image": "packs/jsrg/images/limi.jpg",
     "skills": [
       {
         "skillName": "辞应",
@@ -101,11 +99,11 @@
   },
   {
     "name": "兴司马亮",
-    "image": "packs/jsrg/images/simaliang.jpg",
     "faction": "晋",
     "gender": "男",
     "health": 4,
     "startingHealth": 3,
+    "image": "packs/jsrg/images/simaliang.jpg",
     "skills": [
       {
         "skillName": "慑惧",
@@ -119,10 +117,10 @@
   },
   {
     "name": "兴文鸯",
-    "image": "packs/jsrg/images/js__wenyang.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/jsrg/images/js__wenyang.jpg",
     "skills": [
       {
         "skillName": "覆阵",
@@ -132,10 +130,10 @@
   },
   {
     "name": "兴贾南风",
-    "image": "packs/jsrg/images/jiananfeng.jpg",
     "faction": "晋",
     "gender": "女",
     "health": 3,
+    "image": "packs/jsrg/images/jiananfeng.jpg",
     "skills": [
       {
         "skillName": "擅政",
@@ -153,10 +151,10 @@
   },
   {
     "name": "兴秃发树机能",
-    "image": "packs/jsrg/images/tufashujineng.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/jsrg/images/tufashujineng.jpg",
     "skills": [
       {
         "skillName": "侵扰",
@@ -170,10 +168,10 @@
   },
   {
     "name": "兴邓艾",
-    "image": "packs/jsrg/images/js__dengai.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/jsrg/images/js__dengai.jpg",
     "skills": [
       {
         "skillName": "辟奇",
@@ -187,10 +185,10 @@
   },
   {
     "name": "兴诸葛诞",
-    "image": "packs/jsrg/images/js__zhugedan.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/jsrg/images/js__zhugedan.jpg",
     "skills": [
       {
         "skillName": "坐瞻",
@@ -206,5 +204,4 @@
       }
     ]
   }
-  
 ]

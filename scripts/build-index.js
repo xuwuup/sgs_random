@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 async function buildIndex() {
-  const packsDir = path.join(__dirname, 'public', 'packs');
+  const packsDir = path.join(__dirname, '..', 'public', 'packs');
   const packsJsonPath = path.join(packsDir, 'packs.json');
   const packs = JSON.parse(fs.readFileSync(packsJsonPath, 'utf-8'));
 
@@ -44,7 +44,7 @@ async function buildIndex() {
     index.characters[pack.id] = characters;
   }
 
-  const outputPath = path.join(__dirname, 'public', 'packs', 'index.json');
+  const outputPath = path.join(packsDir, 'index.json');
   fs.writeFileSync(outputPath, JSON.stringify(index, null, 2));
   console.log('Index built at', outputPath);
 }

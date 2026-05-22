@@ -123,14 +123,15 @@ function getTotalCharacterCount(): number {
 .pack-selector h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: #333;
+  color: #fff;
   font-size: 20px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 
 .loading {
   text-align: center;
   padding: 40px;
-  color: #666;
+  color: #ccc;
   font-size: 16px;
 }
 
@@ -172,23 +173,23 @@ function getTotalCharacterCount(): number {
   display: flex;
   align-items: center;
   padding: 10px 15px;
-  background: rgba(255, 255, 255, 0.7);
-  border: 1px solid var(--color-border);
+  background: rgba(30, 25, 20, 0.6);
+  border: 1px solid rgba(255,255,255,0.1);
   border-radius: var(--border-radius-small);
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
 .pack-list-item:hover {
-  background: rgba(255, 255, 255, 0.9);
-  border-color: var(--color-primary);
+  background: rgba(50, 45, 40, 0.8);
+  border-color: #ffeb3b;
   transform: translateX(4px);
 }
 
 .pack-list-item.selected {
-  background: rgba(140, 34, 34, 0.08); /* 极淡的暗红 */
-  border-color: var(--color-primary);
-  border-left: 4px solid var(--color-primary);
+  background: rgba(140, 34, 34, 0.3);
+  border-color: #ffeb3b;
+  border-left: 4px solid #ffeb3b;
 }
 
 .selection-indicator {
@@ -214,20 +215,20 @@ function getTotalCharacterCount(): number {
 .pack-name {
   font-size: 16px;
   font-weight: bold;
-  color: var(--color-text-primary);
+  color: #fff;
 }
 
 .pack-folder {
   font-size: 13px;
-  color: var(--color-text-light);
+  color: #a69888;
   font-family: monospace;
 }
 
 .pack-count {
   font-size: 14px;
-  color: var(--color-primary);
+  color: #ffeb3b;
   font-weight: bold;
-  background: rgba(140, 34, 34, 0.1);
+  background: rgba(0, 0, 0, 0.4);
   padding: 4px 10px;
   border-radius: 12px;
 }
@@ -235,16 +236,16 @@ function getTotalCharacterCount(): number {
 .selection-summary {
   text-align: center;
   padding: 12px;
-  background: rgba(0, 0, 0, 0.03);
-  border: 1px solid var(--color-border-light);
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255,255,255,0.1);
   border-radius: 8px;
   font-size: 15px;
-  color: var(--color-text-primary);
-  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+  color: #e5dfd9;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
 }
 
 .total-characters {
-  color: var(--color-text-secondary);
+  color: #a69888;
   font-size: 14px;
 }
 

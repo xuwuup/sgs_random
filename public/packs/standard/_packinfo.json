@@ -1,12 +1,9 @@
-
 {
-    "displayName": "标准包",
-    "files": [
-      {
-        "file": "standard.json",
-        "subPackName": ""        
-      }
-     
-      
-    ]
-  }
+  "displayName": "标准包",
+  "files": [
+    {
+      "file": "standard.json",
+      "subPackName": ""
+    }
+  ]
+}

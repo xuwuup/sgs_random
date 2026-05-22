@@ -1,10 +1,10 @@
 [
   {
     "name": "刘备",
-    "image": "packs/standard/images/liubei.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/liubei.jpg",
     "skills": [
       {
         "skillName": "仁德",
@@ -18,10 +18,10 @@
   },
   {
     "name": "关羽",
-    "image": "packs/standard/images/guanyu.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/guanyu.jpg",
     "skills": [
       {
         "skillName": "武圣",
@@ -31,10 +31,10 @@
   },
   {
     "name": "甄姬",
-    "image": "packs/standard/images/zhenji.jpg",
     "faction": "魏",
     "gender": "女",
     "health": 3,
+    "image": "packs/standard/images/zhenji.jpg",
     "skills": [
       {
         "skillName": "洛神",
@@ -48,10 +48,10 @@
   },
   {
     "name": "曹操",
-    "image": "packs/standard/images/caocao.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/caocao.jpg",
     "skills": [
       {
         "skillName": "奸雄",
@@ -65,10 +65,10 @@
   },
   {
     "name": "大乔",
-    "image": "packs/standard/images/daqiao.jpg",
     "faction": "吴",
     "gender": "女",
     "health": 3,
+    "image": "packs/standard/images/daqiao.jpg",
     "skills": [
       {
         "skillName": "国色",
@@ -82,10 +82,10 @@
   },
   {
     "name": "貂蝉",
-    "image": "packs/standard/images/diaochan.jpg",
     "faction": "群",
     "gender": "女",
     "health": 3,
+    "image": "packs/standard/images/diaochan.jpg",
     "skills": [
       {
         "skillName": "离间",
@@ -99,10 +99,10 @@
   },
   {
     "name": "甘宁",
-    "image": "packs/standard/images/ganning.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/ganning.jpg",
     "skills": [
       {
         "skillName": "奇袭",
@@ -112,10 +112,10 @@
   },
   {
     "name": "郭嘉",
-    "image": "packs/standard/images/guojia.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 3,
+    "image": "packs/standard/images/guojia.jpg",
     "skills": [
       {
         "skillName": "天妒",
@@ -129,10 +129,10 @@
   },
   {
     "name": "黄盖",
-    "image": "packs/standard/images/huanggai.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/huanggai.jpg",
     "skills": [
       {
         "skillName": "苦肉",
@@ -142,10 +142,10 @@
   },
   {
     "name": "黄月英",
-    "image": "packs/standard/images/huangyueying.jpg",
     "faction": "蜀",
     "gender": "女",
     "health": 3,
+    "image": "packs/standard/images/huangyueying.jpg",
     "skills": [
       {
         "skillName": "集智",
@@ -159,10 +159,10 @@
   },
   {
     "name": "华佗",
-    "image": "packs/standard/images/huatuo.jpg",
     "faction": "群",
     "gender": "男",
     "health": 3,
+    "image": "packs/standard/images/huatuo.jpg",
     "skills": [
       {
         "skillName": "急救",
@@ -176,10 +176,10 @@
   },
   {
     "name": "陆逊",
-    "image": "packs/standard/images/luxun.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 3,
+    "image": "packs/standard/images/luxun.jpg",
     "skills": [
       {
         "skillName": "谦逊",
@@ -193,10 +193,10 @@
   },
   {
     "name": "吕布",
-    "image": "packs/standard/images/lvbu.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/lvbu.jpg",
     "skills": [
       {
         "skillName": "无双",
@@ -206,10 +206,10 @@
   },
   {
     "name": "吕蒙",
-    "image": "packs/standard/images/lvmeng.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/lvmeng.jpg",
     "skills": [
       {
         "skillName": "克己",
@@ -219,10 +219,10 @@
   },
   {
     "name": "马超",
-    "image": "packs/standard/images/machao.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/machao.jpg",
     "skills": [
       {
         "skillName": "马术",
@@ -236,10 +236,10 @@
   },
   {
     "name": "司马懿",
-    "image": "packs/standard/images/simayi.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 3,
+    "image": "packs/standard/images/simayi.jpg",
     "skills": [
       {
         "skillName": "反馈",
@@ -253,10 +253,10 @@
   },
   {
     "name": "孙权",
-    "image": "packs/standard/images/sunquan.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/sunquan.jpg",
     "skills": [
       {
         "skillName": "制衡",
@@ -270,10 +270,10 @@
   },
   {
     "name": "孙尚香",
-    "image": "packs/standard/images/sunshangxiang.jpg",
     "faction": "吴",
     "gender": "女",
     "health": 3,
+    "image": "packs/standard/images/sunshangxiang.jpg",
     "skills": [
       {
         "skillName": "结姻",
@@ -287,10 +287,10 @@
   },
   {
     "name": "夏侯惇",
-    "image": "packs/standard/images/xiahoudun.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/xiahoudun.jpg",
     "skills": [
       {
         "skillName": "刚烈",
@@ -300,10 +300,10 @@
   },
   {
     "name": "许褚",
-    "image": "packs/standard/images/xuchu.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/xuchu.jpg",
     "skills": [
       {
         "skillName": "裸衣",
@@ -313,10 +313,10 @@
   },
   {
     "name": "张飞",
-    "image": "packs/standard/images/zhangfei.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/zhangfei.jpg",
     "skills": [
       {
         "skillName": "咆哮",
@@ -326,10 +326,10 @@
   },
   {
     "name": "张辽",
-    "image": "packs/standard/images/zhangliao.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/zhangliao.jpg",
     "skills": [
       {
         "skillName": "突袭",
@@ -339,10 +339,10 @@
   },
   {
     "name": "赵云",
-    "image": "packs/standard/images/zhaoyun.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 4,
+    "image": "packs/standard/images/zhaoyun.jpg",
     "skills": [
       {
         "skillName": "龙胆",
@@ -352,10 +352,10 @@
   },
   {
     "name": "周瑜",
-    "image": "packs/standard/images/zhouyu.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 3,
+    "image": "packs/standard/images/zhouyu.jpg",
     "skills": [
       {
         "skillName": "英姿",
@@ -369,10 +369,10 @@
   },
   {
     "name": "诸葛亮",
-    "image": "packs/standard/images/zhugeliang.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 3,
+    "image": "packs/standard/images/zhugeliang.jpg",
     "skills": [
       {
         "skillName": "观星",

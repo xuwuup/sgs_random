@@ -1,11 +1,10 @@
 [
-  
   {
     "name": "谋大乔",
-    "image": "packs/mougong/images/mou__daqiao.jpg",
     "faction": "吴",
     "gender": "女",
     "health": 3,
+    "image": "packs/mougong/images/mou__daqiao.jpg",
     "skills": [
       {
         "skillName": "国色",
@@ -19,10 +18,10 @@
   },
   {
     "name": "谋曹操",
-    "image": "packs/mougong/images/mou__caocao.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/mougong/images/mou__caocao.jpg",
     "skills": [
       {
         "skillName": "奸雄",
@@ -40,10 +39,10 @@
   },
   {
     "name": "谋孙权",
-    "image": "packs/mougong/images/mou__sunquan.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/mougong/images/mou__sunquan.jpg",
     "skills": [
       {
         "skillName": "制衡",
@@ -61,10 +60,10 @@
   },
   {
     "name": "谋周瑜",
-    "image": "packs/mougong/images/mou__zhouyu.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 3,
+    "image": "packs/mougong/images/mou__zhouyu.jpg",
     "skills": [
       {
         "skillName": "英姿",
@@ -78,10 +77,10 @@
   },
   {
     "name": "谋甄姬",
-    "image": "packs/mougong/images/mou__zhenji.jpg",
     "faction": "魏",
     "gender": "女",
     "health": 3,
+    "image": "packs/mougong/images/mou__zhenji.jpg",
     "skills": [
       {
         "skillName": "洛神",
@@ -95,10 +94,10 @@
   },
   {
     "name": "谋张角",
-    "image": "packs/mougong/images/mou__zhangjiao.jpg",
     "faction": "群",
     "gender": "男",
     "health": 3,
+    "image": "packs/mougong/images/mou__zhangjiao.jpg",
     "skills": [
       {
         "skillName": "雷击",
@@ -116,10 +115,10 @@
   },
   {
     "name": "谋刘表",
-    "image": "packs/mougong/images/mou__liubiao.jpg",
     "faction": "群",
     "gender": "男",
     "health": 3,
+    "image": "packs/mougong/images/mou__liubiao.jpg",
     "skills": [
       {
         "skillName": "自守",
@@ -133,10 +132,10 @@
   },
   {
     "name": "谋刘备",
-    "image": "packs/mougong/images/mou__liubei.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 4,
+    "image": "packs/mougong/images/mou__liubei.jpg",
     "skills": [
       {
         "skillName": "仁德",
@@ -154,10 +153,10 @@
   },
   {
     "name": "谋卧龙诸葛亮",
-    "image": "packs/mougong/images/mou__wolong.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 3,
+    "image": "packs/mougong/images/mou__wolong.jpg",
     "skills": [
       {
         "skillName": "火计",
@@ -179,10 +178,10 @@
   },
   {
     "name": "谋荀彧",
-    "image": "packs/mougong/images/mou__xunyu.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 3,
+    "image": "packs/mougong/images/mou__xunyu.jpg",
     "skills": [
       {
         "skillName": "驱虎",
@@ -196,10 +195,10 @@
   },
   {
     "name": "谋贾诩",
-    "image": "packs/mougong/images/mou__jiaxu.jpg",
     "faction": "群",
     "gender": "男",
     "health": 3,
+    "image": "packs/mougong/images/mou__jiaxu.jpg",
     "skills": [
       {
         "skillName": "完杀",
@@ -215,5 +214,4 @@
       }
     ]
   }
-  
 ]

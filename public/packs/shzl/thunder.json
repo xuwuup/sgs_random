@@ -1,11 +1,10 @@
 [
-  
   {
     "name": "郝昭",
-    "image": "packs/shzl/images/haozhao.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/shzl/images/haozhao.jpg",
     "skills": [
       {
         "skillName": "镇骨",
@@ -15,10 +14,10 @@
   },
   {
     "name": "毌丘俭",
-    "image": "packs/shzl/images/guanqiujian.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/shzl/images/guanqiujian.jpg",
     "skills": [
       {
         "skillName": "征荣",
@@ -36,10 +35,10 @@
   },
   {
     "name": "陈到",
-    "image": "packs/shzl/images/chendao.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 4,
+    "image": "packs/shzl/images/chendao.jpg",
     "skills": [
       {
         "skillName": "往烈",
@@ -49,10 +48,10 @@
   },
   {
     "name": "诸葛瞻",
-    "image": "packs/shzl/images/zhugezhan.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 3,
+    "image": "packs/shzl/images/zhugezhan.jpg",
     "skills": [
       {
         "skillName": "罪论",
@@ -66,10 +65,10 @@
   },
   {
     "name": "周妃",
-    "image": "packs/shzl/images/zhoufei.jpg",
     "faction": "吴",
     "gender": "女",
     "health": 3,
+    "image": "packs/shzl/images/zhoufei.jpg",
     "skills": [
       {
         "skillName": "良姻",
@@ -83,10 +82,10 @@
   },
   {
     "name": "陆抗",
-    "image": "packs/shzl/images/lukang.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/shzl/images/lukang.jpg",
     "skills": [
       {
         "skillName": "谦节",
@@ -112,10 +111,10 @@
   },
   {
     "name": "袁术",
-    "image": "packs/shzl/images/thunder__yuanshu.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/shzl/images/thunder__yuanshu.jpg",
     "skills": [
       {
         "skillName": "庸肆",
@@ -129,10 +128,10 @@
   },
   {
     "name": "张绣",
-    "image": "packs/shzl/images/zhangxiu.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/shzl/images/zhangxiu.jpg",
     "skills": [
       {
         "skillName": "雄乱",
@@ -144,5 +143,4 @@
       }
     ]
   }
-  
 ]

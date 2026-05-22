@@ -1,10 +1,10 @@
 [
   {
     "name": "来敏",
-    "image": "packs/mobile/images/laimin.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/laimin.jpg",
     "skills": [
       {
         "skillName": "来寿",
@@ -18,10 +18,10 @@
   },
   {
     "name": "手杀胡班",
-    "image": "packs/mobile/images/mobile__huban.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/mobile__huban.jpg",
     "skills": [
       {
         "skillName": "义烈",
@@ -31,10 +31,10 @@
   },
   {
     "name": "手杀陈珪",
-    "image": "packs/mobile/images/mobile__chengui.jpg",
     "faction": "群",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/mobile__chengui.jpg",
     "skills": [
       {
         "skillName": "诡谋",
@@ -48,11 +48,11 @@
   },
   {
     "name": "木鹿大王",
-    "image": "packs/mobile/images/muludawang.jpg",
     "faction": "群",
     "gender": "男",
     "health": 3,
     "initialArmor": 1,
+    "image": "packs/mobile/images/muludawang.jpg",
     "skills": [
       {
         "skillName": "兽法",
@@ -70,10 +70,10 @@
   },
   {
     "name": "手杀蒋干",
-    "image": "packs/mobile/images/mobile__jianggan.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/mobile__jianggan.jpg",
     "skills": [
       {
         "skillName": "盗书",
@@ -87,10 +87,10 @@
   },
   {
     "name": "杨奉",
-    "image": "packs/mobile/images/yangfeng.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/yangfeng.jpg",
     "skills": [
       {
         "skillName": "血途",
@@ -104,10 +104,10 @@
   },
   {
     "name": "王经",
-    "image": "packs/mobile/images/wangjing.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 3,
+    "image": "packs/mobile/images/wangjing.jpg",
     "skills": [
       {
         "skillName": "阻进",
@@ -121,10 +121,10 @@
   },
   {
     "name": "手杀鲍信",
-    "image": "packs/mobile/images/mobile__baoxin.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/mobile__baoxin.jpg",
     "skills": [
       {
         "skillName": "募讨",
@@ -138,10 +138,10 @@
   },
   {
     "name": "手杀SP甄姬",
-    "image": "packs/mobile/images/mob_sp__zhenji.jpg",
     "faction": "群",
     "gender": "女",
     "health": 3,
+    "image": "packs/mobile/images/mob_sp__zhenji.jpg",
     "skills": [
       {
         "skillName": "博鉴",
@@ -155,10 +155,10 @@
   },
   {
     "name": "手杀甘夫人",
-    "image": "packs/mobile/images/mobile__ganfuren.jpg",
     "faction": "蜀",
     "gender": "女",
     "health": 3,
+    "image": "packs/mobile/images/mobile__ganfuren.jpg",
     "skills": [
       {
         "skillName": "智诫",
@@ -172,10 +172,10 @@
   },
   {
     "name": "势太史慈",
-    "image": "packs/mobile/images/shi__taishici.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/shi__taishici.jpg",
     "skills": [
       {
         "skillName": "酣战",
@@ -193,10 +193,10 @@
   },
   {
     "name": "手杀霍峻",
-    "image": "packs/mobile/images/mobile__huojun.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 4,
+    "image": "packs/mobile/images/mobile__huojun.jpg",
     "skills": [
       {
         "skillName": "伺怠",

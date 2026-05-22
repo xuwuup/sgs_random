@@ -1,10 +1,10 @@
 [
   {
     "name": "极吕布",
-    "image": "packs/mini/images/miniex__lvbu.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/mini/images/miniex__lvbu.jpg",
     "skills": [
       {
         "skillName": "无双",
@@ -18,10 +18,10 @@
   },
   {
     "name": "极大乔",
-    "image": "packs/mini/images/miniex__daqiao.jpg",
     "faction": "吴",
     "gender": "女",
     "health": 3,
+    "image": "packs/mini/images/miniex__daqiao.jpg",
     "skills": [
       {
         "skillName": "相知",
@@ -35,10 +35,10 @@
   },
   {
     "name": "极小乔",
-    "image": "packs/mini/images/miniex__xiaoqiao.jpg",
     "faction": "吴",
     "gender": "女",
     "health": 3,
+    "image": "packs/mini/images/miniex__xiaoqiao.jpg",
     "skills": [
       {
         "skillName": "同心",
@@ -52,10 +52,10 @@
   },
   {
     "name": "极郭嘉",
-    "image": "packs/mini/images/miniex__guojia.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 3,
+    "image": "packs/mini/images/miniex__guojia.jpg",
     "skills": [
       {
         "skillName": "算略",
@@ -73,10 +73,10 @@
   },
   {
     "name": "极马超",
-    "image": "packs/mini/images/miniex__machao.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 4,
+    "image": "packs/mini/images/miniex__machao.jpg",
     "skills": [
       {
         "skillName": "弃袍",
@@ -90,10 +90,10 @@
   },
   {
     "name": "极诸葛亮",
-    "image": "packs/mini/images/miniex__zhugeliang.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 3,
+    "image": "packs/mini/images/miniex__zhugeliang.jpg",
     "skills": [
       {
         "skillName": "三顾",
@@ -111,10 +111,10 @@
   },
   {
     "name": "极黄月英",
-    "image": "packs/mini/images/miniex__huangyueying.jpg",
     "faction": "蜀",
     "gender": "女",
     "health": 3,
+    "image": "packs/mini/images/miniex__huangyueying.jpg",
     "skills": [
       {
         "skillName": "妙笔",
@@ -136,10 +136,10 @@
   },
   {
     "name": "极曹操",
-    "image": "packs/mini/images/miniex__caocao.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/mini/images/miniex__caocao.jpg",
     "skills": [
       {
         "skillName": "得鹿",
@@ -157,10 +157,10 @@
   },
   {
     "name": "极司马懿",
-    "image": "packs/mini/images/miniex__simayi.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 3,
+    "image": "packs/mini/images/miniex__simayi.jpg",
     "skills": [
       {
         "skillName": "隐忍",
@@ -186,10 +186,10 @@
   },
   {
     "name": "极袁绍",
-    "image": "packs/mini/images/miniex__yuanshao.jpg",
     "faction": "群",
     "gender": "男",
     "health": 4,
+    "image": "packs/mini/images/miniex__yuanshao.jpg",
     "skills": [
       {
         "skillName": "尊北",
@@ -203,10 +203,10 @@
   },
   {
     "name": "极鲁肃",
-    "image": "packs/mini/images/miniex__lusu.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 3,
+    "image": "packs/mini/images/miniex__lusu.jpg",
     "skills": [
       {
         "skillName": "虑远",
@@ -220,10 +220,10 @@
   },
   {
     "name": "极许褚",
-    "image": "packs/mini/images/miniex__xuchu.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 4,
+    "image": "packs/mini/images/miniex__xuchu.jpg",
     "skills": [
       {
         "skillName": "虎侯",
@@ -237,10 +237,10 @@
   },
   {
     "name": "极荀彧",
-    "image": "packs/mini/images/miniex__xunyu.jpg",
     "faction": "魏",
     "gender": "男",
     "health": 3,
+    "image": "packs/mini/images/miniex__xunyu.jpg",
     "skills": [
       {
         "skillName": "王佐",
@@ -258,10 +258,10 @@
   },
   {
     "name": "极甄姬",
-    "image": "packs/mini/images/miniex__zhenji.jpg",
     "faction": "魏",
     "gender": "女",
     "health": 3,
+    "image": "packs/mini/images/miniex__zhenji.jpg",
     "skills": [
       {
         "skillName": "神赋",
@@ -275,10 +275,10 @@
   },
   {
     "name": "极孙策",
-    "image": "packs/mini/images/miniex__sunce.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/mini/images/miniex__sunce.jpg",
     "skills": [
       {
         "skillName": "讨逆",
@@ -296,10 +296,10 @@
   },
   {
     "name": "极孙权",
-    "image": "packs/mini/images/miniex__sunquan.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 4,
+    "image": "packs/mini/images/miniex__sunquan.jpg",
     "skills": [
       {
         "skillName": "纵阋",
@@ -313,10 +313,10 @@
   },
   {
     "name": "极周瑜",
-    "image": "packs/mini/images/miniex__zhouyu.jpg",
     "faction": "吴",
     "gender": "男",
     "health": 3,
+    "image": "packs/mini/images/miniex__zhouyu.jpg",
     "skills": [
       {
         "skillName": "英锐",
@@ -338,10 +338,10 @@
   },
   {
     "name": "极蔡文姬",
-    "image": "packs/mini/images/miniex__caiwenji.jpg",
     "faction": "群",
     "gender": "女",
     "health": 3,
+    "image": "packs/mini/images/miniex__caiwenji.jpg",
     "skills": [
       {
         "skillName": "悲笳",
@@ -355,10 +355,10 @@
   },
   {
     "name": "极关羽",
-    "image": "packs/mini/images/miniex__guanyu.jpg",
     "faction": "蜀",
     "gender": "男",
     "health": 4,
+    "image": "packs/mini/images/miniex__guanyu.jpg",
     "skills": [
       {
         "skillName": "翊汉",
